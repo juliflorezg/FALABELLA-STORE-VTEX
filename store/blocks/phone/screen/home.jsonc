@@ -1,0 +1,5 @@
+{
+  "responsive-layout.phone#home__phone": {
+    "children": ["slider-layout#home__slider--children-mobile"]
+  }
+}
