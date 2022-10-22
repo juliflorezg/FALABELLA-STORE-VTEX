@@ -1,0 +1,104 @@
+{
+  "flex-layout.row#mobile__categorias": {
+    "children": [
+      "image#mobile__imagen-categoria-1",
+      "image#mobile__imagen-categoria-2",
+      "image#mobile__imagen-categoria-3",
+      "image#mobile__imagen-categoria-4",
+      "image#mobile__imagen-categoria-5",
+      "image#mobile__imagen-categoria-6",
+      "image#mobile__imagen-categoria-7"
+    ]
+  },
+  "image#mobile__imagen-categoria-1": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-1.png",
+      // "maxWidth": 600,
+      "title": "categoría 1",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Tecnologia?staticPageId=38400008&eid=SIS20220001",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-2": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-2.png",
+      // "maxWidth": 600,
+      "title": "categoría 2",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Moda-Accesorios?staticPageId=38400007&eid=SIS20220007",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-3": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-3.png",
+      // "maxWidth": 600,
+      "title": "categoría 3",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Calzado?staticPageId=38400003&eid=SIS20220002",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-4": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-4.png",
+      // "maxWidth": 600,
+      "title": "categoría 4",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Infantil?staticPageId=38400006&eid=SIS20220005",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-5": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-5.png",
+      // "maxWidth": 600,
+      "title": "categoría 5",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Infantil?staticPageId=38400006&eid=SIS20220005",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-6": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-6.png",
+      // "maxWidth": 600,
+      "title": "categoría 6",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Infantil?staticPageId=38400006&eid=SIS20220005",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#mobile__imagen-categoria-7": {
+    "props": {
+      "src": "assets/img/mobile/home__categorias-7.png",
+      // "maxWidth": 600,
+      "title": "categoría 7",
+      "blockClass": "home__categoria-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Infantil?staticPageId=38400006&eid=SIS20220005",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
