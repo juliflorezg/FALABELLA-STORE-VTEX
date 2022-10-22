@@ -1,0 +1,9 @@
+{
+  "rich-text#home__titulo-tendencias": {
+    "props": {
+      "text": "### Últimas Tendencias en Falabella.com",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
