@@ -6,7 +6,9 @@
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
       "flex-layout.row#desktop__categorias-1",
-      "flex-layout.row#desktop__categorias-2"
+      "flex-layout.row#desktop__categorias-2",
+      "rich-text#home__titulo-tendencias",
+      "slider-layout#home__slider-tendencias--desktop"
     ]
   }
 }
