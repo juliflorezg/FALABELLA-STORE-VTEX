@@ -1,0 +1,7 @@
+/* .flexRowContent{
+  max-width: 600px;
+} */
+
+.stretchChildrenWidth{
+  width: auto;
+}
