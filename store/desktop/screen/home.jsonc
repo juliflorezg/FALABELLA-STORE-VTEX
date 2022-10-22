@@ -7,7 +7,8 @@
       "flex-layout.row#desktop__categorias-1",
       "flex-layout.row#desktop__categorias-2",
       "rich-text#home__titulo-tendencias",
-      "slider-layout#home__slider-tendencias--desktop"
+      "slider-layout#home__slider-tendencias--desktop",
+      "flex-layout.row#desktop--beneficios"
     ]
   }
 }
