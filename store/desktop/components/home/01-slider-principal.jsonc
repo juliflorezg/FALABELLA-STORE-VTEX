@@ -1,6 +1,6 @@
 {
-  "slider-layout#home__slider-principal--children-desktop": {
-    "title": "mi primer slider",
+  "slider-layout#home__slider-principal--desktop": {
+    "title": "Slider principal de home para desktop",
     "props": {
       "label": "slider principal",
       "itemsPerPage": {
