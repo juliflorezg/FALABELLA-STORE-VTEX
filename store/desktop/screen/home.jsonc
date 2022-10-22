@@ -1,8 +1,11 @@
 {
   "responsive-layout.desktop#home__desktop": {
-    "children": [      
+    "children": [
       "slider-layout#home__slider-principal--children-desktop",
-      "flex-layout.row#desktop__disfraces"
+      "flex-layout.row#desktop__disfraces",
+      "rich-text#home__titulo-categorias",
+      "flex-layout.row#desktop__categorias-1",
+      "flex-layout.row#desktop__categorias-2"
     ]
   }
 }
