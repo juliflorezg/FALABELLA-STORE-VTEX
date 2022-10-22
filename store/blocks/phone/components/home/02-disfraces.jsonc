@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#mobile__disfraces": {
+    "title": "flex para disfraces mobile",
+    "children": ["image#disfraces__mobile"]
+  },
+  "image#disfraces__mobile": {
+    "title": "imagen de disfraces en mobile",
+    "props": {
+      "src": "assets/img/mobile/home__disfraces.jpeg",
+      // "maxWidth": 600,
+      "title": "disfraces img mobile",
+      "blockClass": "home__disfraces--img",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat1360967/Televisores-y-Smart-tv",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
