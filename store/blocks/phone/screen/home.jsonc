@@ -6,7 +6,9 @@
       "rich-text#home__titulo-categorias",
       "flex-layout.row#mobile__categorias",
       "slider-layout#home__slider-tendencias--phone",
-      "slider-layout#phone--beneficios"
+      "slider-layout#phone--beneficios",
+      "rich-text#home__titulo-textos",
+      "flex-layout.row#home__desktop--textos"
     ]
   }
 }
