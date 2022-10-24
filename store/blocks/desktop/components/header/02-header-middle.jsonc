@@ -3,7 +3,8 @@
     "children": [
       "logo#header__middle--logo",
       "drawer#header__desktop--menu",
-      "header-spacer",
+      // "header-spacer",
+      "search-bar#header__search-bar",
       "modal-trigger#header__middle--login",
       // "login",
       "minicart.v2"
@@ -280,6 +281,14 @@
         "tagTitle": "Accesorios Celulares",
         "text": "Accesorios Celulares"
       }
+    }
+  },
+
+  "search-bar#header__search-bar":{
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ], "props": {
+      "openAutocompleteOnFocus": true
     }
   },
 
