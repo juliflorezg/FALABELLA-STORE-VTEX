@@ -1,0 +1,9 @@
+{
+  "rich-text#home__titulo-textos": {
+    "props": {
+      "text": "#### Encuéntralo en **Falabella.com**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

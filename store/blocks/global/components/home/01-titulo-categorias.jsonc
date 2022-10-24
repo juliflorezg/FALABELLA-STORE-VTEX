@@ -1,0 +1,9 @@
+{
+  "rich-text#home__titulo-categorias": {
+    "props": {
+      "text": "### Categorías",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
