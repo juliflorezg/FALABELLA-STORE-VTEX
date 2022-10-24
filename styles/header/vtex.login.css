@@ -1,0 +1,13 @@
+.label{
+  text-transform: capitalize;
+  position: relative;
+  padding-left: 15px;
+  transform: translateY(-10px);
+}
+.label:after{
+  content:'Mi Cuenta';
+  position: absolute;
+  /* top: 100%; */
+  top: calc(100% + 5px);
+  left: 15px;
+}
