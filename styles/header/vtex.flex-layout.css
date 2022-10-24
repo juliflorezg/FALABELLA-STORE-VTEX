@@ -7,3 +7,7 @@
   display: flex;
   align-items: center;
 }
+.flexRow--banner__desktop,
+.flexRow--banner__phone {
+  background-color: #a2dd30;
+}
