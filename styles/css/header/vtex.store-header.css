@@ -35,3 +35,9 @@
   display: flex;
   justify-content: center;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
+
+.headerRowBackground--header__top--mobile {
+  background-color: rgb(51, 51, 51);
+}
