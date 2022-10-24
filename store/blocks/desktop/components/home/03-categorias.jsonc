@@ -1,0 +1,143 @@
+{
+  "flex-layout.row#desktop__categorias-1": {
+    "children": [
+      "flex-layout.col#desktop__col-categoria-1",
+      "flex-layout.col#desktop__col-categoria-2",
+      "flex-layout.col#desktop__col-categoria-3",
+      "flex-layout.col#desktop__col-categoria-4"
+    ],
+    "props": {
+      // "colGap": "8",
+      "colSizing": "equal",
+      "paddingLeft": 5,
+      "paddingRight": 5
+    }
+  },
+  "flex-layout.col#desktop__col-categoria-1": {
+    "children": ["image#desktop__imagen-categoria-1"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#desktop__col-categoria-2": {
+    "children": ["image#desktop__imagen-categoria-2"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#desktop__col-categoria-3": {
+    "children": ["image#desktop__imagen-categoria-3"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#desktop__col-categoria-4": {
+    "children": ["image#desktop__imagen-categoria-4"],
+    "props": {
+      "width": "25%"
+    }
+  },
+  "image#desktop__imagen-categoria-1": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-1.png",
+      "width": "350px",
+      "title": "categoría 1",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Tecnologia?staticPageId=38400008&eid=SIS20220001",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__imagen-categoria-2": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-2.png",
+      "width": "350px",
+      "title": "categoría 2",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Moda-Accesorios?staticPageId=38400007&eid=SIS20220007",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__imagen-categoria-3": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-3.png",
+      "width": "350px",
+      "title": "categoría 3",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Calzado?staticPageId=38400003&eid=SIS20220002",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__imagen-categoria-4": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-4.png",
+      "width": "350px",
+      "title": "categoría 4",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Infantil?staticPageId=38400006&eid=SIS20220005",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "flex-layout.row#desktop__categorias-2": {
+    "children": [
+      "image#desktop__imagen-categoria-5",
+      "image#desktop__imagen-categoria-6",
+      "image#desktop__imagen-categoria-7"
+    ],
+    "props": {
+      "colGap": 8,
+      "colSizing": "equal",
+      "colJustify": "around"
+    }
+  },
+  "image#desktop__imagen-categoria-5": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-5.png",
+      "width": "350px",
+      "title": "categoría 5",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Todo-Belleza?staticPageId=38400002&eid=SIS20220006",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__imagen-categoria-6": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-6.png",
+      "width": "350px",
+      "title": "categoría 6",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Deco-Hogar?staticPageId=38400004&eid=SIS20220003",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#desktop__imagen-categoria-7": {
+    "props": {
+      "src": "assets/img/desktop/home__categorias-7.png",
+      "width": "350px",
+      "title": "categoría 7",
+      "blockClass": "home__categoria-desktop",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Deportes?staticPageId=38400005&eid=SIS20220004",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
