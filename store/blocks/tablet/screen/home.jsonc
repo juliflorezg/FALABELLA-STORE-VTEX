@@ -1,0 +1,17 @@
+{
+  "responsive-layout.tablet#home__tablet": {
+    "title": "responsive layout para home en tablet",
+    "children": [
+      "slider-layout#home__slider-principal--desktop",
+      "flex-layout.row#desktop__disfraces",
+      "rich-text#home__titulo-categorias",
+      "flex-layout.row#desktop__categorias-1",
+      "flex-layout.row#desktop__categorias-2",
+      "rich-text#home__titulo-tendencias",
+      "slider-layout#home__slider-tendencias--desktop",
+      "flex-layout.row#desktop--beneficios",
+      "rich-text#home__titulo-textos",
+      "flex-layout.row#home__desktop--textos"
+    ]
+  }
+}
