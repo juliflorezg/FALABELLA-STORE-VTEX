@@ -1,0 +1,57 @@
+{
+  "header-row#header__top--mobile": {
+    "children": [
+      "logo#header__top--logo-mobile",
+      "drawer#header__menu--mobile",
+      "header-spacer",
+      "modal-trigger#header__middle--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top--mobile"
+    }
+  },
+  "logo#header__top--logo-mobile": {
+    "title": "falabella logo",
+    "props": {
+      "url": "assets/img/global/falabella-logo.png",
+      // "width": "15%",
+      "height": "50px",
+      "href": "/",
+      "blockClass": "header__logo--mobile"
+    }
+  },
+  "drawer#header__menu--mobile": {
+    "blocks": ["drawer-trigger#drawer__trigger--mobile"],
+    "children": ["menu#header__menu"]
+  },
+  "drawer-trigger#drawer__trigger--mobile": {
+    "children": ["flex-layout.row#menu__trigger--mobile"]
+  },
+  "flex-layout.row#menu__trigger--mobile": {
+    "children": ["rich-text#drawer__trigger-icon-mobile"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "menu__trigger--mobile"
+    }
+  },
+  "rich-text#drawer__trigger-icon-mobile": {
+    "props": {
+      "text": ".",
+      "blockClass": "drawer__trigger-icon-mobile",
+      "verticalAlign": "middle"
+    }
+  },
+  "modal-trigger#header__middle--login": {
+    "children": [
+      "image#login__section--icon",
+      "modal-layout#header__middle--login-content"
+    ]
+  },
+  "image#login__section--icon":{
+    "props": {
+      "src" : "assets/icons/header-account.svg"
+    }
+  }
+  
+}
