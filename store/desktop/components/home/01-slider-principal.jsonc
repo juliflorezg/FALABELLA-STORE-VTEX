@@ -1,0 +1,60 @@
+{
+  "slider-layout#home__slider-principal--desktop": {
+    "title": "Slider principal de home para desktop",
+    "props": {
+      "label": "slider principal",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__slider",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider-principal--one-desktop",
+      "image#home__slider-principal--two-desktop",
+      "image#home__slider-principal--three-desktop",
+      "image#home__slider-principal--four-desktop",
+      "image#home__slider-principal--five-desktop",
+      "image#home__slider-principal--six-desktop"
+    ]
+  },
+  "image#home__slider-principal--one-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-1.png"
+    }
+  },
+  "image#home__slider-principal--two-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-2.png"
+    }
+  },
+  "image#home__slider-principal--three-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-3.png"
+    }
+  },
+  "image#home__slider-principal--four-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-4.png"
+    }
+  },
+  "image#home__slider-principal--five-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-5.png"
+    }
+  },
+  "image#home__slider-principal--six-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-principal-6.png"
+    }
+  }
+}

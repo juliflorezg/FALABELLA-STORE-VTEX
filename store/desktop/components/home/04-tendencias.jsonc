@@ -1,0 +1,59 @@
+{
+  "slider-layout#home__slider-tendencias--desktop": {
+    "title": "slider de tendencias en desktop",
+    "props": {
+      "label": "slider principal",
+      "itemsPerPage": {
+        "desktop": 3
+      },
+      "blockClass": "home__slider-tendencias",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider-tendencias--one-desktop",
+      "image#home__slider-tendencias--two-desktop",
+      "image#home__slider-tendencias--three-desktop",
+      "image#home__slider-tendencias--four-desktop",
+      "image#home__slider-tendencias--five-desktop",
+      "image#home__slider-tendencias--six-desktop"
+    ]
+  },
+  "image#home__slider-tendencias--one-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-1.png",
+      "width": "50%"
+    }
+  },
+  "image#home__slider-tendencias--two-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-2.png"
+    }
+  },
+  "image#home__slider-tendencias--three-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-3.png"
+    }
+  },
+  "image#home__slider-tendencias--four-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-4.png"
+    }
+  },
+  "image#home__slider-tendencias--five-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-5.png"
+    }
+  },
+  "image#home__slider-tendencias--six-desktop": {
+    "props": {
+      "src": "assets/img/desktop/home__slider-tendencias-6.png"
+    }
+  }
+}
