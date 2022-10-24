@@ -1,0 +1,61 @@
+{
+  "slider-layout#home__slider-tendencias--phone": {
+    "title": "Slider de tendencias para phone",
+    "props": {
+      "label": "slider de tendencias",
+      "itemsPerPage": {
+        "desktop": 1,
+        "mobile": 1,
+        "phone": 1
+      },
+      "blockClass": "home__slider-tendencias",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "infinite": true,
+      "fullWidth": false,
+      "autoplay": {
+        "timeout": 3500,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider-tendencias--one-phone",
+      "image#home__slider-tendencias--two-phone",
+      "image#home__slider-tendencias--three-phone",
+      "image#home__slider-tendencias--four-phone",
+      "image#home__slider-tendencias--five-phone",
+      "image#home__slider-tendencias--six-phone"
+    ]
+  },
+  "image#home__slider-tendencias--one-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-1.png",
+      "width": "50%"
+    }
+  },
+  "image#home__slider-tendencias--two-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-2.png"
+    }
+  },
+  "image#home__slider-tendencias--three-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-3.png"
+    }
+  },
+  "image#home__slider-tendencias--four-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-4.png"
+    }
+  },
+  "image#home__slider-tendencias--five-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-5.png"
+    }
+  },
+  "image#home__slider-tendencias--six-phone": {
+    "props": {
+      "src": "assets/img/mobile/home__slider-tendencias-6.png"
+    }
+  }
+}
