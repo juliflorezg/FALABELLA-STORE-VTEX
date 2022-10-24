@@ -1,0 +1,22 @@
+{
+  "header-row#header__top--mobile": {
+    "children": [
+      "logo#header__top--logo-mobile",
+      "header-spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top--mobile"
+    }
+  },
+  "logo#header__top--logo-mobile": {
+    "title": "falabella logo",
+    "props": {
+      "url": "assets/img/global/falabella-logo.png",
+      // "width": "15%",
+      "height": "50px",
+      "href": "/",
+      "blockClass": "header__logo--mobile"
+    }
+  }
+}
