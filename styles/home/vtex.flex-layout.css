@@ -1,0 +1,38 @@
+.flexRowContent--home__section--one {
+  background-color: crimson;
+}
+
+.flexColChild--section__one--image {
+  /* para que esto funcione, hay que usar "colSizing":"auto" en flex-layout.row */
+  /* width: 800px; */
+  width: 100%;
+}
+
+.flexRow--banner__desktop,
+.flexRow--banner__phone {
+  background-color: #a2dd30;
+}
+
+.imageElement--home__banner-desktop {
+  margin: 0 auto;
+}
+
+.imageElementLink--home__banner-desktop {
+  display: flex;
+  justify-content: center;
+  /* width: auto; */
+}
+
+/* 
+.flexRowContent--banner__desktop 
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) > *:not(img) {
+  width: auto;
+} */
+
+.imageElement--home__categoria-mobile {
+  max-width: 200px;
+}
+
+.imageElement--home__beneficio-img:hover {
+  opacity: 0.5;
+}
