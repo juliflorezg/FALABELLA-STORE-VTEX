@@ -1,0 +1,7 @@
+{
+  "responsive-layout.desktop#home__desktop": {
+    "children": [      
+      "slider-layout#home__slider-principal--children-desktop",
+    ]
+  }
+}
