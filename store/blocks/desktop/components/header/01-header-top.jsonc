@@ -1,0 +1,88 @@
+{
+  "header-row#header__top--desktop": {
+    "children": [
+      "flex-layout.row#header__top-desktop--links1",
+      "header-spacer",
+      "flex-layout.row#header__top-desktop--links2"
+    ],
+    "props": {
+      "blockClass": "header__top-desktop"
+    }
+  },
+  "flex-layout.row#header__top-desktop--links1": {
+    "children": ["link#top-1", "link#top-2", "link#top-3"],
+    "props": {
+      "colSizing": "auto",
+      "colGap": 5
+    }
+  },
+  "link#top-1": {
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002",
+      "label": "Venta telefónica 587 8008 O 018000 958787",
+      "blockClass": "link__top"
+      // "width": "200px"
+    }
+  },
+  "link#top-2": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=573134636487",
+      "label": "Venta por WhatsApp, Click acá!!!",
+      "blockClass": "link__top"
+    }
+  },
+  "link#top-3": {
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002",
+      "label": "Servicio al cliente",
+      "blockClass": "link__top"
+    }
+  },
+  "flex-layout.row#header__top-desktop--links2": {
+    "children": [
+      "link#top-4",
+      "link#top-5",
+      "link#top-6",
+      "link#top-7",
+      "link#top-8"
+    ],
+    "props": {
+      "colGap": 5
+    }
+  },
+  "link#top-4": {
+    "props": {
+      "href": "https://www.bancofalabella.com.co/",
+      "label": "Banco",
+      "blockClass": "link__top"
+    }
+  },
+  "link#top-5": {
+    "props": {
+      "href": "https://web.segurosfalabella.com/co/?utm_source=Referral&utm_medium=Falabella&utm_campaign=Home_Falabella",
+      "label": "Seguro",
+      "blockClass": "link__top"
+    }
+  },
+  "link#top-6": {
+    "props": {
+      "href": "http://www.homecenter.com.co/homecenter-co",
+      "label": "Sodimac",
+      "blockClass": "link__top"
+    }
+  },
+  "link#top-7": {
+    "props": {
+      "href": "http://www.homecenter.com.co/homecenter-co",
+      "label": "Linio",
+      "blockClass": "link__top"
+    }
+  },
+  "link#top-8": {
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat6400952/Crate-Barrel",
+      "label": "Crate&Barrel",
+      "blockClass": "link__top"
+    }
+  }
+}
