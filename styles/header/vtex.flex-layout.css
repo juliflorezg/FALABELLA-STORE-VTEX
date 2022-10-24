@@ -4,4 +4,6 @@
 
 .stretchChildrenWidth{
   width: auto;
+  display: flex;
+  align-items: center;
 }
