@@ -8,11 +8,6 @@
   width: 100%;
 }
 
-.flexRow--banner__desktop,
-.flexRow--banner__phone {
-  background-color: #a2dd30;
-}
-
 .imageElement--home__banner-desktop {
   margin: 0 auto;
 }
