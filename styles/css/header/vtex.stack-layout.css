@@ -1,0 +1,5 @@
+.stackContainer--stack__header--desktop {
+  /* outline: 2px dashed rgb(0, 81, 87); */
+  width: 100%;
+  width: calc(100vw - 5px);
+}

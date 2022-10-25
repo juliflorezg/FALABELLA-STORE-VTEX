@@ -5,6 +5,7 @@
 .container {
   vertical-align: middle;
   align-items: center;
+  width: 100%;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
@@ -29,14 +30,11 @@
 }
 */
 
-
-.logoImage--header__logo--mobile{
+.logoImage--header__logo--mobile {
   /* outline: 2px solid red; */
   position: absolute;
   top: 0;
   left: 0;
   transform: scale(1.2);
   transform-origin: 0 0;
-  
-} 
-
+}
