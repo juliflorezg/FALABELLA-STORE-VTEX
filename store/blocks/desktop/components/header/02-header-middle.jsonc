@@ -3,10 +3,12 @@
     "children": [
       "logo#header__middle--logo",
       "drawer#header__desktop--menu",
-      "header-spacer",
+      // "header-spacer",
+      "search-bar#header__search-bar",
       "modal-trigger#header__middle--login",
       // "login",
-      "minicart.v2"
+      "minicart.v2",
+      "icon#header__shopping--bag"
     ],
     "props": {
       "blockClass": "header__middle--desktop"
@@ -16,7 +18,7 @@
     "title": "falabella logo",
     "props": {
       "url": "assets/img/global/falabella-logo.png",
-      "width": 100,
+      "height": 117,
       "href": "/"
     }
   },
@@ -283,6 +285,13 @@
     }
   },
 
+  "search-bar#header__search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+
   "modal-trigger#header__middle--login": {
     "children": [
       "flex-layout.row#login__section",
@@ -315,5 +324,11 @@
   // },
   "modal-layout#header__middle--login-content": {
     "children": ["login-content"]
+  },
+  "icon#header__shopping--bag": {
+    "props": {
+      "id": "shopping-bag",
+      "size": 50
+    }
   }
 }

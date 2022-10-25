@@ -1,0 +1,5 @@
+{
+  "header-layout.mobile": {
+    "children": ["header-row#header__top--mobile"]
+  }
+}

@@ -1,14 +1,58 @@
 {
   "header-row#header__top--desktop": {
+    "children": ["stack-layout#header__top--links&categorias"]
+  },
+  "stack-layout#header__top--links&categorias": {
+    "children": [
+      "flex-layout.row#header__top--desktop",
+      "flex-layout.row#header__top--desktop-logo-container"
+    ],
+    "props": {
+      "blockClass": "stack__header--desktop"
+    }
+  },
+  "flex-layout.row#header__top--desktop": {
+    "children": ["flex-layout.col#header__top--desktop-col"],
+    "props": {
+      "blockClass": "header__top-desktop"
+    }
+  },
+  "flex-layout.col#header__top--desktop-col": {
+    "children": [
+      "flex-layout.row#header__top--links",
+      "flex-layout.row#header__top--categorias"
+    ]
+  },
+  "flex-layout.row#header__top--links": {
     "children": [
       "flex-layout.row#header__top-desktop--links1",
       "header-spacer",
       "flex-layout.row#header__top-desktop--links2"
     ],
     "props": {
-      "blockClass": "header__top-desktop"
+      "blockClass": "header__top--links",
+      "colSizing": "auto"
     }
   },
+  "flex-layout.row#header__top--categorias": {
+    "children": [
+      "drawer#header__desktop--menu",
+      // "header-spacer",
+      "search-bar#header__search-bar",
+      "modal-trigger#header__middle--login",
+      // "login",
+      "minicart.v2",
+      "icon#header__shopping--bag"
+    ],
+    "props": {
+      "blockClass": "header__top--categorias",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#header__top--desktop-logo-container": {
+    "children": ["logo#header__middle--logo"]
+  },
+
   "flex-layout.row#header__top-desktop--links1": {
     "children": ["link#top-1", "link#top-2", "link#top-3"],
     "props": {
