@@ -36,8 +36,30 @@
   justify-content: center;
 }
 
+.headerRowContentContainer{
+  margin: 0;
+  min-width: calc(100% - 17px);
+  padding: 0;
+}
+
+.headerRow--header__bottom-1--desktop{
+  padding: 10px 0;
+  padding-right: 3%;
+}
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
 
-.headerRowBackground--header__top--mobile {
+.headerRowBackground--header__top--mobile,
+.headerRowBackground--header__middle--mobile {
   background-color: rgb(51, 51, 51);
+  max-height: 58px;
+}
+
+.headerRowContentContainer--header__bottom--mobile {
+  background-color: #a2dd30;
+}
+.headerRowContainer--header__bottom--mobile {
+  display: flex;
+  justify-content: center;
 }
