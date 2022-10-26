@@ -1,0 +1,22 @@
+{
+  "search-result-layout.customQuery#home__search": {
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "skuFilter": "All",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["rich-text#home__titulo-categorias"]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": ["rich-text#home__titulo-categorias"]
+  }
+}
