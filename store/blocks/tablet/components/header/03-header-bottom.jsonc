@@ -1,0 +1,33 @@
+{
+  "header-row#header__bottom--mobile": {
+    "children": ["flex-layout.row#banner__phone"],
+    "props": {
+      "blockClass": "header__bottom--mobile"
+    }
+  },
+  
+  "flex-layout.row#banner__phone": {
+    "children": ["image#banner__phone"],
+    "props": {
+      "horizontalAlign": "center",
+      "fullWidth": true,
+      "blockClass": "banner__phone",
+      "colSizing": "auto"
+    }
+  },
+  "image#banner__phone": {
+    "title": "imagen del banner en desktop",
+    "props": {
+      "src": "assets/img/mobile/home__banner-image.png",
+      // "maxWidth": 600,
+      "title": "Envio gratis",
+      "blockClass": "home__banner-mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/collection/enviogratis",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+
+}
