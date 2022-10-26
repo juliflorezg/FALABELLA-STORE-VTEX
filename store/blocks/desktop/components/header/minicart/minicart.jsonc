@@ -1,0 +1,16 @@
+{
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#minicart__icon",
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    }
+  },
+  "icon#minicart__icon": {
+    "props": {
+      "id": "shopping-bag",
+      "size": 50
+    }
+  }
+}
