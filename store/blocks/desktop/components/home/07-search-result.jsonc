@@ -14,9 +14,26 @@
   },
 
   "search-result-layout.desktop#home__search--desktop": {
-    "children": ["rich-text#home__titulo-categorias"]
+    "children": ["flex-layout.row#home__results"]
   },
   "search-result-layout.mobile#home__search--mobile": {
     "children": ["rich-text#home__titulo-categorias"]
+  },
+  "flex-layout.row#home__results": {
+    "children": [
+      "flex-layout.col#home__results--search"
+    ]
+  },
+  "flex-layout.col#home__results--search": {
+    
+    "children":[
+      "search-content#home__results--search"
+    ]
+  },
+  "search-content#home__results--search":{
+    "blocks":["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks":["product-summary.shelf"]
   }
 }
