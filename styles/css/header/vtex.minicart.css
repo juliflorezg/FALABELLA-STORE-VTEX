@@ -1,0 +1,18 @@
+.minicartQuantityBadgeDefault{
+  background-color: #a2dd30;
+  transform: translate(-5px, 15px);
+}
+.overlay--visible{
+  background-color: #333;
+}
+/* .openIconContainer button{
+  outline: 2px crimson dashed;
+} */
+
+.minicartIconContainer {
+  border-bottom: 3px solid transparent;
+}
+.minicartIconContainer:hover {
+  /* outline: 2px crimson dashed; */
+  border-bottom: 3px solid #a2dd30;
+}
