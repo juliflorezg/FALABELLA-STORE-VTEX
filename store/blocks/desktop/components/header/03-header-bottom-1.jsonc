@@ -21,7 +21,8 @@
     ],
     "props": {
       "colSizing": "auto",
-      "colGap": 5
+      "colGap": 5,
+      "blockClass": "header__bottom-desktop--links"
     }
   },
   "link#bottom-1": {

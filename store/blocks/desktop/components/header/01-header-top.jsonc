@@ -38,8 +38,8 @@
     "children": [
       "drawer#header__desktop--menu",
       // "header-spacer",
-      "search-bar#header__search-bar",
-      "modal-trigger#header__middle--login",
+      "flex-layout.col#header__search-bar-container",
+      "modal-trigger#header__middle--login-desktop",
       // "login",
       "minicart.v2",
       "icon#header__shopping--bag"
@@ -47,6 +47,16 @@
     "props": {
       "blockClass": "header__top--categorias",
       "colSizing": "auto"
+      
+    }
+  },
+  "flex-layout.col#header__search-bar-container": {
+    "children": ["search-bar#header__search-bar"],
+    "props": {
+      "blockClass": "header__search-bar-container",
+      "marginLeft": 10,
+      "width": "grow",
+      "verticalAlign": "middle"
     }
   },
   "flex-layout.row#header__top--desktop-logo-container": {
