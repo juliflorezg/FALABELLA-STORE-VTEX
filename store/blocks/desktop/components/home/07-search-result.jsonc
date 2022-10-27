@@ -20,20 +20,15 @@
     "children": ["rich-text#home__titulo-categorias"]
   },
   "flex-layout.row#home__results": {
-    "children": [
-      "flex-layout.col#home__results--search"
-    ]
+    "children": ["flex-layout.col#home__results--search"]
   },
   "flex-layout.col#home__results--search": {
-    
-    "children":[
-      "search-content#home__results--search"
-    ]
+    "children": ["search-content#home__results--search"]
   },
-  "search-content#home__results--search":{
-    "blocks":["gallery", "not-found"]
+  "search-content#home__results--search": {
+    "blocks": ["gallery", "not-found"]
   },
   "gallery": {
-    "blocks":["product-summary.shelf"]
+    "blocks": ["product-summary.shelf"]
   }
 }
