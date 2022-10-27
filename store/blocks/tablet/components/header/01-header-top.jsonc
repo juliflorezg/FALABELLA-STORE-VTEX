@@ -1,5 +1,6 @@
 {
   "header-row#header__top--mobile": {
+    "title": "header top mobile",
     "children": [
       "logo#header__top--logo-mobile",
       "drawer#header__menu--mobile",
@@ -22,13 +23,16 @@
     }
   },
   "drawer#header__menu--mobile": {
+    "title": "drawer block mobile",
     "blocks": ["drawer-trigger#drawer__trigger--mobile"],
     "children": ["menu#header__menu"]
   },
   "drawer-trigger#drawer__trigger--mobile": {
+    "title": "drawer trigger block mobile",
     "children": ["flex-layout.row#menu__trigger--mobile"]
   },
   "flex-layout.row#menu__trigger--mobile": {
+    "title": "row container, drawer trigger mobile",
     "children": ["rich-text#drawer__trigger-icon-mobile"],
     "props": {
       "colSizing": "auto",
@@ -36,6 +40,7 @@
     }
   },
   "rich-text#drawer__trigger-icon-mobile": {
+    "title": "drawer icon mobile",
     "props": {
       "text": ".",
       "blockClass": "drawer__trigger-icon-mobile",
@@ -43,15 +48,16 @@
     }
   },
   "modal-trigger#header__middle--login": {
+    "title": "login modal trigger mobile",
     "children": [
       "image#login__section--icon",
       "modal-layout#header__middle--login-content"
     ]
   },
-  "image#login__section--icon":{
+  "image#login__section--icon": {
+    "title": "login icon",
     "props": {
-      "src" : "assets/icons/header-account.svg"
+      "src": "assets/icons/header-account.svg"
     }
   }
-  
 }
