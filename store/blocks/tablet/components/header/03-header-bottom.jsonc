@@ -1,12 +1,14 @@
 {
   "header-row#header__bottom--mobile": {
+    "title": "header bottom mobile",
     "children": ["flex-layout.row#banner__phone"],
     "props": {
       "blockClass": "header__bottom--mobile"
     }
   },
-  
+
   "flex-layout.row#banner__phone": {
+    "title": "row container for banner, mobile",
     "children": ["image#banner__phone"],
     "props": {
       "horizontalAlign": "center",
@@ -29,5 +31,4 @@
       }
     }
   }
-
 }
