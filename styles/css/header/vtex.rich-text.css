@@ -38,6 +38,14 @@
   margin-right: 15px;
 }
 
+.paragraph--drawer__trigger-text{
+  font-weight: bold;
+}
+
+.paragraph--inicia-sesion-text{
+  min-width: 200px;
+}
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~mobile */
 
