@@ -3,8 +3,8 @@
     "children": [
       "header-row#header__top--desktop",
       // "header-row#header__middle--desktop",
-      "header-row#header__bottom-1--desktop",
-      "header-row#header__bottom-2--desktop"
+      "header-row#header__middle--desktop",
+      "header-row#header__bottom--desktop"
     ]
   }
 }
