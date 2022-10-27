@@ -1,0 +1,271 @@
+{
+  "drawer#header__desktop--menu": {
+    "title": "hamburger menu",
+    "blocks": ["drawer-trigger"],
+    "children": ["menu#header__menu"]
+  },
+  "drawer-trigger": {
+    "title": "hamburger menu trigger block",
+    "children": ["flex-layout.row#drawer__trigger"]
+  },
+  "flex-layout.row#drawer__trigger": {
+    "title": "hamburger menu trigger content",
+    "children": [
+      "rich-text#drawer__trigger-icon",
+      "rich-text#drawer__trigger-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "menu__trigger"
+    }
+  },
+  "rich-text#drawer__trigger-icon": {
+    "title": "hamburger menu icon",
+    "props": {
+      "text": ".",
+      "blockClass": "drawer__trigger-icon",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#drawer__trigger-text": {
+    "title": "hamburger menu trigger title",
+    "props": {
+      "text": "Categorías",
+      "blockClass": "drawer__trigger-text"
+    }
+  },
+  "menu#header__menu": {
+    "title": "department menu",
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__one": {
+    
+    "props": {
+      "id": "department_beneficios&servicios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/page/Servicios?staticPageId=36000001",
+        "noFollow": false,
+        "tagTitle": "Beneficios",
+        "text": "Beneficios y servicios"
+      }
+    },
+    "blocks": ["submenu.accordion##department__one"]
+  },
+  "submenu.accordion##department__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": [
+      "menu-item#department-one__category-one",
+      "menu-item#department-one__category-two",
+      "menu-item#department-one__category-three",
+      "menu-item#department-one__category-four"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department-one__category-one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/category/cat910963/Telefonia?facetSelected=true&f.derived.variant.activeEvent=true&isPLP=1%2C1&isPLP=1",
+        "noFollow": false,
+        "tagTitle": "Envío rápido",
+        "text": "Envío Rápido"
+      }
+    }
+  },
+  "menu-item#department-one__category-two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/collection/calzado?facetSelected=true&f.derived.variant.hasCmr=true&f.range.derived.variant.discount=20%25+dcto+y+m%C3%A1s",
+        "noFollow": false,
+        "tagTitle": "Ofertas con banco Falabella",
+        "text": "Ofertas con Banco Falabella"
+      }
+    }
+  },
+  "menu-item#department-one__category-three": {
+    "props": {
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/collection/enviogratis",
+        "noFollow": false,
+        "tagTitle": "Envío gratis",
+        "text": "Envío gratis"
+      }
+    }
+  },
+  "menu-item#department-one__category-four": {
+    "props": {
+      "id": "category-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/page/CMR-puntos-v99?staticPageId=35700001",
+        "noFollow": false,
+        "tagTitle": "CMR Puntos",
+        "text": "CMR Puntos"
+      }
+    }
+  },
+
+  "menu-item#department__two": {
+    "props": {
+      "id": "department_tecnología",
+      "type": "custom",
+      "itemProps": {
+        "tagTitle": "Tecnología",
+        "text": "Tecnología"
+      }
+    },
+    "blocks": ["submenu.accordion##department__two"]
+  },
+  "submenu.accordion##department__two": {
+    "children": ["menu#department__two"]
+  },
+  "menu#department__two": {
+    "children": [
+      "menu-item#department-two__category-one",
+      "menu-item#department-two__category-two",
+      "menu-item#department-two__category-three",
+      "menu-item#department-two__category-four"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department-two__category-one": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/page/Televisores-y-smart-tv?staticPageId=31000003",
+        "noFollow": false,
+        "tagTitle": "TV",
+        "text": "TV"
+      }
+    }
+  },
+  "menu-item#department-two__category-two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "hhttps://www.falabella.com.co/falabella-co/page/Computadores?staticPageId=33100014",
+        "noFollow": false,
+        "tagTitle": "Computadores",
+        "text": "Computadores"
+      }
+    }
+  },
+  "menu-item#department-two__category-three": {
+    "props": {
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/category/cat50590/Gaming?isPLP=1",
+        "noFollow": false,
+        "tagTitle": "Gaming",
+        "text": "Gaming"
+      }
+    }
+  },
+  "menu-item#department-two__category-four": {
+    "props": {
+      "id": "category-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/category/cat3050947/Smartwatch",
+        "noFollow": false,
+        "tagTitle": "Smartwatch",
+        "text": "Smartwatch"
+      }
+    }
+  },
+
+  "menu-item#department__three": {
+    "props": {
+      "id": "department_tecnología",
+      "type": "custom",
+      "itemProps": {
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      }
+    },
+    "blocks": ["submenu.accordion##department__three"]
+  },
+  "submenu.accordion##department__three": {
+    "children": ["menu#department__three"]
+  },
+  "menu#department__three": {
+    "children": [
+      "menu-item#department-three__category-one",
+      "menu-item#department-three__category-two",
+      "menu-item#department-three__category-three"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department-three__category-one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/page/Celulares?staticPageId=26800005",
+        "noFollow": false,
+        "tagTitle": "Telefonía",
+        "text": "Telefonía"
+      }
+    }
+  },
+  "menu-item#department-three__category-two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/category/cat10430953/Wearables",
+        "noFollow": false,
+        "tagTitle": "Wearables",
+        "text": "Wearables"
+      }
+    }
+  },
+  "menu-item#department-three__category-three": {
+    "props": {
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.falabella.com.co/falabella-co/category/cat10430955/Accesorios-Celulares",
+        "noFollow": false,
+        "tagTitle": "Accesorios Celulares",
+        "text": "Accesorios Celulares"
+      }
+    }
+  }
+}
