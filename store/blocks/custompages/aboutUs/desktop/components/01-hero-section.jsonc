@@ -1,0 +1,141 @@
+{
+  "stack-layout#about-us__hero--section": {
+    "title": "container for hero section, about us page",
+    "children": [
+      "flex-layout.row#hero__section--img-container",
+      "flex-layout.row#hero__section--text-container"
+    ]
+  },
+  "flex-layout.row#hero__section--img-container": {
+    "children": ["image#hero__section--image"]
+  },
+  "image#hero__section--image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/hero.png"
+    }
+  },
+  "flex-layout.row#hero__section--text-container": {
+    "children": ["flex-layout.col#hero__section--text"],
+    "props": { "blockClass": "hero__section--text-container" }
+  },
+  "flex-layout.col#hero__section--text": {
+    "children": [
+      "rich-text#hero__section--title",
+      "flex-layout.row#hero__section--links-container"
+    ]
+  },
+  "rich-text#hero__section--title": {
+    "props": {
+      "text": "nuestra **empresa**",
+      "blockClass": "hero__section--title"
+    }
+  },
+  "flex-layout.row#hero__section--links-container": {
+    "children": [
+      "flex-layout.col#hero__section--link1",
+      "flex-layout.col#hero__section--link2",
+      "flex-layout.col#hero__section--link3",
+      "flex-layout.col#hero__section--link4",
+      "flex-layout.col#hero__section--link5"
+    ],
+    "props": {
+      "blockClass": "hero__section--links-container",
+      "colSizing": "equal"
+    }
+  },
+  "flex-layout.col#hero__section--link1": {
+    "children": [
+      "image#hero__section--link1-image",
+      "rich-text#hero__section--link1-text"
+    ]
+  },
+  "image#hero__section--link1-image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/01_QuienesSomos.png",
+      "blockClass": "hero__section--link1-image"
+    }
+  },
+  "rich-text#hero__section--link1-text": {
+    "props": {
+      "text": "¿Quienes somos?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#hero__section--link2": {
+    "children": [
+      "image#hero__section--link2-image",
+      "rich-text#hero__section--link2-text"
+    ]
+  },
+  "image#hero__section--link2-image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/02_ExperienciaFalabella.png",
+      "blockClass": "hero__section--link-image"
+    }
+  },
+  "rich-text#hero__section--link2-text": {
+    "props": {
+      "text": "Experiencia Falabella",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#hero__section--link3": {
+    "children": [
+      "image#hero__section--link3-image",
+      "rich-text#hero__section--link3-text"
+    ]
+  },
+  "image#hero__section--link3-image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/03_InformeDeSostenibilidad.png",
+      "blockClass": "hero__section--link-image"
+    }
+  },
+  "rich-text#hero__section--link3-text": {
+    "props": {
+      "text": "Informe De Sostenibilidad",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#hero__section--link4": {
+    "children": [
+      "image#hero__section--link4-image",
+      "rich-text#hero__section--link4-text"
+    ]
+  },
+  "image#hero__section--link4-image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/04_RSE.png",
+      "blockClass": "hero__section--link-image"
+    }
+  },
+  "rich-text#hero__section--link4-text": {
+    "props": {
+      "text": "RSE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#hero__section--link5": {
+    "children": [
+      "image#hero__section--link5-image",
+      "rich-text#hero__section--link5-text"
+    ]
+  },
+  "image#hero__section--link5-image": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/05_Proveedores.png",
+      "blockClass": "hero__section--link-image"
+    }
+  },
+  "rich-text#hero__section--link5-text": {
+    "props": {
+      "text": "Proveedores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
