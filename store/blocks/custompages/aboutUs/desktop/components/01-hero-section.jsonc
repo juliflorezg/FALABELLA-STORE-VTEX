@@ -1,36 +1,42 @@
 {
   "stack-layout#about-us__hero--section": {
-    "title": "container for hero section, about us page",
+    "title": "container for hero section",
     "children": [
       "flex-layout.row#hero__section--img-container",
       "flex-layout.row#hero__section--text-container"
     ]
   },
   "flex-layout.row#hero__section--img-container": {
+    "title": "container for hero image",
     "children": ["image#hero__section--image"]
   },
   "image#hero__section--image": {
+    "title": "hero image, about us",
     "props": {
       "src": "assets/img/desktop/statics/about_us/hero.png"
     }
   },
   "flex-layout.row#hero__section--text-container": {
+    "title": "row container for text in hero section",
     "children": ["flex-layout.col#hero__section--text"],
     "props": { "blockClass": "hero__section--text-container" }
   },
   "flex-layout.col#hero__section--text": {
+    "title": "col container for text in hero section",
     "children": [
       "rich-text#hero__section--title",
       "flex-layout.row#hero__section--links-container"
     ]
   },
   "rich-text#hero__section--title": {
+    "title": "title for about-us page",
     "props": {
       "text": "nuestra **empresa**",
       "blockClass": "hero__section--title"
     }
   },
   "flex-layout.row#hero__section--links-container": {
+    "title": "row container for links in",
     "children": [
       "flex-layout.col#hero__section--link1",
       "flex-layout.col#hero__section--link2",
@@ -44,37 +50,44 @@
     }
   },
   "flex-layout.col#hero__section--link1": {
+    "title": "individual col for image & text",
     "children": [
       "image#hero__section--link1-image",
       "rich-text#hero__section--link1-text"
     ]
   },
   "image#hero__section--link1-image": {
+    "title": "link image 1 QuienesSomos",
     "props": {
       "src": "assets/img/desktop/statics/about_us/01_QuienesSomos.png",
       "blockClass": "hero__section--link1-image"
     }
   },
   "rich-text#hero__section--link1-text": {
+    "title": "text link 1",
     "props": {
       "text": "¿Quienes somos?",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
   },
+
   "flex-layout.col#hero__section--link2": {
+    "title": "individual col for image & text",
     "children": [
       "image#hero__section--link2-image",
       "rich-text#hero__section--link2-text"
     ]
   },
   "image#hero__section--link2-image": {
+    "title": "link image 2, ExperienciaFalabella",
     "props": {
       "src": "assets/img/desktop/statics/about_us/02_ExperienciaFalabella.png",
       "blockClass": "hero__section--link-image"
     }
   },
   "rich-text#hero__section--link2-text": {
+    "title": "text link 2",
     "props": {
       "text": "Experiencia Falabella",
       "textAlignment": "CENTER",
@@ -82,18 +95,21 @@
     }
   },
   "flex-layout.col#hero__section--link3": {
+    "title": "individual col for image & text",
     "children": [
       "image#hero__section--link3-image",
       "rich-text#hero__section--link3-text"
     ]
   },
   "image#hero__section--link3-image": {
+    "title": "link image 3 InformeDeSostenibilidad",
     "props": {
       "src": "assets/img/desktop/statics/about_us/03_InformeDeSostenibilidad.png",
       "blockClass": "hero__section--link-image"
     }
   },
   "rich-text#hero__section--link3-text": {
+    "title": "text link 3",
     "props": {
       "text": "Informe De Sostenibilidad",
       "textAlignment": "CENTER",
@@ -101,18 +117,22 @@
     }
   },
   "flex-layout.col#hero__section--link4": {
+    "title": "individual col for image & text",
     "children": [
       "image#hero__section--link4-image",
       "rich-text#hero__section--link4-text"
     ]
   },
   "image#hero__section--link4-image": {
+    "title": "link image 4 RSE",
     "props": {
       "src": "assets/img/desktop/statics/about_us/04_RSE.png",
       "blockClass": "hero__section--link-image"
     }
   },
   "rich-text#hero__section--link4-text": {
+    "title": "text link 4",
+
     "props": {
       "text": "RSE",
       "textAlignment": "CENTER",
@@ -120,18 +140,21 @@
     }
   },
   "flex-layout.col#hero__section--link5": {
+    "title": "individual col for image & text",
     "children": [
       "image#hero__section--link5-image",
       "rich-text#hero__section--link5-text"
     ]
   },
   "image#hero__section--link5-image": {
+    "title": "link image 5 Proveedores",
     "props": {
       "src": "assets/img/desktop/statics/about_us/05_Proveedores.png",
       "blockClass": "hero__section--link-image"
     }
   },
   "rich-text#hero__section--link5-text": {
+    "title": "text link 5",
     "props": {
       "text": "Proveedores",
       "textAlignment": "CENTER",
