@@ -1,0 +1,35 @@
+.paragraph--hero__section--title {
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 1.5rem 0;
+  line-height: 1.3;
+  color: #a2dd30;
+}
+
+.container--about-us__page-title {
+  width: 90%;
+  background-color: #a2dd30;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.paragraph--about-us__page-title {
+  padding: 15px;
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.paragraph--about-us__origen--text-content{
+  /* background-color: gold; */
+  margin-bottom: 0;
+}
+
+.headingLevel4--about-us__block--title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
