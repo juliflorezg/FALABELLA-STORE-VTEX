@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__categorias-1": {
+    "title": "row container categories 1 desktop",
     "children": [
       "flex-layout.col#desktop__col-categoria-1",
       "flex-layout.col#desktop__col-categoria-2",
@@ -14,30 +15,35 @@
     }
   },
   "flex-layout.col#desktop__col-categoria-1": {
+    "title": "col container category 1 desktop",
     "children": ["image#desktop__imagen-categoria-1"],
     "props": {
       "width": "25%"
     }
   },
   "flex-layout.col#desktop__col-categoria-2": {
+    "title": "col container category 2 desktop",
     "children": ["image#desktop__imagen-categoria-2"],
     "props": {
       "width": "25%"
     }
   },
   "flex-layout.col#desktop__col-categoria-3": {
+    "title": "col container category 3 desktop",
     "children": ["image#desktop__imagen-categoria-3"],
     "props": {
       "width": "25%"
     }
   },
   "flex-layout.col#desktop__col-categoria-4": {
+    "title": "col container category 4 desktop",
     "children": ["image#desktop__imagen-categoria-4"],
     "props": {
       "width": "25%"
     }
   },
   "image#desktop__imagen-categoria-1": {
+    "title": "category 1 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-1.png",
       "width": "350px",
@@ -51,6 +57,7 @@
     }
   },
   "image#desktop__imagen-categoria-2": {
+    "title": "category 2 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-2.png",
       "width": "350px",
@@ -64,6 +71,7 @@
     }
   },
   "image#desktop__imagen-categoria-3": {
+    "title": "category 3 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-3.png",
       "width": "350px",
@@ -77,6 +85,7 @@
     }
   },
   "image#desktop__imagen-categoria-4": {
+    "title": "category 4 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-4.png",
       "width": "350px",
@@ -90,6 +99,7 @@
     }
   },
   "flex-layout.row#desktop__categorias-2": {
+    "title": "row container categories 2 desktop",
     "children": [
       "image#desktop__imagen-categoria-5",
       "image#desktop__imagen-categoria-6",
@@ -102,6 +112,7 @@
     }
   },
   "image#desktop__imagen-categoria-5": {
+    "title": "category 5 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-5.png",
       "width": "350px",
@@ -115,6 +126,7 @@
     }
   },
   "image#desktop__imagen-categoria-6": {
+    "title": "category 6 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-6.png",
       "width": "350px",
@@ -128,6 +140,7 @@
     }
   },
   "image#desktop__imagen-categoria-7": {
+    "title": "category 7 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-7.png",
       "width": "350px",
