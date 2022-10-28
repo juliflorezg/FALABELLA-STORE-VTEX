@@ -1,0 +1,14 @@
+.flexRowContent--hero__section--text-container {
+  max-width: 500px;
+  transform: translate(25%, 20%);
+  /* outline: 2px dashed red;  */
+}
+
+.flexRowContent--about-us__text-block {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 60px;
+  background-color: rgb(245, 245, 245);
+}
