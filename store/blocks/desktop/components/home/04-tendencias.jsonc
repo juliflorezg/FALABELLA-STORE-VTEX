@@ -1,8 +1,8 @@
 {
   "slider-layout#home__slider-tendencias--desktop": {
-    "title": "slider de tendencias en desktop",
+    "title": "trending slider desktop",
     "props": {
-      "label": "slider principal",
+      "label": "slider tendencias",
       "itemsPerPage": {
         "desktop": 3
       },
@@ -26,32 +26,38 @@
     ]
   },
   "image#home__slider-tendencias--one-desktop": {
+    "title": "trending image 1 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-1.png",
       "width": "50%"
     }
   },
   "image#home__slider-tendencias--two-desktop": {
+    "title": "trending image 2 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-2.png"
     }
   },
   "image#home__slider-tendencias--three-desktop": {
+    "title": "trending image 3 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-3.png"
     }
   },
   "image#home__slider-tendencias--four-desktop": {
+    "title": "trending image 4 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-4.png"
     }
   },
   "image#home__slider-tendencias--five-desktop": {
+    "title": "trending image 5 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-5.png"
     }
   },
   "image#home__slider-tendencias--six-desktop": {
+    "title": "trending image 6 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-6.png"
     }
