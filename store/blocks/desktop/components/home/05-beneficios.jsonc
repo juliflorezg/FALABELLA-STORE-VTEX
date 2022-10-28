@@ -1,6 +1,6 @@
 {
   "flex-layout.row#desktop--beneficios": {
-    "title": "row container for benefits, home desktop",
+    "title": "beneficios para desktop",
     "children": [
       "image#beneficio1",
       "image#beneficio2",
@@ -13,7 +13,6 @@
     }
   },
   "image#beneficio1": {
-    "title": "benefit image 1 desktop",
     "props": {
       "src": "assets/img/desktop/home__beneficios-1.png",
       "blockClass": "home__beneficio-img",
@@ -25,7 +24,6 @@
     }
   },
   "image#beneficio2": {
-    "title": "benefit image 2 desktop",
     "props": {
       "src": "assets/img/desktop/home__beneficios-2.png",
       "blockClass": "home__beneficio-img",
@@ -37,7 +35,6 @@
     }
   },
   "image#beneficio3": {
-    "title": "benefit image 3 desktop",
     "props": {
       "src": "assets/img/desktop/home__beneficios-3.png",
       "blockClass": "home__beneficio-img",
@@ -49,7 +46,6 @@
     }
   },
   "image#beneficio4": {
-    "title": "benefit image 4 desktop",
     "props": {
       "src": "assets/img/desktop/home__beneficios-4.png",
       "blockClass": "home__beneficio-img",
