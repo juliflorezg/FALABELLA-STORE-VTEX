@@ -1,5 +1,6 @@
 {
   "flex-layout.row#mobile__categorias": {
+    "title": "row container categories, home mobile",
     "children": [
       "image#mobile__imagen-categoria-1",
       "image#mobile__imagen-categoria-2",
@@ -11,6 +12,7 @@
     ]
   },
   "image#mobile__imagen-categoria-1": {
+    "title": "category 1 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-1.png",
       // "maxWidth": 600,
@@ -24,6 +26,7 @@
     }
   },
   "image#mobile__imagen-categoria-2": {
+    "title": "category 2 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-2.png",
       // "maxWidth": 600,
@@ -37,6 +40,7 @@
     }
   },
   "image#mobile__imagen-categoria-3": {
+    "title": "category 3 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-3.png",
       // "maxWidth": 600,
@@ -50,6 +54,7 @@
     }
   },
   "image#mobile__imagen-categoria-4": {
+    "title": "category 4 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-4.png",
       // "maxWidth": 600,
@@ -63,6 +68,7 @@
     }
   },
   "image#mobile__imagen-categoria-5": {
+    "title": "category 5 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-5.png",
       // "maxWidth": 600,
@@ -76,6 +82,7 @@
     }
   },
   "image#mobile__imagen-categoria-6": {
+    "title": "category 6 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-6.png",
       // "maxWidth": 600,
@@ -89,6 +96,7 @@
     }
   },
   "image#mobile__imagen-categoria-7": {
+    "title": "category 7 image mobile",
     "props": {
       "src": "assets/img/mobile/home__categorias-7.png",
       // "maxWidth": 600,
