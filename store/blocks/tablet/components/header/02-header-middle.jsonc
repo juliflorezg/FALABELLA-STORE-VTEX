@@ -1,8 +1,7 @@
 {
   "header-row#header__middle--mobile": {
-    "children": [
-      "search-bar#header__search-bar"
-    ],
+    "title": "header middle mobile",
+    "children": ["search-bar#header__search-bar"],
     "props": {
       "blockClass": "header__middle--mobile"
     }
