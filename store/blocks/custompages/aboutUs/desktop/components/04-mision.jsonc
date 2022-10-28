@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#about-us__mision": {
+    "title": "row container for about page 'misión' content",
+    "children": ["flex-layout.col#about-us__mision-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__mision-col": {
+    "title": "col container for about page 'origen' content",
+    "children": [
+      "rich-text#about-us__mision--title",
+      "rich-text#about-us__mision--text-content"
+    ]
+  },
+  "rich-text#about-us__mision--title": {
+    "title": "misión title, about us page",
+    "props": { "text": "#### Misión", "blockClass": "about-us__block--title" }
+  },
+  "rich-text#about-us__mision--text-content": {
+    "title": "misión text, about us page",
+    "props": {
+      "text": "Liderar el comercio latinoamericano, entregando la mejor experiencia de compra omnicanal.",
+      "blockClass": "about-us__origen--text-content"
+    }
+  }
+}
