@@ -21,7 +21,7 @@
     "title": "origen text, about us page",
     "props": {
       "text": "Nuestro origen se remonta a 1889, cuando Salvatore Falabella abre la primera gran sastrería en Chile. Posteriormente, con la vinculación de Alberto Solari, la tienda se fortalece al introducir nuevos productos relacionados con el vestuario y el hogar, transformándose así en una tienda por departamentos y ampliando su cobertura con nuevos puntos de venta. En la década de los 90, iniciamos el proceso de internacionalización, extendiendo nuestra operación a Argentina y posteriormente a Perú. En el 2003 Falabella se fusiona con Sodimac S.A. lo que nos permitió, años más tarde entrar a mercados tan importantes como el colombiano a través de las marcas Homecenter y Constructor. En 2006 inauguramos nuestra primera tienda Falabella en Colombia, en el Centro Comercial Santafé de la ciudad de Bogotá.",
-      "blockClass": "about-us__origen--text-content"
+      "blockClass": "about-us__text-content"
     }
   }
 }
