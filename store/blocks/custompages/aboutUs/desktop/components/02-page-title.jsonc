@@ -1,0 +1,9 @@
+{
+  "rich-text#about-us__page-title": {
+    "title": "about us page title",
+    "props": {
+      "text": "¿quiénes somos?",
+      "blockClass": "about-us__page-title"
+    }
+  }
+}

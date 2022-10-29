@@ -1,7 +1,8 @@
 {
-  "responsive-layout.desktop#about-us__desktop": {
+  "responsive-layout.mobile#about-us__mobile": {
     "children": [
-      "stack-layout#about-us__hero--section",
+      "flex-layout.row#about-us__hero-image-container--mobile",
+      "disclosure-layout#about-us__otros-servicios--menu",
       "rich-text#about-us__page-title",
       "flex-layout.row#about-us__origen",
       "flex-layout.row#about-us__mision",

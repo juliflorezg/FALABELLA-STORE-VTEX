@@ -7,11 +7,11 @@
     ]
   },
   "flex-layout.row#hero__section--img-container": {
-    "title": "container for hero image",
+    "title": "container for hero image desktop",
     "children": ["image#hero__section--image"]
   },
   "image#hero__section--image": {
-    "title": "hero image, about us",
+    "title": "hero image, about us desktop",
     "props": {
       "src": "assets/img/desktop/statics/about_us/hero.png"
     }
@@ -53,22 +53,28 @@
     "title": "individual col for image & text",
     "children": [
       "image#hero__section--link1-image",
-      "rich-text#hero__section--link1-text"
+      "link#hero__section--link1-text"
     ]
   },
   "image#hero__section--link1-image": {
     "title": "link image 1 QuienesSomos",
     "props": {
       "src": "assets/img/desktop/statics/about_us/01_QuienesSomos.png",
-      "blockClass": "hero__section--link1-image"
+      "blockClass": "hero__section--link1-image",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Quienes-somos?staticPageId=16600002",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
     }
   },
-  "rich-text#hero__section--link1-text": {
+
+  "link#hero__section--link1-text": {
     "title": "text link 1",
     "props": {
-      "text": "¿Quienes somos?",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "label": "¿Quienes somos?",
+      "href": "https://www.falabella.com.co/falabella-co/page/Quienes-somos?staticPageId=16600002",
+      "blockClass": "hero__section--link"
     }
   },
 
@@ -76,89 +82,108 @@
     "title": "individual col for image & text",
     "children": [
       "image#hero__section--link2-image",
-      "rich-text#hero__section--link2-text"
+      "link#hero__section--link2-text"
     ]
   },
   "image#hero__section--link2-image": {
     "title": "link image 2, ExperienciaFalabella",
     "props": {
       "src": "assets/img/desktop/statics/about_us/02_ExperienciaFalabella.png",
-      "blockClass": "hero__section--link-image"
+      "blockClass": "hero__section--link-image",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Experiencia-Falabella?staticPageId=16600001",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
     }
   },
-  "rich-text#hero__section--link2-text": {
+  "link#hero__section--link2-text": {
     "title": "text link 2",
     "props": {
-      "text": "Experiencia Falabella",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "label": "Experiencia Falabella",
+      "href": "https://www.falabella.com.co/falabella-co/page/Experiencia-Falabella?staticPageId=16600001",
+      "blockClass": "hero__section--link"
     }
   },
   "flex-layout.col#hero__section--link3": {
     "title": "individual col for image & text",
     "children": [
       "image#hero__section--link3-image",
-      "rich-text#hero__section--link3-text"
+      "link#hero__section--link3-text"
     ]
   },
   "image#hero__section--link3-image": {
     "title": "link image 3 InformeDeSostenibilidad",
     "props": {
       "src": "assets/img/desktop/statics/about_us/03_InformeDeSostenibilidad.png",
-      "blockClass": "hero__section--link-image"
+      "blockClass": "hero__section--link-image",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Sostenibilidad?staticPageId=20300001",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
     }
   },
-  "rich-text#hero__section--link3-text": {
+  "link#hero__section--link3-text": {
     "title": "text link 3",
     "props": {
-      "text": "Informe De Sostenibilidad",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "label": "Sostenibilidad",
+      "href": "https://www.falabella.com.co/falabella-co/page/Sostenibilidad?staticPageId=20300001",
+      "blockClass": "hero__section--link"
     }
   },
   "flex-layout.col#hero__section--link4": {
     "title": "individual col for image & text",
     "children": [
       "image#hero__section--link4-image",
-      "rich-text#hero__section--link4-text"
+      "link#hero__section--link4-text"
     ]
   },
   "image#hero__section--link4-image": {
     "title": "link image 4 RSE",
     "props": {
       "src": "assets/img/desktop/statics/about_us/04_RSE.png",
-      "blockClass": "hero__section--link-image"
+      "blockClass": "hero__section--link-image",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/RSE?staticPageId=16600003",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
     }
   },
-  "rich-text#hero__section--link4-text": {
+  "link#hero__section--link4-text": {
     "title": "text link 4",
-
     "props": {
-      "text": "RSE",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "label": "RSE",
+      "href": "https://www.falabella.com.co/falabella-co/page/RSE?staticPageId=16600003",
+      "blockClass": "hero__section--link"
     }
   },
   "flex-layout.col#hero__section--link5": {
     "title": "individual col for image & text",
     "children": [
       "image#hero__section--link5-image",
-      "rich-text#hero__section--link5-text"
+      "link#hero__section--link5-text"
     ]
   },
   "image#hero__section--link5-image": {
     "title": "link image 5 Proveedores",
     "props": {
       "src": "assets/img/desktop/statics/about_us/05_Proveedores.png",
-      "blockClass": "hero__section--link-image"
+      "blockClass": "hero__section--link-image",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/Proveedores?staticPageId=19200001",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
     }
   },
-  "rich-text#hero__section--link5-text": {
+  "link#hero__section--link5-text": {
     "title": "text link 5",
     "props": {
-      "text": "Proveedores",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "label": "Proveedores",
+      "href": "https://www.falabella.com.co/falabella-co/page/Proveedores?staticPageId=19200001",
+      "blockClass": "hero__section--link"
     }
   }
 }
