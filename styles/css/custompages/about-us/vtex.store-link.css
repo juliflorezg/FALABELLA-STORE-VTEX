@@ -1,0 +1,8 @@
+.link--hero__section--link {
+  margin: auto;
+  color: rgb(63, 63, 63);
+}
+.link--hero__section--link:hover,
+.label--hero__section--link:hover {
+  text-decoration: none;
+}
