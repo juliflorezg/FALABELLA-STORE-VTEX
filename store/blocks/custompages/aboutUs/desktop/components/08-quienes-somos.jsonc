@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#about-us__quienes-somos": {
+    "title": "row container for about page 'quienes somos' content",
+    "children": ["flex-layout.col#about-us__quienes-somos-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__quienes-somos-col": {
+    "title": "col container for about page 'quienes somos' content",
+    "children": [
+      "rich-text#about-us__quienes-somos--title",
+      "video#about-us__quienes-somos"
+    ]
+  },
+  "rich-text#about-us__quienes-somos--title": {
+    "title": "quienes somos title, about us page",
+    "props": {
+      "text": "#### Quienes Somos",
+      "blockClass": "about-us__block--title"
+    }
+  },
+  "video#about-us__quienes-somos": {
+    "title": "'quienes-somos' video",
+    "props": {
+      "src": "https://www.falabella.com.co/static/RDF/site/minisitios/beneficios_falabella/quienes_somos/video/VideoCorporativoFalabellaFinal.mp4",
+      "width": "100%",
+      "controlsType": "native"
+    }
+  }
+}
