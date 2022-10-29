@@ -8,8 +8,9 @@
       "image#beneficio4"
     ],
     "props": {
-      "marginTop": 10,
-      "marginBottom": 10
+      "marginTop": 8,
+      "marginBottom": 8,
+      "blockClass": "desktop--beneficios-container"
     }
   },
   "image#beneficio1": {

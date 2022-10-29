@@ -9,3 +9,11 @@
 .imageElement--home__beneficio-img:hover {
   filter: brightness(90%);
 }
+
+.imageElement--home__categoria-mobile {
+  max-width: 200px;
+}
+
+.imageElement--home__beneficio-img:hover {
+  opacity: 0.5;
+}

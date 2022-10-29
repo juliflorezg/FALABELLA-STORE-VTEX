@@ -5,6 +5,9 @@
 .paginationDotsContainer--home__slider {
   transform: translateY(25px);
 }
+.paginationDot--isActive{
+  background-color: #a2dd30;
+}
 
 .sliderLayoutContainer--home__slider-tendencias {
   max-width: 1280px;

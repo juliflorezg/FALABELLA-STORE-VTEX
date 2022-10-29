@@ -10,8 +10,9 @@
     "props": {
       // "colGap": "8",
       "colSizing": "equal",
-      "paddingLeft": 5,
-      "paddingRight": 5
+      "blockClass": "desktop__categorias-1"
+      // "paddingLeft": 5,
+      // "paddingRight": 5
     }
   },
   "flex-layout.col#desktop__col-categoria-1": {
@@ -101,21 +102,29 @@
   "flex-layout.row#desktop__categorias-2": {
     "title": "row container categories 2 desktop",
     "children": [
-      "image#desktop__imagen-categoria-5",
-      "image#desktop__imagen-categoria-6",
-      "image#desktop__imagen-categoria-7"
+      "flex-layout.col#desktop__col-categoria-5",
+      "flex-layout.col#desktop__col-categoria-6",
+      "flex-layout.col#desktop__col-categoria-7"
     ],
     "props": {
-      "colGap": 8,
+      // "colGap": 8,
       "colSizing": "equal",
-      "colJustify": "around"
+      "colJustify": "around",
+      "blockClass": "desktop__categorias-2"
+    }
+  },
+  "flex-layout.col#desktop__col-categoria-5": {
+    "title": "col container category 5 desktop",
+    "children": ["image#desktop__imagen-categoria-5"],
+    "props": {
+      "width": "25%"
     }
   },
   "image#desktop__imagen-categoria-5": {
     "title": "category 5 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-5.png",
-      "width": "350px",
+      // "width": "350px",
       "title": "categoría 5",
       "blockClass": "home__categoria-desktop",
       "link": {
@@ -125,11 +134,18 @@
       }
     }
   },
+  "flex-layout.col#desktop__col-categoria-6": {
+    "title": "col container category 6 desktop",
+    "children": ["image#desktop__imagen-categoria-6"],
+    "props": {
+      "width": "25%"
+    }
+  },
   "image#desktop__imagen-categoria-6": {
     "title": "category 6 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-6.png",
-      "width": "350px",
+      // "width": "350px",
       "title": "categoría 6",
       "blockClass": "home__categoria-desktop",
       "link": {
@@ -139,11 +155,18 @@
       }
     }
   },
+  "flex-layout.col#desktop__col-categoria-7": {
+    "title": "col container category 7 desktop",
+    "children": ["image#desktop__imagen-categoria-7"],
+    "props": {
+      "width": "25%"
+    }
+  },
   "image#desktop__imagen-categoria-7": {
     "title": "category 7 image desktop",
     "props": {
       "src": "assets/img/desktop/home__categorias-7.png",
-      "width": "350px",
+      // "width": "350px",
       "title": "categoría 7",
       "blockClass": "home__categoria-desktop",
       "link": {
