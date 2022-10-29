@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#about-us__hero-image-container--mobile": {
+    "title": "container for hero image mobile",
+    "children": ["image#about-us__hero-image--mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "image#about-us__hero-image--mobile": {
+    "title": "hero image, about us mobile",
+    "props": {
+      "src": "assets/img/mobile/statics/about_us/hero.png"
+      
+    }
+  }
+}
