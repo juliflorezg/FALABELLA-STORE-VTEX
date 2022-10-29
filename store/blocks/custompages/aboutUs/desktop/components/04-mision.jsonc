@@ -21,7 +21,7 @@
     "title": "misión text, about us page",
     "props": {
       "text": "Liderar el comercio latinoamericano, entregando la mejor experiencia de compra omnicanal.",
-      "blockClass": "about-us__origen--text-content"
+      "blockClass": "about-us__text-content"
     }
   }
 }
