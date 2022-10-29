@@ -30,8 +30,7 @@
   "image#home__slider-tendencias--one-phone": {
     "title": "image 1, trending slider, home phone",
     "props": {
-      "src": "assets/img/mobile/home__slider-tendencias-1.png",
-      "width": "50%"
+      "src": "assets/img/mobile/home__slider-tendencias-1.png"
     }
   },
   "image#home__slider-tendencias--two-phone": {

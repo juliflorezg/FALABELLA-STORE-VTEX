@@ -1,5 +1,5 @@
 .sliderLayoutContainer--home__slider {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .paginationDotsContainer--home__slider {
@@ -12,4 +12,11 @@
 .sliderLayoutContainer--home__slider-tendencias {
   max-width: 1280px;
   margin: 0 auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
+
+.sliderLayoutContainer--home__slider-tendencias,
+  .sliderLayoutContainer--home__slider--beneficios{
+  margin-bottom: 4rem;
 }

@@ -1,7 +1,10 @@
 {
   "flex-layout.row#mobile__disfraces": {
     "title": "row container costumes home mobile",
-    "children": ["image#disfraces__mobile"]
+    "children": ["image#disfraces__mobile"],
+    "props": {
+      "blockClass": "mobile__disfraces--container"
+    }
   },
   "image#disfraces__mobile": {
     "title": "costumes image, home mobile",

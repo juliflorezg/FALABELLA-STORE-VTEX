@@ -40,3 +40,10 @@
 .flexRowContent--home__desktop--textos-container{
   gap:20px
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
+
+.flexRowContent--mobile__categorias--container,
+.flexRowContent--mobile__disfraces--container{ 
+  margin-block-end: 80px;
+}
