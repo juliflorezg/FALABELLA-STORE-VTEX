@@ -1,3 +1,12 @@
-.imageElement--hero__section--link1-image{
+.imageElement--hero__section--link1-image {
   background-color: #a2dd30;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageElement--about-us__donde-estamos--image {
+    /* border: 2px solid red; */
+    min-width: 85%;
+    margin: 0 auto;
+    align-self: center;
+  }
 }

@@ -7,7 +7,7 @@
 }
 
 .container--about-us__page-title {
-  width: 90%;
+  width: 100%;
   background-color: #a2dd30;
   max-width: 1280px;
   margin: 0 auto;
@@ -24,12 +24,35 @@
   color: white;
 }
 
-.paragraph--about-us__origen--text-content{
+.paragraph--about-us__text-content,
+.paragraph--about-us__valores-text-content {
   /* background-color: gold; */
   margin-bottom: 0;
+}
+.paragraph--about-us__valores-text-content {
+  font-size: 15px;
 }
 
 .headingLevel4--about-us__block--title {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.container--about-us__otros-servicios-title--mobile {
+  width: 90%;
+  margin: 0 auto;
+}
+.paragraph--about-us__otros-servicios-title--mobile {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a2dd30;
+  border-bottom: 4px dotted #a2dd30;
+  cursor: default;
+}
+.paragraph--about-us__otros-servicios-title--mobile::after {
+  position: absolute;
+  content: '\5E';
+  right: -20px;
+  transform: rotate(180deg);
 }
