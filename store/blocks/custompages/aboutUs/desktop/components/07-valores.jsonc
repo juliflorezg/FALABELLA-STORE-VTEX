@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#about-us__valores": {
+    "title": "row container for about page 'valores' content",
+    "children": ["flex-layout.col#about-us__valores-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__valores-col": {
+    "title": "col container for about page 'valores' content",
+    "children": [
+      "rich-text#about-us__valores--title",
+      "rich-text#about-us__valores--text-content"
+    ]
+  },
+  "rich-text#about-us__valores--title": {
+    "title": "valores title, about us page",
+    "props": {
+      "text": "#### Valores",
+      "blockClass": "about-us__block--title"
+    }
+  },
+  "rich-text#about-us__valores--text-content": {
+    "title": "valores text, about us page",
+    "props": {
+      "text": "Nos motiva el desafío, siempre vamos por más.<br/>Fomentamos la iniciativa propia, sin miedo a equivocarnos.<br/>Buscamos generar oportunidades de crecimiento para nuestros talentos.<br/>Nos apasiona superar las expectativas de nuestros clientes.<br/>Enfrentamos los desafíos como un solo equipo.<br/>Disfrutamos lo que hacemos y celebramos nuestros logros.",
+      "blockClass": "about-us__text-content"
+    }
+  }
+}

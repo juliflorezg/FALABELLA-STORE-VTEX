@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#about-us__proposito": {
+    "title": "row container for about page 'Propósito' content",
+    "children": ["flex-layout.col#about-us__proposito-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__proposito-col": {
+    "title": "col container for about page 'proposito' content",
+    "children": [
+      "rich-text#about-us__proposito--title",
+      "rich-text#about-us__proposito--text-content"
+    ]
+  },
+  "rich-text#about-us__proposito--title": {
+    "title": "Propósito title, about us page",
+    "props": {
+      "text": "#### Propósito",
+      "blockClass": "about-us__block--title"
+    }
+  },
+  "rich-text#about-us__proposito--text-content": {
+    "title": "Propósito text, about us page",
+    "props": {
+      "text": "Enriquecer la vida de nuestros clientes con los productos y experiencias que ellos quieren.",
+      "blockClass": "about-us__text-content"
+    }
+  }
+}
