@@ -1,0 +1,10 @@
+.flexRow--footer__row1--desktop {
+  background-color: rgb(51, 51, 51);
+  border-top: 2px solid #a2dd30;
+  padding: 40px 0 ;
+}
+
+.flexRowContent--footer__row1--desktop{
+  max-width: 1280px;
+  margin: 0 auto;
+}
