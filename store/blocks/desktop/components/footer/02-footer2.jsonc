@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#footer__row2--desktop": {
+    "title": "footer row 2 for desktop view",
+    "children": [
+      "flex-layout.col#footer__row2--social-media",
+      "flex-layout.col#footer__row2--suscribete-link"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer__row2--desktop"
+    }
+  },
+  "flex-layout.col#footer__row2--social-media": {
+    "title": "col container for social media, footer",
+    "children": ["social-networks"],
+    "props": {
+      "blockClass": "footer__row2--social-media"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FFalabellaColombia%2F",
+          "name": "Facebook"
+        },
+        { "url": "https://twitter.com/Falabella_co", "name": "Twitter" },
+        {
+          "url": "https://www.instagram.com/falabella_co/",
+          "name": "instagram"
+        }
+      ],
+      "blockClass":"footer__social-networks"
+    }
+  },
+  "flex-layout.col#footer__row2--suscribete-link": {
+    "title": "col container for 'suscribete' link, footer",
+    "children": ["link#footer__row2--suscribete-link"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#footer__row2--suscribete-link": {
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/page/registros_2018?staticPageId=7100001",
+      "label": "Suscríbete y entérate de nuestras ofertas y productos",
+      "blockClass": "footer__sucribete--link"
+    }
+  }
+}

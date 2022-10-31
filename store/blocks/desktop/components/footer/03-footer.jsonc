@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#footer__row3--desktop": {
+    "title": "footer row 3 for desktop view",
+    "children": [
+      "flex-layout.col#footer__row3--copyright",
+      "flex-layout.col#footer__row3--compra-segura"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer__row3--desktop"
+    }
+  },
+  "flex-layout.col#footer__row3--copyright": {
+    "title": "col container for copyright, footer",
+    "children": [
+      "rich-text#footer__copyright--title",
+      "rich-text#footer__copyright--text"
+    ],
+    "props": {
+      "blockClass": "footer__row3--copyright"
+    }
+  },
+  "rich-text#footer__copyright--title": {
+    "title": "'copyright' title, footer",
+    "props": {
+      "text": "© TODOS LOS DERECHOS RESERVADOS",
+      "blockClass": "footer__copyright-title"
+    }
+  },
+  "rich-text#footer__copyright--text": {
+    "title": "'copyright' text, footer",
+    "props": {
+      "text": "Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co",
+      "blockClass": "footer__copyright-text"
+    }
+  },
+  "flex-layout.col#footer__row3--compra-segura": {
+    "title": "col container for 'compra segura', footer",
+    "children": [
+      "image#footer__compra-segura--image",
+      "link#footer__compra-segura--link"
+    ],
+    "props": {
+      "blockClass": "footer__row3--compra-segura"
+    }
+  },
+  "image#footer__compra-segura--image": {
+    "title": "footer 'compra segura' image",
+    "props": {
+      "src": "assets/img/desktop/footer_compra-segura.svg",
+      "link": {
+        "url": "/"
+      },
+      "maxHeight": 80
+    }
+  },
+  "link#footer__compra-segura--link": {
+    "title": "footer 'compra segura' link",
+    "props": {
+      "href": "/",
+      "label": "COMPRA 100% SEGURA",
+      "blockClass": "footer__compra-segura--link"
+    }
+  }
+}

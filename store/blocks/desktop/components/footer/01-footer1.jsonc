@@ -1,0 +1,531 @@
+{
+  "flex-layout.row#footer__row1--desktop": {
+    "title": "footer row 1 for desktop view",
+    "children": [
+      "flex-layout.col#footer__row1-desktop--col1",
+      "flex-layout.col#footer__row1-desktop--col2",
+      "flex-layout.col#footer__row1-desktop--col3",
+      "flex-layout.col#footer__row1-desktop--col4"
+    ],
+    "props": {
+      // "colSizing": "auto",
+      "blockClass": "footer__row1--desktop"
+    }
+  },
+  "flex-layout.col#footer__row1-desktop--col1": {
+    "title": "first col in first footer row, desktop",
+    "children": [
+      "rich-text#footer__row1--te-ayudamos-title",
+      "menu#footer-menu__te-ayudamos"
+    ],
+    "props": { "preventVerticalStretch": true }
+  },
+
+  //~~~~~~~~~ first footer menu
+  "rich-text#footer__row1--te-ayudamos-title": {
+    "title": "'Te ayudamos' title, footer",
+    "props": { "text": "**Te ayudamos**", "blockClass": "footer__menu-title" }
+  },
+  "menu#footer-menu__te-ayudamos": {
+    "title": "footer menu 'te ayudamos'",
+    "children": [
+      "menu-item#te-ayudamos__mi-cuenta",
+      "menu-item#te-ayudamos__seguimiento-orden",
+      "menu-item#te-ayudamos__nuestras-tiendas",
+      "menu-item#te-ayudamos__medios-de-pago",
+      "menu-item#te-ayudamos__metodos-de-entrega",
+      "menu-item#te-ayudamos__terminos&condiciones",
+      "menu-item#te-ayudamos__tratamiento-de-datos",
+      "image#te-ayudamos__SIC",
+      "menu-item#te-ayudamos__derecho-de-retracto",
+      "menu-item#te-ayudamos__comunicaciones-falabella",
+      "menu-item#te-ayudamos__cambios&devoluciones",
+      "menu-item#te-ayudamos__reversion-pago",
+      "menu-item#te-ayudamos__redimir-giftcard",
+      "menu-item#te-ayudamos__factura-electronica"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#te-ayudamos__mi-cuenta": {
+    "props": {
+      "id": "te-ayudamos-menu__mi-cuenta",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#mi-cuenta"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__seguimiento-orden": {
+    "props": {
+      "id": "te-ayudamos-menu__seguimiento-orden",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Seguimiento de orden",
+        "text": "Seguimiento de orden",
+        "href": "https://www.falabella.com.co/falabella-co/mi-cuenta/buscar-orden"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__nuestras-tiendas": {
+    "props": {
+      "id": "te-ayudamos-menu__nuestras-tiendas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Nuestras tiendas",
+        "text": "Nuestras tiendas",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#nuestras-tiendas"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__medios-de-pago": {
+    "props": {
+      "id": "te-ayudamos-menu__medios-de-pago",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Medios de pago",
+        "text": "Medios de pago",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#medios-pago"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__metodos-de-entrega": {
+    "props": {
+      "id": "te-ayudamos-menu__metodos-de-entrega",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Métodos de entrega",
+        "text": "Métodos de entrega",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#metodos-entrega"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__terminos&condiciones": {
+    "props": {
+      "id": "te-ayudamos-menu__terminos&condiciones",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#terminos-condiciones"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "image#te-ayudamos__SIC": {
+    "title": "'te ayudamos' menu link to superintendencia de industria y comercio",
+    "props": {
+      "src": "assets/img/desktop/footer_sic.png",
+      "link": {
+        "url": "https://www.sic.gov.co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__tratamiento-de-datos": {
+    "props": {
+      "id": "te-ayudamos-menu__tratamiento-de-datos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Política de tratamiento de datos",
+        "text": "Política de tratamiento de datos",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#terminos-condiciones"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+
+  "menu-item#te-ayudamos__derecho-de-retracto": {
+    "props": {
+      "id": "te-ayudamos-menu__derecho-de-retracto",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Derecho de retracto",
+        "text": "Derecho de retracto",
+        "href": "https://www.falabella.com.co/falabella-co/page/Derecho_de_retracto?staticPageId=9300001"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__comunicaciones-falabella": {
+    "props": {
+      "id": "te-ayudamos-menu__comunicaciones-falabella",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Comunicaciones Falabella",
+        "text": "Comunicaciones Falabella",
+        "href": "https://www.falabella.com.co/falabella-co/page/comunicaciones-falabella?staticPageId=10000001"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__cambios&devoluciones": {
+    "props": {
+      "id": "te-ayudamos-menu__cambios&devoluciones",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones",
+        "href": "https://www.falabella.com.co/falabella-co/page/Cambios-y-Devoluciones?staticPageId=20200002"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__reversion-pago": {
+    "props": {
+      "id": "te-ayudamos-menu__reversion-pago",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Reversión del pago",
+        "text": "Reversión del pago",
+        "href": "https://www.falabella.com.co/falabella-co/page/Reversion-del-Pago?staticPageId=23000003"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__redimir-giftcard": {
+    "props": {
+      "id": "te-ayudamos-menu__redimir-giftcard",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Cómo redimir tu GiftCard",
+        "text": "¿Cómo redimir tu GiftCard?",
+        "href": "https://www.falabella.com.co/falabella-co/page/GiftCard?staticPageId=31000001"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__factura-electronica": {
+    "props": {
+      "id": "te-ayudamos-menu__factura-electronica",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Factura Electrónica",
+        "text": "Factura Electrónica",
+        "href": "https://www.falabella.com.co/falabella-co/page/factura%20electronica?staticPageId=36100003&v=3434"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "flex-layout.col#footer__row1-desktop--col2": {
+    "title": "second col in first footer row, desktop",
+    "children": [
+      "rich-text#footer__row1--trabaja-con-nosotros-title",
+      "menu#footer-menu__trabaja-con-nosotros"
+    ],
+    "props": { "preventVerticalStretch": true }
+  },
+
+  //~~~~~~~~~ second footer menu
+  "rich-text#footer__row1--trabaja-con-nosotros-title": {
+    "title": "'Sé parte de Falabella.com' title, footer",
+    "props": {
+      "text": "**Sé parte de Falabella.com**",
+      "blockClass": "footer__menu-title"
+    }
+  },
+  "menu#footer-menu__trabaja-con-nosotros": {
+    "title": "footer menu 'trabaja con nosotros'",
+    "children": [
+      "menu-item#trabaja-con-nosotros__nuestra-empresa",
+      "menu-item#trabaja-con-nosotros__proveedores",
+      "menu-item#trabaja-con-nosotros__venta-empresa",
+      "menu-item#trabaja-con-nosotros__inversionistas",
+      "menu-item#trabaja-con-nosotros__red-verde",
+      "menu-item#trabaja-con-nosotros__canal-de-integridad",
+      "menu-item#trabaja-con-nosotros__somos-falabella",
+      "menu-item#trabaja-con-nosotros__trabaja-con-nosotros"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__nuestra-empresa": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__nuestra-empresa",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Nuestra empresa",
+        "text": "Nuestra empresa",
+        "href": "https://www.falabella.com.co/falabella-co/page/Quienes-somos?staticPageId=16600002"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__proveedores": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__proveedores",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Proveedores",
+        "text": "Proveedores",
+        "href": "https://www.falabella.com.co/falabella-co/page/mas-falabella?staticPageId=13000001#falabella-proveedores"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__venta-empresa": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__venta-empresa",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Venta empresa",
+        "text": "Venta empresa",
+        "href": "https://www.falabella.com.co/falabella-co/page/mas-falabella?staticPageId=13000001#falabella-venta-empresa"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__inversionistas": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__inversionistas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Inversionistas",
+        "text": "Inversionistas",
+        "href": "https://investors.falabella.com/English/overview/default.aspx"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__red-verde": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__red-verde",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Red verde",
+        "text": "Red verde",
+        "href": "https://www.falabella.com.co/falabella-co/page/red-verde?staticPageId=6100001"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__canal-de-integridad": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__canal-de-integridad",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Canal de integridad",
+        "text": "Canal de integridad",
+        "href": "https://canaldeintegridad.ines.cl/falabella/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__somos-falabella": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__somos-falabella",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Somos Falabella",
+        "text": "Somos Falabella",
+        "href": "https://somosfalabella.com.co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#trabaja-con-nosotros__trabaja-con-nosotros": {
+    "props": {
+      "id": "trabaja-con-nosotros-menu__trabaja-con-nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Trabaja con nosotros",
+        "text": "Trabaja con nosotros",
+        "href": "https://muevete.falabella.com/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "flex-layout.col#footer__row1-desktop--col3": {
+    "title": "third col in first footer row, desktop",
+    "children": [
+      "rich-text#footer__row1--programas-title",
+      "menu#footer-menu__programas"
+    ],
+    "props": { "preventVerticalStretch": true }
+  },
+
+  //~~~~~~~~~ third footer menu
+  "rich-text#footer__row1--programas-title": {
+    "title": "'Únete a nuestros programas' title, footer",
+    "props": {
+      "text": "**Únete a nuestros programas**",
+      "blockClass": "footer__menu-title"
+    }
+  },
+  "menu#footer-menu__programas": {
+    "title": "footer menu 'Únete a nuestros programas'",
+    "children": [
+      "menu-item#programas__club-deco",
+      "menu-item#programas__club-novios",
+      "menu-item#programas__club-bebes"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#programas__club-deco": {
+    "props": {
+      "id": "programas-menu__club-deco",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Club Deco",
+        "text": "Club Deco",
+        "href": "https://www.falabella.com.co/falabella-co/page/Club-Deco?staticPageId=27800001"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#programas__club-novios": {
+    "props": {
+      "id": "programas-menu__club-novios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Club Novios",
+        "text": "Club Novios",
+        "href": "https://www.noviosfalabella.com.co/novios-co/public/inicio.do"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#programas__club-bebes": {
+    "props": {
+      "id": "programas-menu__club-bebes",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Club Bebés",
+        "text": "Club Bebés",
+        "href": "https://www.falabella.com.co/falabella-co/page/club-20bebes?staticPageId=27800002"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+
+  "flex-layout.col#footer__row1-desktop--col4": {
+    "title": "third col in first footer row, desktop",
+    "children": [
+      "rich-text#footer__row1--nuestras-empresas-title",
+      "menu#footer-menu__nuestras-empresas"
+    ],
+    "props": { "preventVerticalStretch": true }
+  },
+
+  //~~~~~~~~~ fourth footer menu
+  "rich-text#footer__row1--nuestras-empresas-title": {
+    "title": "'Nuestras empresas' title, footer",
+    "props": {
+      "text": "**Nuestras empresas**",
+      "blockClass": "footer__menu-title"
+    }
+  },
+  "menu#footer-menu__nuestras-empresas": {
+    "title": "footer menu 'Nuestras empresas'",
+    "children": [
+      "menu-item#nuestras-empresas__banco-falabella",
+      "menu-item#nuestras-empresas__seguros-falabella",
+      "menu-item#nuestras-empresas__sodimac",
+      "menu-item#nuestras-empresas__linio",
+      "menu-item#nuestras-empresas__cmr-puntos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#nuestras-empresas__banco-falabella": {
+    "props": {
+      "id": "nuestras-empresas-menu__banco-falabella",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Banco Falabella",
+        "text": "Banco Falabella",
+        "href": "https://www.bancofalabella.com.co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#nuestras-empresas__seguros-falabella": {
+    "props": {
+      "id": "nuestras-empresas-menu__seguros-falabella",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Seguros Falabella",
+        "text": "Seguros Falabella",
+        "href": "https://web.segurosfalabella.com/co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#nuestras-empresas__sodimac": {
+    "props": {
+      "id": "nuestras-empresas-menu__sodimac",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Sodimac",
+        "text": "Sodimac",
+        "href": "https://www.homecenter.com.co/homecenter-co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#nuestras-empresas__linio": {
+    "props": {
+      "id": "nuestras-empresas-menu__linio",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Linio",
+        "text": "Linio",
+        "href": "https://www.linio.com.co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#nuestras-empresas__cmr-puntos": {
+    "props": {
+      "id": "nuestras-empresas-menu__cmr-puntos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "CMR Puntos",
+        "text": "CMR Puntos",
+        "href": "https://www.falabella.com.co/falabella-co/page/CMR-enlinea?staticPageId=22200001&from=kOip6l6uDoIrqeFrSDvBpYeOTqnoISOnT9wJkaoSi0XymtGTDJjK05L3Y3eCwCHhYfezum5jldV86T6/7T5KZXsNkJ5pDqXRGoI2XPsMk1jbS/47wc6AeUTX5bNd4teprAwxHURP0/e6e/L6OX9i1dB50GNauwtA9A9Po0u3k8mSVJAsvDWoVF/ohkwuS3U2yy3ClGYQLGotNQ5q2m/zwPgSUoI3pQC6T8QSW4rBwoD4bRWkvlJpCLHUsfbhT/OdYKI0c/7h04nJYDGKNWPXClIfDrL8vfowh3ReRukIF1bdRsVr+iXTInu2dQJXsKKyAnwyCug8u1+2KutZwOw36A=&detalleClic=boton_superior"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  }
+}

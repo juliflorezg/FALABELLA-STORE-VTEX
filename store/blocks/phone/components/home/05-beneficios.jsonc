@@ -1,5 +1,6 @@
 {
   "slider-layout#phone--beneficios": {
+    "title": "benefits slider, home phone",
     "props": {
       "label": "slider de beneficios",
       "itemsPerPage": {
