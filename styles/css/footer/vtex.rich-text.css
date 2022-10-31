@@ -1,0 +1,39 @@
+.paragraph--footer__menu-title {
+  color: rgb(187, 187, 187);
+}
+
+.paragraph--footer__copyright-title,
+.paragraph--footer__copyright-text{
+  margin: 0;
+  margin-bottom: 5px;
+  color: rgb(187, 187, 187);
+  font-size: .75rem;
+
+}
+
+.link--footer__copyright-text{
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-decoration: none;
+}
+.link--footer__copyright-text:hover{
+  text-decoration: underline;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~mobile */
+
+@media screen and (max-width: 1024px){
+
+  .container--footer__menu-title{
+    border-bottom: .5px solid rgb(187, 187, 187);
+  }
+
+  .container--footer__copyright-title{
+    padding-top: 30px;
+    border-top: .5px solid rgb(187, 187, 187);
+  }
+
+  .wrapper--footer__copyright-text{
+    margin-bottom: 40px;
+  }
+}

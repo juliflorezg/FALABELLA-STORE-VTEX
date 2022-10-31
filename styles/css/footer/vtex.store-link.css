@@ -1,0 +1,35 @@
+.label--footer__link,
+.label--footer__sucribete--link {
+  min-width: max-content;
+  color: rgb(136, 136, 136);
+}
+.label--footer__link:hover {
+  text-decoration: none !important;
+  color: rgb(221, 221, 221);
+}
+.label--footer__sucribete--link {
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+}
+.label--footer__sucribete--link:hover {
+  text-decoration: none !important;
+}
+
+.label--footer__compra-segura--link {
+  min-width: max-content;
+  color: rgb(136, 136, 136);
+  font-size: 0.75rem;
+}
+
+.label--footer__compra-segura--link:hover {
+  text-decoration: none !important;
+  color: rgb(221, 221, 221);
+}
+
+@media screen and (max-width: 1024px) {
+  .link--footer__sucribete--link {
+    padding-bottom: 25px;
+    /* border-bottom: 0.5px solid rgb(136, 136, 136); */
+    /* justify-self: stretch; */
+  }
+}

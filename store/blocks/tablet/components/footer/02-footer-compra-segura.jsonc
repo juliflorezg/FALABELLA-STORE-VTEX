@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#footer__compra-segura--mobile": {
+    "title": "row container for 'compra segura' in footer, mobile",
+    "children": [
+      "image#footer__compra-segura--image",
+      "link#footer__compra-segura--link"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 4
+    }
+  }
+}

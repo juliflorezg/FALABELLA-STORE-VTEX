@@ -1,0 +1,15 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "disclosure-layout-group#footer__mobile--menus",
+      "social-networks",
+      "link#footer__row2--suscribete-link",
+      "rich-text#footer__copyright--title",
+      "rich-text#footer__copyright--text",
+      "flex-layout.row#footer__compra-segura--mobile"
+    ],
+    "props": {
+      "blockClass": "footer__menus--mobile"
+    }
+  }
+}
