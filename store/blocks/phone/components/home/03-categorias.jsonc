@@ -9,7 +9,10 @@
       "image#mobile__imagen-categoria-5",
       "image#mobile__imagen-categoria-6",
       "image#mobile__imagen-categoria-7"
-    ]
+    ],
+    "props": {
+      "blockClass": "mobile__categorias--container"
+    }
   },
   "image#mobile__imagen-categoria-1": {
     "title": "category 1 image mobile",

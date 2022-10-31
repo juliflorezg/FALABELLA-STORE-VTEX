@@ -9,3 +9,10 @@
 .imageElement--home__beneficio-img:hover {
   filter: brightness(90%);
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
+
+.imageElement--home__categoria-mobile{
+  margin-bottom: 20px;
+}

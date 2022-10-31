@@ -4,7 +4,7 @@
     "props": {
       "label": "slider tendencias",
       "itemsPerPage": {
-        "desktop": 3
+        "desktop": 1
       },
       "blockClass": "home__slider-tendencias",
       "showNavigationArrows": "always",
@@ -12,24 +12,30 @@
       "infinite": true,
       "fullWidth": false,
       "autoplay": {
-        "timeout": 3500,
+        "timeout": 4000,
         "stopOnHover": true
       }
     },
     "children": [
+      "flex-layout.row#home__slider-tendencias--container1",
+      "flex-layout.row#home__slider-tendencias--container2"
+    ]
+  },
+  "flex-layout.row#home__slider-tendencias--container1": {
+    "children": [
       "image#home__slider-tendencias--one-desktop",
       "image#home__slider-tendencias--two-desktop",
-      "image#home__slider-tendencias--three-desktop",
-      "image#home__slider-tendencias--four-desktop",
-      "image#home__slider-tendencias--five-desktop",
-      "image#home__slider-tendencias--six-desktop"
-    ]
+      "image#home__slider-tendencias--three-desktop"
+    ],
+    "props": {
+      "blockClass": "home__slider-tendencias--container",
+      "colSizing": "auto"
+    }
   },
   "image#home__slider-tendencias--one-desktop": {
     "title": "trending image 1 desktop",
     "props": {
-      "src": "assets/img/desktop/home__slider-tendencias-1.png",
-      "width": "50%"
+      "src": "assets/img/desktop/home__slider-tendencias-1.png"
     }
   },
   "image#home__slider-tendencias--two-desktop": {
@@ -42,6 +48,17 @@
     "title": "trending image 3 desktop",
     "props": {
       "src": "assets/img/desktop/home__slider-tendencias-3.png"
+    }
+  },
+  "flex-layout.row#home__slider-tendencias--container2": {
+    "children": [
+      "image#home__slider-tendencias--four-desktop",
+      "image#home__slider-tendencias--five-desktop",
+      "image#home__slider-tendencias--six-desktop"
+    ],
+    "props": {
+      "blockClass": "home__slider-tendencias--container",
+      "colSizing": "auto"
     }
   },
   "image#home__slider-tendencias--four-desktop": {

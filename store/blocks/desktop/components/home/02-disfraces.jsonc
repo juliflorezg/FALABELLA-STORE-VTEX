@@ -1,7 +1,10 @@
 {
   "flex-layout.row#desktop__disfraces": {
     "title": "row container costumes desktop",
-    "children": ["image#disfraces__desktop"]
+    "children": ["image#disfraces__desktop"],
+    "props": {
+      "blockClass": "desktop__disfraces--container"
+    }
   },
   "image#disfraces__desktop": {
     "title": "costumes image, home desktop",
