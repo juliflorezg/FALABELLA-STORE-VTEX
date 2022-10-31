@@ -24,14 +24,14 @@
     "title": "'copyright' title, footer",
     "props": {
       "text": "© TODOS LOS DERECHOS RESERVADOS",
-      "blockClass": "footer__text"
+      "blockClass": "footer__copyright-title"
     }
   },
   "rich-text#footer__copyright--text": {
     "title": "'copyright' text, footer",
     "props": {
       "text": "Falabella de Colombia S.A. Calle 99 11A-32 Bogotá Colombia NIT: 900.017.447-8 Teléfono: Bogotá 5878002 Mail: servicioalcliente@falabella.com.co",
-      "blockClass": "footer__text"
+      "blockClass": "footer__copyright-text"
     }
   },
   "flex-layout.col#footer__row3--compra-segura": {
