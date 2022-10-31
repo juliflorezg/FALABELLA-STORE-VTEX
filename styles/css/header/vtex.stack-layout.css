@@ -1,0 +1,15 @@
+.stackContainer--stack__header--desktop {
+  /* outline: 2px dashed rgb(0, 81, 87); */
+  width: 100%;
+  width: calc(100vw - 5px);
+}
+
+.stackItem--stack__header--desktop:last-child{
+  /* background-color: red; */
+  max-width: 170px;
+}
+
+.stackItem--stack__header--desktop:last-child .container{
+  /* background-color: red; */
+  max-width: 170px;
+}

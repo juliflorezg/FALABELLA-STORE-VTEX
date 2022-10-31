@@ -1,0 +1,11 @@
+.styledLinkContainer--footer__menu-item{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.styledLinkContent--footer__menu-item {
+  color: rgb(136, 136, 136);
+}
+.styledLinkContent--footer__menu-item:hover {
+  color: rgb(221, 221, 221);
+}

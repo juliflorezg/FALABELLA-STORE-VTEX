@@ -1,15 +1,46 @@
 {
   "header-row#header__top--desktop": {
+    "title": "header row for links, grey bar and logo",
+    "children": ["stack-layout#header__top--links&categorias"]
+  },
+  "stack-layout#header__top--links&categorias": {
+    "title": "container for side to side bars and logo",
+    "children": [
+      "flex-layout.row#header__top--desktop",
+      "flex-layout.row#header__top--desktop-logo-container"
+    ],
+    "props": {
+      "blockClass": "stack__header--desktop"
+    }
+  },
+  "flex-layout.row#header__top--desktop": {
+    "title": "row container for side to side bars",
+    "children": ["flex-layout.col#header__top--desktop-col"],
+    "props": {
+      "blockClass": "header__top-desktop"
+    }
+  },
+  "flex-layout.col#header__top--desktop-col": {
+    "title": "col container for side to side bars",
+    "children": [
+      "flex-layout.row#header__top--links",
+      "flex-layout.row#header__top--categorias"
+    ]
+  },
+  "flex-layout.row#header__top--links": {
+    "title": "dark-grey bar for header links",
     "children": [
       "flex-layout.row#header__top-desktop--links1",
       "header-spacer",
       "flex-layout.row#header__top-desktop--links2"
     ],
     "props": {
-      "blockClass": "header__top-desktop"
+      "blockClass": "header__top--links",
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#header__top-desktop--links1": {
+    "title": "first group of links, dark-grey bar",
     "children": ["link#top-1", "link#top-2", "link#top-3"],
     "props": {
       "colSizing": "auto",
@@ -17,6 +48,7 @@
     }
   },
   "link#top-1": {
+    "title": "header link, venta telefónica",
     "props": {
       "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002",
       "label": "Venta telefónica 587 8008 O 018000 958787",
@@ -25,6 +57,7 @@
     }
   },
   "link#top-2": {
+    "title": "header link, venta por WA",
     "props": {
       "href": "https://api.whatsapp.com/send?phone=573134636487",
       "label": "Venta por WhatsApp, Click acá!!!",
@@ -32,6 +65,7 @@
     }
   },
   "link#top-3": {
+    "title": "header link, servicio al cliente",
     "props": {
       "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002",
       "label": "Servicio al cliente",
@@ -39,6 +73,7 @@
     }
   },
   "flex-layout.row#header__top-desktop--links2": {
+    "title": "second group of links, dark-grey bar",
     "children": [
       "link#top-4",
       "link#top-5",
@@ -58,6 +93,7 @@
     }
   },
   "link#top-5": {
+    "title": "header link, seguro",
     "props": {
       "href": "https://web.segurosfalabella.com/co/?utm_source=Referral&utm_medium=Falabella&utm_campaign=Home_Falabella",
       "label": "Seguro",
@@ -65,6 +101,7 @@
     }
   },
   "link#top-6": {
+    "title": "header link, sodimac",
     "props": {
       "href": "http://www.homecenter.com.co/homecenter-co",
       "label": "Sodimac",
@@ -72,6 +109,7 @@
     }
   },
   "link#top-7": {
+    "title": "header link, linio",
     "props": {
       "href": "http://www.homecenter.com.co/homecenter-co",
       "label": "Linio",
@@ -79,10 +117,66 @@
     }
   },
   "link#top-8": {
+    "title": "header link, crate&barrel",
     "props": {
       "href": "https://www.falabella.com.co/falabella-co/category/cat6400952/Crate-Barrel",
       "label": "Crate&Barrel",
       "blockClass": "link__top"
+    }
+  },
+
+  "flex-layout.row#header__top--categorias": {
+    "title": "grey bar for header interaction",
+    "children": [
+      "drawer#header__desktop--menu",
+      "flex-layout.col#header__search-bar-container",
+      "modal-trigger#header__middle--login-desktop",
+      "minicart.v2",
+      "icon#header__shopping--bag"
+    ],
+    "props": {
+      "blockClass": "header__top--categorias",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#header__search-bar-container": {
+    "title": "col container for search-bar",
+    "children": ["search-bar#header__search-bar"],
+    "props": {
+      "blockClass": "header__search-bar-container",
+      "marginLeft": 10,
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "search-bar#header__search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué Buscas?",
+      "displayMode": "search-and-clear-buttons"
+    }
+  },
+
+  "icon#header__shopping--bag": {
+    "title": "shopping bag icon",
+    "props": {
+      "id": "shopping-bag",
+      "size": 50
+    }
+  },
+
+  "flex-layout.row#header__top--desktop-logo-container": {
+    "title": "row container for brand logo",
+    "children": ["logo#header__middle--logo"]
+  },
+  "logo#header__middle--logo": {
+    "title": "falabella logo",
+    "props": {
+      "url": "assets/img/global/falabella-logo.png",
+      "height": 98,
+      "href": "/"
     }
   }
 }

@@ -1,3 +1,18 @@
-.imageElement--home__categoria-desktop:hover {
+.imageElement--home__disfraces--img,
+.imageElement--home__categoria-desktop,
+.imageElement--home__beneficio-img {
+  transition: all 0.2s ease-in-out;
+}
+
+.imageElement--home__disfraces--img:hover,
+.imageElement--home__categoria-desktop:hover,
+.imageElement--home__beneficio-img:hover {
   filter: brightness(90%);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
+
+.imageElement--home__categoria-mobile{
+  margin-bottom: 20px;
 }

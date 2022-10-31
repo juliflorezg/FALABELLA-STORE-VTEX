@@ -1,81 +1,122 @@
 {
   "flex-layout.row#home__desktop--textos": {
-    "title": "bloque de información para desktop",
+    "title": "row container for information block, home desktop",
     "children": [
       "flex-layout.col#desktop--textos--one",
       "flex-layout.col#desktop--textos--two",
       "flex-layout.col#desktop--textos--three",
       "flex-layout.col#desktop--textos--four"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__desktop--textos-container"
+    }
   },
   "flex-layout.col#desktop--textos--one": {
+    "title": "col container text section 1",
     "children": [
       "rich-text#textos--one-titulo",
       "rich-text#textos--one-contenido-1",
       "rich-text#textos--one-contenido-2"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop--text--container",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#textos--one-titulo": {
+    "title": "text section 1 title",
     "props": {
       "text": "###### Prepárate para disfrutar de Cyberlunes 2022 Octubre"
     }
   },
   "rich-text#textos--one-contenido-1": {
+    "title": "text section 1, content 1",
     "props": {
-      "text": "El próximo 24 de Octubre 2022 tendrás la oportunidad que estabas esperando para que aproveches y disfrutes en Falabella de increíbles promociones y descuentos en tus categorías y marcas preferidas."
+      "text": "El próximo 24 de Octubre 2022 tendrás la oportunidad que estabas esperando para que aproveches y disfrutes en Falabella de increíbles promociones y descuentos en tus categorías y marcas preferidas.",
+      "blockClass": "text__content"
     }
   },
   "rich-text#textos--one-contenido-2": {
+    "title": "text section 1, content 2",
     "props": {
-      "text": "En Cyberlunes podrás encontrar ofertas en tecnología: televisores y computadores; Prepárate para descubrir sorprendentes descuentos en Smartwatch, audífonos y celulares con la última tecnología y de tus marcas preferidas Xiaomi, Huawei, Samsung y muchas otras más.Con nuestras ofertas podrás estrenar y renovar tu estilo con vestuario para mujer, hombre e infantil y calzado para mujer, hombre e infantil; incluso si quieres renovar tus espacios favoritos podrás encontrar ofertas en muebles: para sala, comedor, terraza."
+      "text": "En Cyberlunes podrás encontrar ofertas en tecnología: televisores y computadores; Prepárate para descubrir sorprendentes descuentos en Smartwatch, audífonos y celulares con la última tecnología y de tus marcas preferidas Xiaomi, Huawei, Samsung y muchas otras más.Con nuestras ofertas podrás estrenar y renovar tu estilo con vestuario para mujer, hombre e infantil y calzado para mujer, hombre e infantil; incluso si quieres renovar tus espacios favoritos podrás encontrar ofertas en muebles: para sala, comedor, terraza.",
+      "blockClass": "text__content"
     }
   },
   "flex-layout.col#desktop--textos--two": {
+    "title": "col container text section 2",
     "children": [
       "rich-text#textos--two-titulo",
       "rich-text#textos--two-contenido-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop--text--container",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#textos--two-titulo": {
+    "title": "text section 2 title",
     "props": {
       "text": "###### +Verde, más sustentable"
     }
   },
   "rich-text#textos--two-contenido-1": {
+    "title": "text section 2, content 1",
     "props": {
-      "text": "Sí estás igual de comprometido como Falabella para cuidar nuestro planeta, te presentamos +Verde, una línea de moda hecha a partir de fibras orgánicas y recicladas, pensada para ayudar a reducir el impacto ambiental y ser la opción ideal para todas aquellas personas que buscan un consumo más responsable. Con +Verde podrás encontrar tus marcas favoritas como Adidas, Doo Australia, Sybilla, MNG y muchas otras más."
+      "text": "Sí estás igual de comprometido como Falabella para cuidar nuestro planeta, te presentamos +Verde, una línea de moda hecha a partir de fibras orgánicas y recicladas, pensada para ayudar a reducir el impacto ambiental y ser la opción ideal para todas aquellas personas que buscan un consumo más responsable. Con +Verde podrás encontrar tus marcas favoritas como Adidas, Doo Australia, Sybilla, MNG y muchas otras más.",
+      "blockClass": "text__content"
     }
   },
   "flex-layout.col#desktop--textos--three": {
+    "title": "col container text section 3",
     "children": [
       "rich-text#textos--three-titulo",
       "rich-text#textos--three-contenido-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop--text--container",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#textos--three-titulo": {
+    "title": "text section 3 title",
     "props": {
       "text": "###### Més del Bebé"
     }
   },
   "rich-text#textos--three-contenido-1": {
+    "title": "text section 3, content 1",
     "props": {
-      "text": "Sabemos cuánto esperabas la llegada del nuevo miembro de la familia por eso en Falabella encontrarás nuestro especial Mundo bebé, pensado para que descubras todo eso que necesitas para esa titánica responsabilidad que empiezas en tu nuevo rol como madre y padre, por eso podrás encontrar sillas infantiles y coches para bebé, cunas, pañaleras, ropa para bebé y todo lo que necesitas para cuidar y consentir a tu bebé, cientos de opciones de las mejores marcas como Avent, Bebesit, Disney y muchas otros más."
+      "text": "Sabemos cuánto esperabas la llegada del nuevo miembro de la familia por eso en Falabella encontrarás nuestro especial Mundo bebé, pensado para que descubras todo eso que necesitas para esa titánica responsabilidad que empiezas en tu nuevo rol como madre y padre, por eso podrás encontrar sillas infantiles y coches para bebé, cunas, pañaleras, ropa para bebé y todo lo que necesitas para cuidar y consentir a tu bebé, cientos de opciones de las mejores marcas como Avent, Bebesit, Disney y muchas otros más.",
+      "blockClass": "text__content"
     }
   },
   "flex-layout.col#desktop--textos--four": {
+    "title": "col container text section 4",
     "children": [
       "rich-text#textos--four-titulo",
       "rich-text#textos--four-contenido-1"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop--text--container",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
   },
   "rich-text#textos--four-titulo": {
+    "title": "text section 4 title",
     "props": {
       "text": "###### El lugar de tus sueños"
     }
   },
   "rich-text#textos--four-contenido-1": {
+    "title": "text section 4, content 1",
     "props": {
-      "text": "Un buen descanso es clave para un buen estado de salud y tener la mejor disposición para enfrentar tus tareas del día a día, por eso en Falabella con nuestro especial el lugar de tus sueños podrás encontrar el colchón que más se ajuste a tus necesidades en tamaño: doble, Queen o King e incluso tu necesidad de firmeza suave, intermedio o firme de las mejores marcas Spring, El Dorado, Paraíso, Americana de colchones y muchas más."
+      "text": "Un buen descanso es clave para un buen estado de salud y tener la mejor disposición para enfrentar tus tareas del día a día, por eso en Falabella con nuestro especial el lugar de tus sueños podrás encontrar el colchón que más se ajuste a tus necesidades en tamaño: doble, Queen o King e incluso tu necesidad de firmeza suave, intermedio o firme de las mejores marcas Spring, El Dorado, Paraíso, Americana de colchones y muchas más.",
+      "blockClass": "text__content"
     }
   }
 }

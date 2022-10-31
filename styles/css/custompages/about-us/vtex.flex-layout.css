@@ -1,0 +1,40 @@
+.flexRowContent--hero__section--text-container {
+  max-width: 500px;
+  transform: translate(25%, 20%);
+  /* outline: 2px dashed red;  */
+}
+
+.flexRowContent--about-us__text-block {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 60px;
+  background-color: rgb(245, 245, 245);
+}
+
+/* *----------------------------------------------- mobile */
+
+@media screen and (max-width: 768px) {
+  .flexRowContent--about-us__text-block {
+    padding: 30px;
+  }
+  
+}
+
+.flexRow--otros-servicios__menu--content{
+  padding: 30px;
+  background-color: rgb(245, 245, 245);
+}
+
+.flexRowContent--otros-servicios__menu--row {
+  position: relative;
+}
+.flexRowContent--otros-servicios__menu--row::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  bottom: -8px;
+}

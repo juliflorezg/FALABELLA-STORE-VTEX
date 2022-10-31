@@ -1,0 +1,112 @@
+{
+  "disclosure-layout#about-us__otros-servicios--menu": {
+    "children": [
+      "disclosure-trigger#otros-servicios__menu--trigger",
+      "disclosure-content#otros-servicios__menu--content"
+    ]
+  },
+  "disclosure-trigger#otros-servicios__menu--trigger": {
+    "children": ["rich-text#about-us__otros-servicios-title--mobile"],
+    "props": {
+      "as": "p"
+    }
+  },
+  "rich-text#about-us__otros-servicios-title--mobile": {
+    "props": {
+      "text": "Otros servicios",
+      "blockClass": "about-us__otros-servicios-title--mobile"
+    }
+  },
+  "disclosure-content#otros-servicios__menu--content": {
+    "children": ["flex-layout.row#otros-servicios__menu--content"]
+  },
+  "flex-layout.row#otros-servicios__menu--content": {
+    "title": "row container for 'otros servicios' menu, about us page",
+    "children": ["flex-layout.col#otros-servicios__menu--column"],
+    "props": {
+      "blockClass": "otros-servicios__menu--content"
+    }
+  },
+  "flex-layout.col#otros-servicios__menu--column": {
+    "title": "col container for 'otros servicios' menu, about us page",
+    "children": ["flex-layout.col#otros-servicios__menu--rows"],
+    "props": {
+      "rowGap": 5
+    }
+  },
+  "flex-layout.col#otros-servicios__menu--rows": {
+    "title": "row container for 'otros servicios' menu items, about us page",
+    "children": [
+      "flex-layout.row#otros-servicios__menu--row1",
+      "flex-layout.row#otros-servicios__menu--row2",
+      "flex-layout.row#otros-servicios__menu--row3",
+      "flex-layout.row#otros-servicios__menu--row4",
+      "flex-layout.row#otros-servicios__menu--row5"
+    ]
+  },
+  "flex-layout.row#otros-servicios__menu--row1": {
+    "title": "row container for 'quienes somos' link, about page mobile",
+    "children": [
+      "image#hero__section--link1-image",
+      "link#hero__section--link1-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "otros-servicios__menu--row"
+    }
+  },
+  "flex-layout.row#otros-servicios__menu--row2": {
+    "title": "row container for 'Experiencia Falabella' link, about page mobile",
+    "children": [
+      "image#hero__section--link2-image",
+      "link#hero__section--link2-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "otros-servicios__menu--row"
+    }
+  },
+  "flex-layout.row#otros-servicios__menu--row3": {
+    "title": "row container for 'Sostenibilidad' link, about page mobile",
+    "children": [
+      "image#hero__section--link3-image",
+      "link#hero__section--link3-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "otros-servicios__menu--row"
+    }
+  },
+  "flex-layout.row#otros-servicios__menu--row4": {
+    "title": "row container for 'RSE' link, about page mobile",
+    "children": [
+      "image#hero__section--link4-image",
+      "link#hero__section--link4-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "otros-servicios__menu--row"
+    }
+  },
+  "flex-layout.row#otros-servicios__menu--row5": {
+    "title": "row container for 'Proveedores' link, about page mobile",
+    "children": [
+      "image#hero__section--link5-image",
+      "link#hero__section--link5-text"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "colGap": 5,
+      "blockClass": "otros-servicios__menu--row"
+    }
+  }
+}

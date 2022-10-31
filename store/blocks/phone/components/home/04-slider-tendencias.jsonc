@@ -1,6 +1,6 @@
 {
   "slider-layout#home__slider-tendencias--phone": {
-    "title": "Slider de tendencias para phone",
+    "title": "trending slider, home phone",
     "props": {
       "label": "slider de tendencias",
       "itemsPerPage": {
@@ -28,32 +28,37 @@
     ]
   },
   "image#home__slider-tendencias--one-phone": {
+    "title": "image 1, trending slider, home phone",
     "props": {
-      "src": "assets/img/mobile/home__slider-tendencias-1.png",
-      "width": "50%"
+      "src": "assets/img/mobile/home__slider-tendencias-1.png"
     }
   },
   "image#home__slider-tendencias--two-phone": {
+    "title": "image 2, trending slider, home phone",
     "props": {
       "src": "assets/img/mobile/home__slider-tendencias-2.png"
     }
   },
   "image#home__slider-tendencias--three-phone": {
+    "title": "image 3, trending slider, home phone",
     "props": {
       "src": "assets/img/mobile/home__slider-tendencias-3.png"
     }
   },
   "image#home__slider-tendencias--four-phone": {
+    "title": "image 4, trending slider, home phone",
     "props": {
       "src": "assets/img/mobile/home__slider-tendencias-4.png"
     }
   },
   "image#home__slider-tendencias--five-phone": {
+    "title": "image 5, trending slider, home phone",
     "props": {
       "src": "assets/img/mobile/home__slider-tendencias-5.png"
     }
   },
   "image#home__slider-tendencias--six-phone": {
+    "title": "image 6, trending slider, home phone",
     "props": {
       "src": "assets/img/mobile/home__slider-tendencias-6.png"
     }

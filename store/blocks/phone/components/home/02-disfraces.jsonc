@@ -1,10 +1,13 @@
 {
   "flex-layout.row#mobile__disfraces": {
-    "title": "flex para disfraces mobile",
-    "children": ["image#disfraces__mobile"]
+    "title": "row container costumes home mobile",
+    "children": ["image#disfraces__mobile"],
+    "props": {
+      "blockClass": "mobile__disfraces--container"
+    }
   },
   "image#disfraces__mobile": {
-    "title": "imagen de disfraces en mobile",
+    "title": "costumes image, home mobile",
     "props": {
       "src": "assets/img/mobile/home__disfraces.jpeg",
       // "maxWidth": 600,

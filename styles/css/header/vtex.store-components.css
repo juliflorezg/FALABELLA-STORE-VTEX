@@ -5,6 +5,25 @@
 .container {
   vertical-align: middle;
   align-items: center;
+  /* min-width: calc(100vw - 17px); */
+  margin: 0;
+  padding: 0;
+}
+
+.searchBarIcon--external-search{
+  background-color: #a2dd30;
+}
+
+.searchIcon {
+  color: white
+}
+
+.logoLink{
+  max-width: 200px;
+}
+
+.button__label:hover{
+  background-color: transparent;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
@@ -29,14 +48,15 @@
 }
 */
 
-
-.logoImage--header__logo--mobile{
+.logoImage--header__logo--mobile {
   /* outline: 2px solid red; */
   position: absolute;
   top: 0;
   left: 0;
   transform: scale(1.2);
   transform-origin: 0 0;
-  
-} 
+}
 
+.imageElement--home__banner-mobile{
+  margin: 0 auto;
+}
