@@ -1,10 +1,38 @@
 .flexRow--footer__row1--desktop {
-  background-color: rgb(51, 51, 51);
-  border-top: 2px solid #a2dd30;
-  padding: 40px 0 ;
+  background-color: rgb(35, 35, 35);
+  border-top: 3.5px solid #a2dd30;
+  padding: 40px 0;
 }
 
-.flexRowContent--footer__row1--desktop{
+.flexRowContent--footer__row1--desktop,
+.flexRowContent--footer__row2--desktop,
+.flexRowContent--footer__row3--desktop {
   max-width: 1280px;
   margin: 0 auto;
+}
+.flexRowContent--footer__row2--desktop {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.flexRow--footer__row2--desktop,
+.flexRow--footer__row3--desktop {
+  background-color: #181818;
+}
+
+.flexColChild--footer__row2--social-media {
+  min-width: 300px;
+}
+
+.flexRowContent--footer__row3--desktop {
+  padding: 24px 0 40px;
+}
+.flexCol--footer__row3--compra-segura {
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexColChild--footer__row3--compra-segura {
+  align-self: center;
+  height: auto !important;
 }

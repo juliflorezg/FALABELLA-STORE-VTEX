@@ -1,0 +1,20 @@
+.label--footer__link {
+  min-width: max-content;
+  color: rgb(136, 136, 136);
+}
+
+.label--footer__link:hover {
+  text-decoration: none !important;
+  color: rgb(221, 221, 221);
+}
+
+.label--footer__compra-segura--link {
+  min-width: max-content;
+  color: rgb(136, 136, 136);
+  font-size: 0.75rem;
+}
+
+  .label--footer__compra-segura--link:hover {
+    text-decoration: none !important;
+    color: rgb(221, 221, 221);
+  }
