@@ -36,6 +36,7 @@
       "menu-item#te-ayudamos__metodos-de-entrega",
       "menu-item#te-ayudamos__terminos&condiciones",
       "menu-item#te-ayudamos__tratamiento-de-datos",
+      "image#te-ayudamos__SIC",
       "menu-item#te-ayudamos__derecho-de-retracto",
       "menu-item#te-ayudamos__comunicaciones-falabella",
       "menu-item#te-ayudamos__cambios&devoluciones",
@@ -112,19 +113,6 @@
       "blockClass": "footer__menu-item"
     }
   },
-  "menu-item#te-ayudamos__tratamiento-de-datos": {
-    "props": {
-      "id": "te-ayudamos-menu__tratamiento-de-datos",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "tagTitle": "Política de tratamiento de datos",
-        "text": "Política de tratamiento de datos",
-        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#terminos-condiciones"
-      },
-      "blockClass": "footer__menu-item"
-    }
-  },
   "menu-item#te-ayudamos__terminos&condiciones": {
     "props": {
       "id": "te-ayudamos-menu__terminos&condiciones",
@@ -138,6 +126,30 @@
       "blockClass": "footer__menu-item"
     }
   },
+  "image#te-ayudamos__SIC": {
+    "title": "'te ayudamos' menu link to superintendencia de industria y comercio",
+    "props": {
+      "src": "assets/img/desktop/footer_sic.png",
+      "link": {
+        "url": "https://www.sic.gov.co/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#te-ayudamos__tratamiento-de-datos": {
+    "props": {
+      "id": "te-ayudamos-menu__tratamiento-de-datos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Política de tratamiento de datos",
+        "text": "Política de tratamiento de datos",
+        "href": "https://www.falabella.com.co/falabella-co/page/servicio-al-cliente?staticPageId=13000002#terminos-condiciones"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+
   "menu-item#te-ayudamos__derecho-de-retracto": {
     "props": {
       "id": "te-ayudamos-menu__derecho-de-retracto",
@@ -220,7 +232,7 @@
     "title": "second col in first footer row, desktop",
     "children": [
       "rich-text#footer__row1--trabaja-con-nosotros-title",
-      "menu#footer-menu_#trabaja-con-nosotros"
+      "menu#footer-menu__trabaja-con-nosotros"
     ],
     "props": { "preventVerticalStretch": true }
   },
@@ -233,7 +245,7 @@
       "blockClass": "footer__menu-title"
     }
   },
-  "menu#footer-menu_#trabaja-con-nosotros": {
+  "menu#footer-menu__trabaja-con-nosotros": {
     "title": "footer menu 'trabaja con nosotros'",
     "children": [
       "menu-item#trabaja-con-nosotros__nuestra-empresa",
@@ -357,7 +369,7 @@
     "title": "third col in first footer row, desktop",
     "children": [
       "rich-text#footer__row1--programas-title",
-      "menu#footer-menu_#programas"
+      "menu#footer-menu__programas"
     ],
     "props": { "preventVerticalStretch": true }
   },
@@ -370,7 +382,7 @@
       "blockClass": "footer__menu-title"
     }
   },
-  "menu#footer-menu_#programas": {
+  "menu#footer-menu__programas": {
     "title": "footer menu 'Únete a nuestros programas'",
     "children": [
       "menu-item#programas__club-deco",
@@ -425,7 +437,7 @@
     "title": "third col in first footer row, desktop",
     "children": [
       "rich-text#footer__row1--nuestras-empresas-title",
-      "menu#footer-menu_#nuestras-empresas"
+      "menu#footer-menu__nuestras-empresas"
     ],
     "props": { "preventVerticalStretch": true }
   },
@@ -438,7 +450,7 @@
       "blockClass": "footer__menu-title"
     }
   },
-  "menu#footer-menu_#nuestras-empresas": {
+  "menu#footer-menu__nuestras-empresas": {
     "title": "footer menu 'Nuestras empresas'",
     "children": [
       "menu-item#nuestras-empresas__banco-falabella",
