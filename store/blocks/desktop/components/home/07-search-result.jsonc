@@ -36,6 +36,30 @@
   },
   "gallery": {
     "title": "gallery of products for search",
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#home__product-shelf"]
+  },
+  "shelf#home__products-shelf": {
+    "blocks": ["product-summary.shelf#home__product-shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        // "maxItems": 10,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Más vendidos"
+      }
+    }
+  },
+  "product-summary.shelf#home__product-shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
   }
 }
