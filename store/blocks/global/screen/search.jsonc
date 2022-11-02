@@ -9,7 +9,7 @@
     }
   },
   "store.search#department": {
-    "blocks": ["search-result-layout#department"],
+    "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
