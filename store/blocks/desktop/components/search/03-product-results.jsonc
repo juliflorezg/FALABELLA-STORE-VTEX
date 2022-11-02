@@ -85,11 +85,24 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
-      "GridSummary": "product-summary.shelf"
+      "ListSummary": "product-summary.shelf#search-page__product-shelf",
+      "GridSummary": "product-summary.shelf#search-page__product-shelf"
     }
   },
-
+  "product-summary.shelf#search-page__product-shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      // "product-price",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag": "h3"
+    }
+  },
   //switcher for gallery layout
   "gallery-layout-switcher": {
     "children": [
