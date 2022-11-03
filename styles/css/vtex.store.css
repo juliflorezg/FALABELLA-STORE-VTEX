@@ -1,5 +1,5 @@
-/* :global(.vtex-rich-text-0-x-container--standard-maxWidth),
+:global(.vtex-rich-text-0-x-container--standard-maxWidth),
 :global(.vtex-flex-layout-0-x-flexRowContent--standard-maxWidth),
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--standard-maxWidth) {
   max-width: 1280px;
-} */
+}

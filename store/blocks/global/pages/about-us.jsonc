@@ -1,0 +1,8 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "responsive-layout.desktop#about-us__desktop",
+      "responsive-layout.mobile#about-us__mobile"
+    ]
+  }
+}
