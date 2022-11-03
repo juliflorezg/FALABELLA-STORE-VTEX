@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#about-us__nuestra-gente": {
+    "title": "row container for about page 'nuestra gente' content",
+    "children": ["flex-layout.col#about-us__nuestra-gente-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__nuestra-gente-col": {
+    "title": "col container for about page 'nuestra gente' content",
+    "children": [
+      "rich-text#about-us__nuestra-gente--title",
+      "rich-text#about-us__nuestra-gente--text-content"
+    ]
+  },
+  "rich-text#about-us__nuestra-gente--title": {
+    "title": "nuestra gente title, about us page",
+    "props": {
+      "text": "#### Nuestra Gente",
+      "blockClass": "about-us__block--title"
+    }
+  },
+  "rich-text#about-us__nuestra-gente--text-content": {
+    "title": "nuestra gente text, about us page",
+    "props": {
+      "text": "Contamos con el mejor talento con foco en la atención al cliente, gracias a estrategias que aportan al crecimiento personal y profesional de nuestros más de 4.700 colaboradores a nivel nacional, de los cuales más del 60% son mujeres.<br/><br/>Nos preocupamos por generar entornos de aprendizaje y retos en un ambiente positivo, razón por la cual cubrimos el 70% de los cargos con talento interno, fomentando una cultura de crecimiento y reconocimiento.<br/><br/>Ofrecemos bienestar para nuestros colaboradores, por eso contamos con un Pacto Colectivo que cobija al 100% de nuestro equipo, con 26 beneficios que impactan sus vidas y las de sus familias.<br/><br/>Estamos en el puesto #20 de las mejores empresas para trabajar en Colombia, según el Ranking Internacional Great Place To Work.",
+      "blockClass": "about-us__text-content"
+    }
+  }
+}

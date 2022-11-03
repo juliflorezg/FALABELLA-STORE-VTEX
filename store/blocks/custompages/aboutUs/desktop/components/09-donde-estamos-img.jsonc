@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#about-us__donde-estamos": {
+    "title": "row container for about page 'donde estamos' content",
+    "children": ["flex-layout.col#about-us__donde-estamos-col"],
+    "props": {
+      "blockClass": "about-us__text-block"
+    }
+  },
+  "flex-layout.col#about-us__donde-estamos-col": {
+    "title": "col container for about page 'donde estamos' content",
+    "children": [
+      "rich-text#about-us__donde-estamos--title",
+      "image#about-us__donde-estamos"
+    ]
+  },
+  "rich-text#about-us__donde-estamos--title": {
+    "title": "donde estamos title, about us page",
+    "props": {
+      "text": "#### ¿Dónde estamos?",
+      "blockClass": "about-us__block--title"
+    }
+  },
+  "image#about-us__donde-estamos": {
+    "props": {
+      "src": "assets/img/desktop/statics/about_us/mapa_falabella.png",
+      "maxWidth": "65%",
+      "blockClass": "about-us__donde-estamos--image"
+    }
+  }
+}

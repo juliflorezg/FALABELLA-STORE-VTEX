@@ -1,0 +1,91 @@
+{
+  // "flex-layout.row#footer__mobile-menus--container": {
+  //   "children": ["disclosure-layout-group#footer__mobile--menus"],
+  //   "props": {
+  //     "blockClass": "footer__menus--mobile"
+  //   }
+  // },
+  "disclosure-layout-group#footer__mobile--menus": {
+    "children": [
+      "disclosure-layout#footer__te-ayudamos--menu",
+      "disclosure-layout#footer__trabaja-con-nosotros--menu",
+      "disclosure-layout#footer__programas--menu",
+      "disclosure-layout#footer__nuestras-empresas--menu"
+    ],
+    "props": {
+      "blockClass": "footer__menus--mobile"
+    }
+  },
+
+  // first menu
+  "disclosure-layout#footer__te-ayudamos--menu": {
+    "children": [
+      "disclosure-trigger#footer__te-ayudamos--trigger",
+      "disclosure-content#footer__te-ayudamos--content"
+    ]
+  },
+  "disclosure-trigger#footer__te-ayudamos--trigger": {
+    "children": ["rich-text#footer__row1--te-ayudamos-title"],
+    "props": {
+      "as": "p",
+      "blockClass": "footer__menu-trigger"
+    }
+  },
+  "disclosure-content#footer__te-ayudamos--content": {
+    "children": ["menu#footer-menu__te-ayudamos"]
+  },
+
+  // second menu
+  "disclosure-layout#footer__trabaja-con-nosotros--menu": {
+    "children": [
+      "disclosure-trigger#footer__trabaja-con-nosotros--trigger",
+      "disclosure-content#footer__trabaja-con-nosotros--content"
+    ]
+  },
+  "disclosure-trigger#footer__trabaja-con-nosotros--trigger": {
+    "children": ["rich-text#footer__row1--trabaja-con-nosotros-title"],
+    "props": {
+      "as": "p",
+      "blockClass": "footer__menu-trigger"
+    }
+  },
+  "disclosure-content#footer__trabaja-con-nosotros--content": {
+    "children": ["menu#footer-menu__trabaja-con-nosotros"]
+  },
+
+  // third menu
+  "disclosure-layout#footer__programas--menu": {
+    "children": [
+      "disclosure-trigger#footer__programas--trigger",
+      "disclosure-content#footer__programas--content"
+    ]
+  },
+  "disclosure-trigger#footer__programas--trigger": {
+    "children": ["rich-text#footer__row1--programas-title"],
+    "props": {
+      "as": "p",
+      "blockClass": "footer__menu-trigger"
+    }
+  },
+  "disclosure-content#footer__programas--content": {
+    "children": ["menu#footer-menu__programas"]
+  },
+
+  // fourth menu
+  "disclosure-layout#footer__nuestras-empresas--menu": {
+    "children": [
+      "disclosure-trigger#footer__nuestras-empresas--trigger",
+      "disclosure-content#footer__nuestras-empresas--content"
+    ]
+  },
+  "disclosure-trigger#footer__nuestras-empresas--trigger": {
+    "children": ["rich-text#footer__row1--nuestras-empresas-title"],
+    "props": {
+      "as": "p",
+      "blockClass": "footer__menu-trigger"
+    }
+  },
+  "disclosure-content#footer__nuestras-empresas--content": {
+    "children": ["menu#footer-menu__nuestras-empresas"]
+  }
+}

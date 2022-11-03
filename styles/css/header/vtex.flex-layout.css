@@ -28,6 +28,34 @@
   background-color: rgb(235 235 235);
   
   justify-content: flex-end;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-right: 3%;
+  height: 60px;
+  /* min-width: calc(100vw - 17px) */
 }
+
+.flexCol--header__search-bar-container{
+  align-self: center;
+  flex-grow: 100;
+  width: 60%;
+  margin-left: auto;
+  
+}
+
+.flexRow--header__top-desktop .container{
+  min-width: calc(100vw - 17px);
+  margin: 0;
+
+}
+
+.flexRow--header__bottom-desktop--links .container {
+  max-width: 600px;
+}
+
+/* .flexColChild--header__search-bar-container{
+  outline: 2px dashed #a2dd30;
+} */
+
+/* .flexRowContent--header__top--categorias .item-stretch:nth-child(even){
+  background-color: red;
+} */

@@ -1,0 +1,11 @@
+.footerLayout--footer__menus--mobile {
+  background-color: #181818;
+  border-top: 4px solid #a2dd30;
+  padding: 0 5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .socialNetworksContainer--footer__social-networks{
+    margin: 30px 0;
+  }
+}

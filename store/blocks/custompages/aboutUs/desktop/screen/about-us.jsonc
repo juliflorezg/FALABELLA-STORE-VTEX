@@ -1,0 +1,15 @@
+{
+  "responsive-layout.desktop#about-us__desktop": {
+    "children": [
+      "stack-layout#about-us__hero--section",
+      "rich-text#about-us__page-title",
+      "flex-layout.row#about-us__origen",
+      "flex-layout.row#about-us__mision",
+      "flex-layout.row#about-us__proposito",
+      "flex-layout.row#about-us__nuestra-gente",
+      "flex-layout.row#about-us__valores",
+      "flex-layout.row#about-us__quienes-somos",
+      "flex-layout.row#about-us__donde-estamos"
+    ]
+  }
+}
