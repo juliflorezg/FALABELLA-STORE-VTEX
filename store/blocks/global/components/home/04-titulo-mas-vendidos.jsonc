@@ -1,0 +1,9 @@
+{
+  "rich-text#home__titulo-mas-vendidos": {
+    "props": {
+      "text": "### Más vendidos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
