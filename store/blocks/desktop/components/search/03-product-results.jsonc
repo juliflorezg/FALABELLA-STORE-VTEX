@@ -89,12 +89,18 @@
       "GridSummary": "product-summary.shelf#search-page__product-shelf"
     }
   },
+  //this block handles all shelf elements, can be used in any page, not only plp/pdp
   "product-summary.shelf#search-page__product-shelf": {
     "children": [
       "product-summary-image",
       "product-summary-name",
       // "product-price",
       "product-summary-price",
+      "product-list-price", //without discount modifications
+
+      "product-selling-price", //*with discount modifications
+      "product-summary-sku-selector",
+      "modal-trigger##global__quick-view",
       "add-to-cart-button"
     ]
   },
@@ -103,6 +109,38 @@
       "tag": "h3"
     }
   },
+  "product-summary-image": {
+    "props": {
+      "height": {
+        "desktop": 300,
+        "mobile": 200
+      }
+    }
+  },
+  "product-summary-sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "displayMode": "select"
+    }
+  },
+  //~ product quick view
+  "modal-trigger##global__quick-view": {
+    "children": [
+      "rich-text#global__quick-view--trigger",
+      "modal-layout#global__quick-view--modal content"
+    ]
+  },
+  "rich-text#global__quick-view--trigger": {
+    "title": "label for product quick view",
+    "props": {
+      "text": "ver producto"
+    }
+  },
+  "modal-layout#global__quick-view--modal content": {
+    "title": "modal content for product quick view",
+    "children": ["product-summary-name", "product-summary-image"]
+  },
+
   //switcher for gallery layout
   "gallery-layout-switcher": {
     "children": [
