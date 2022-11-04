@@ -1,0 +1,9 @@
+{
+  "store.custom#christmas-page": {
+    "blocks": [
+      "responsive-layout.desktop#christmas-page__content",
+      "responsive-layout.mobile#christmas-page__content",
+      "search-result-layout.customQuery#christmas__search"
+    ]
+  }
+}

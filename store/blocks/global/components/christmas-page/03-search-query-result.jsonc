@@ -1,0 +1,74 @@
+{
+  "search-result-layout.customQuery#christmas__search": {
+    "title": "search result block for christmas pg",
+    "blocks": [
+      "search-result-layout.desktop#christmas__search--desktop",
+      "search-result-layout.mobile#christmas__search--mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "skuFilter": "All",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+
+  "search-result-layout.desktop#christmas__search--desktop": {
+    "title": "search result for desktop",
+    "children": ["flex-layout.row#christmas__results"],
+    "props": {
+      "blockClass": "christmas__search--desktop"
+    }
+  },
+  "search-result-layout.mobile#christmas__search--mobile": {
+    "title": "search result for mobile",
+    "children": ["flex-layout.row#christmas__results"]
+  },
+  "flex-layout.row#christmas__results": {
+    "title": "row container for search result",
+    "children": ["flex-layout.col#christmas__results--search"]
+  },
+  "flex-layout.col#christmas__results--search": {
+    "title": "col container for search content",
+    "children": ["search-content#christmas__results--search"],
+    "props": {
+      "blockClass": "christmas__results--search"
+    }
+  },
+  "search-content#christmas__results--search": {
+    "title": "christmas results content",
+    "blocks": ["gallery", "not-found"],
+    "props": {
+      "blockClass": "christmas__results--search"
+    }
+  },
+  "gallery": {
+    "title": "gallery of products for search",
+    "blocks": ["product-summary.shelf#christmas__product-shelf"]
+  },
+  // "shelf#christmas__products-shelf": {
+  //   "blocks": ["product-summary.shelf#christmas__product-shelf"],
+  //   "props": {
+  //     "orderBy": "OrderByTopSaleDESC",
+  //     "paginationDotsVisibility": "desktopOnly",
+  //     "productList": {
+  //       // "maxItems": 10,
+  //       "itemsPerPage": 3,
+  //       "minItemsPerPage": 1,
+  //       "scroll": "BY_PAGE",
+  //       "arrows": true,
+  //       "titleText": "Más vendidos"
+  //     }
+  //   }
+  // },
+  "product-summary.shelf#christmas__product-shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  }
+}
