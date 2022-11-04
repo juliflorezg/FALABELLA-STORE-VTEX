@@ -13,12 +13,25 @@
       }
     }
   },
-
   "search-result-layout.desktop#christmas__search--desktop": {
     "title": "search result for desktop",
-    "children": ["flex-layout.row#christmas__results"],
+    "children": [
+      "flex-layout.row#christmas-result__orderBy&Switcher",
+      "flex-layout.row#christmas__results"
+    ],
     "props": {
       "blockClass": "christmas__search--desktop"
+    }
+  },
+  "flex-layout.row#christmas-result__orderBy&Switcher": {
+    "title": "row cont. for orderBy & layout switcher, xmas page",
+    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "props": {
+      // "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "christmas-result__orderBy&Switcher",
+      "colSizing": "auto",
+      "colGap": 5
     }
   },
   "search-result-layout.mobile#christmas__search--mobile": {
@@ -38,14 +51,34 @@
   },
   "search-content#christmas__results--search": {
     "title": "christmas results content",
-    "blocks": ["gallery", "not-found"],
+    "blocks": ["gallery#christmas-page__products-gallery", "not-found"],
     "props": {
       "blockClass": "christmas__results--search"
     }
   },
-  "gallery": {
+  "gallery#christmas-page__products-gallery": {
     "title": "gallery of products for search",
-    "blocks": ["product-summary.shelf#christmas__product-shelf"]
+    // "blocks": ["product-summary.shelf#christmas__product-shelf"]
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1024px)": 4,
+            "(min-width:481px) and (max-width:1023px)": 3,
+            "(max-width:480px)": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "GridSummary": "product-summary.shelf#christmas__product-shelf",
+      "ListSummary": "product-summary.shelf#christmas__product-shelf-list"
+    }
   },
   // "shelf#christmas__products-shelf": {
   //   "blocks": ["product-summary.shelf#christmas__product-shelf"],
@@ -68,7 +101,46 @@
       "product-summary-space",
       "product-summary-name",
       "product-summary-price",
+      // "product-summary-selling-price",
       "add-to-cart-button"
     ]
+  },
+  "product-summary.shelf#christmas__product-shelf-list": {
+    "children": [
+      "flex-layout.row#product-shelf-list__container"
+      // "product-summary-image",
+      // "product-summary-space",
+      // "product-summary-name",
+      // "product-summary-price",
+      // // "product-summary-selling-price",
+      // "add-to-cart-button"
+    ]
+  },
+  "flex-layout.row#product-shelf-list__container": {
+    "title": "row cont. for product in list view, xmas page",
+    "children": [
+      "flex-layout.col#product-shelf-list__image-container",
+      "flex-layout.col#product-shelf-list__data-container"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#product-shelf-list__image-container": {
+    "title": "col cont. for product image, xmas page",
+    "children": ["product-summary-image"]
+  },
+  "flex-layout.col#product-shelf-list__data-container": {
+    "title": "col cont. for product data, xmas page",
+    "children": [
+      "product-summary-name",
+      "product-summary-brand",
+      "product-rating-inline",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "width": "grow"
+    }
   }
 }
