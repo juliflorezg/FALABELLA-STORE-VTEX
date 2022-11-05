@@ -25,18 +25,28 @@
   },
   "flex-layout.row#christmas-result__orderBy&Switcher": {
     "title": "row cont. for orderBy & layout switcher, xmas page",
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "children": [
+      "order-by.v2#order-button__christmas-page",
+      "gallery-layout-switcher"
+    ],
     "props": {
-      // "horizontalAlign": "right",
       "preventHorizontalStretch": true,
-      "blockClass": "christmas-result__orderBy&Switcher",
+      "blockClass": "christmas-result__orderBy-Switcher",
       "colSizing": "auto",
-      "colGap": 5
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "order-by.v2#order-button__christmas-page": {
+    "props": {
+      "blockClass": "order-button__christmas-page"
     }
   },
   "search-result-layout.mobile#christmas__search--mobile": {
     "title": "search result for mobile",
-    "children": ["flex-layout.row#christmas__results"]
+    "children": [
+      "flex-layout.row#christmas-result__orderBy&Switcher",
+      "flex-layout.row#christmas__results"
+    ]
   },
   "flex-layout.row#christmas__results": {
     "title": "row container for search result",
@@ -66,8 +76,8 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "(min-width:1024px)": 4,
-            "(min-width:481px) and (max-width:1023px)": 3,
-            "(max-width:480px)": 2
+            "(min-width:601px) and (max-width:1023px)": 3,
+            "(max-width:600px)": 2
           }
         },
         {
@@ -96,15 +106,35 @@
   //   }
   // },
   "product-summary.shelf#christmas__product-shelf": {
+    "children": ["flex-layout.row#christmas__product-shelf--container"]
+  },
+  "flex-layout.row#christmas__product-shelf--container": {
+    "children": ["flex-layout.col#christmas__product-shelf-col"],
+    "props": {
+      "blockClass": "christmas__product-shelf-container"
+    }
+  },
+  "flex-layout.col#christmas__product-shelf-col": {
     "children": [
       "product-summary-image",
       "product-summary-space",
       "product-summary-name",
       "product-summary-price",
       // "product-summary-selling-price",
-      "add-to-cart-button"
-    ]
+      "add-to-cart-button#product__add-to-cart--button"
+    ],
+    "props": {
+      "blockClass": "christmas__product-shelf-col"
+    }
   },
+  "add-to-cart-button#product__add-to-cart--button": {
+    "title": "custom add to cart button",
+    "props": {
+      "text": "Agregar a la bolsa"
+    }
+  },
+
+  //~ product summary for list layout
   "product-summary.shelf#christmas__product-shelf-list": {
     "children": [
       "flex-layout.row#product-shelf-list__container"
@@ -123,7 +153,9 @@
       "flex-layout.col#product-shelf-list__data-container"
     ],
     "props": {
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "product-shelf-list__container",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#product-shelf-list__image-container": {
@@ -137,10 +169,11 @@
       "product-summary-brand",
       "product-rating-inline",
       "product-summary-price",
-      "add-to-cart-button"
+      "add-to-cart-button#product__add-to-cart--button"
     ],
     "props": {
-      "width": "grow"
+      // "width": "grow",
+      "blockClass": "product-shelf-list__data-container"
     }
   }
 }
