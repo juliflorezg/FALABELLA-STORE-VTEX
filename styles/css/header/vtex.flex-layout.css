@@ -22,7 +22,6 @@
   width: 100%;
 }
 
-/* flexRowContent--header__top--categorias */
 
 .flexRowContent--header__top--categorias{
   background-color: rgb(235 235 235);
@@ -59,3 +58,7 @@
 /* .flexRowContent--header__top--categorias .item-stretch:nth-child(even){
   background-color: red;
 } */
+.flexRowContent--header__top-desktop {
+  margin: 0 auto;
+  width: calc(100vw - 17px);
+}
