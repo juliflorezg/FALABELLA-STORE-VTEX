@@ -7,7 +7,8 @@
     "title": "container for side to side bars and logo",
     "children": [
       "flex-layout.row#header__top--desktop",
-      "flex-layout.row#header__top--desktop-logo-container"
+      "flex-layout.row#header__top--desktop-logo-container",
+      "flex-layout.row#mega-menu"
     ],
     "props": {
       "blockClass": "stack__header--desktop"
@@ -128,7 +129,10 @@
   "flex-layout.row#header__top--categorias": {
     "title": "grey bar for header interaction",
     "children": [
-      "drawer#header__desktop--menu",
+      // "drawer#header__desktop--menu",
+      // "flex-layout.col#trigger-mega-menu",
+      "flex-layout.row#megamenu__desktop",
+      // "flex-layout.row#mega-menu",
       "flex-layout.col#header__search-bar-container",
       "modal-trigger#header__middle--login-desktop",
       "minicart.v2",
