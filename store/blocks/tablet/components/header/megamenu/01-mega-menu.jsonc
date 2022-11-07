@@ -1,0 +1,341 @@
+{
+  "flex-layout.row#mega-menu__mobile": {
+    "children": ["flex-layout.col#trigger-mega-menu"]
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer__links1",
+      "mega-menu#mobile",
+      "menu#drawer__links2"
+    ],
+    "blocks": ["drawer-header#my-drawer"]
+    
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "title": "Categorías",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+
+  "menu#drawer__links1": {
+    "children": [
+      "menu-item#account",
+      "menu-item#orders",
+      "menu-item#cmr-points",
+      "menu-item#time",
+      "menu-item#cmr-payment",
+      "menu-item#cmr-request"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#account": {
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "account",
+        "text": "Mi Cuenta"
+      },
+      "iconProps": {
+        "id": "drawer-account",
+        "size": 35
+       
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+  "menu-item#orders": {
+    "props": {
+      "id": "menu-item-orders",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "orders",
+        "text": "Mis Ordenes"
+      },
+      "iconProps": {
+        "id": "drawer-orders",
+        "size": 35
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+  "menu-item#cmr-points": {
+    "props": {
+      "id": "menu-item-cmr-points",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "cmr-points",
+        "text": "Mis CMR Points"
+      },
+      "iconProps": {
+        "id": "drawer-cmr-points",
+        "size": 35
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+  "menu-item#time": {
+    "props": {
+      "id": "menu-item-time",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "time",
+        "text": "Horario de tiendas"
+      },
+      "iconProps": {
+        "id": "drawer-time",
+        "size": 35
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+  "menu-item#cmr-payment": {
+    "props": {
+      "id": "menu-item-cmr-payment",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "cmr-payment",
+        "text": "Paga tu CMR"
+      },
+      "iconProps": {
+        "id": "drawer-cmr-envelope",
+        "size": 35
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+  "menu-item#cmr-request": {
+    "props": {
+      "id": "menu-item-cmr-request",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "cmr-request",
+        "text": "Solicita tu CMR"
+      },
+      "iconProps": {
+        "id": "drawer-cmr-envelope",
+        "size": 35
+      },
+      "iconPosition": "right",
+      "blockClass": "drawer__links1--link"
+    }
+  },
+
+  //~ second menu
+  "menu#drawer__links2": {
+    "children": [
+      "menu-item#phone-sale",
+      "menu-item#stores",
+      "menu-item#customer-service",
+      "menu-item#couples",
+      "menu-item#bank",
+      "menu-item#trips",
+      "menu-item#insurance",
+      "menu-item#sodimac",
+      "menu-item#linio"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawer__links2--menu"
+    }
+  },
+  "menu-item#phone-sale": {
+    "props": {
+      "id": "menu-item-phone-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "phone-sale",
+        "text": "VENTA TELEFÓNICA 587 8006 O 018000 958787"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#stores": {
+    "props": {
+      "id": "menu-item-stores",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "stores",
+        "text": "TIENDAS"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#customer-service": {
+    "props": {
+      "id": "menu-item-customer-service",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "customer-service",
+        "text": "TELÉFONOS SERVICIO AL CLIENTE"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#couples": {
+    "props": {
+      "id": "menu-item-couples",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "couples",
+        "text": "NOVIOS"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#bank": {
+    "props": {
+      "id": "menu-item-bank",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "bank",
+        "text": "BANCO"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#trips": {
+    "props": {
+      "id": "menu-item-trips",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "trips",
+        "text": "VIAJES"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#insurance": {
+    "props": {
+      "id": "menu-item-insurance",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "insurance",
+        "text": "SEGUROS"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#sodimac": {
+    "props": {
+      "id": "menu-item-sodimac",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "sodimac",
+        "text": "SODIMAC"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  },
+  "menu-item#linio": {
+    "props": {
+      "id": "menu-item-linio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "linio",
+        "text": "LINIO"
+      },
+      "blockClass": "drawer__links2--link"
+    }
+  }
+}
