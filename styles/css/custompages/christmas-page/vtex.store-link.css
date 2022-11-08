@@ -1,0 +1,11 @@
+.link--christmas__category--link {
+  width: max-content;
+  font-weight: bold;
+  color: rgb(88, 88, 88);
+}
+
+@media screen and (max-width: 768px) {
+  .link--christmas__category--link {
+    font-size: 0.8rem;
+  }
+}

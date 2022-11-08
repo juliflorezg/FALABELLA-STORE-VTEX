@@ -1,0 +1,243 @@
+{
+  "flex-layout.row#christmas-page__content--categories": {
+    "title": "row cont. for categories in desktop",
+    "children": [
+      "flex-layout.col#content__categories1",
+      "flex-layout.col#content__categories2",
+      "flex-layout.col#content__categories3",
+      "flex-layout.col#content__categories4",
+      "flex-layout.col#content__categories5",
+      "flex-layout.col#content__categories6",
+      "flex-layout.col#content__categories7"
+    ],
+    "props": {
+      "blockClass": "christmas-page__content--categories",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#content__categories1": {
+    "title": "col cont. for category 1",
+    "children": [
+      "image#christmas__category1--image",
+      "link#christmas__category1--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category1--image": {
+    "title": "image for christmas category 1",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_1.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat6720978/Arboles-de-Navidad",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category1--link": {
+    "title": "link for christmas category 1",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat6720978/Arboles-de-Navidad",
+      "label": "Árboles & Coronas",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories2": {
+    "title": "col cont. for category 2",
+    "children": [
+      "image#christmas__category2--image",
+      "link#christmas__category2--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category2--image": {
+    "title": "image for christmas category 1",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_2.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat10721002/Adornos-navidenos-para-arbol-",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category2--link": {
+    "title": "link for christmas category 2",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat10721002/Adornos-navidenos-para-arbol-",
+      "label": "Adornos para Árbol",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories3": {
+    "title": "col cont. for category 3",
+    "children": [
+      "image#christmas__category3--image",
+      "link#christmas__category3--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category3--image": {
+    "title": "image for christmas category 3",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_3.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat6720977/Luces-de-Navidad",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category3--link": {
+    "title": "link for christmas category 3",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat6720977/Luces-de-Navidad",
+      "label": "Luces",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories4": {
+    "title": "col cont. for category 4",
+    "children": [
+      "image#christmas__category4--image",
+      "link#christmas__category4--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category4--image": {
+    "title": "image for christmas category 4",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_4.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat9010945/Pesebres",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category4--link": {
+    "title": "link for christmas category 4",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat9010945/Pesebres",
+      "label": "Pesebres",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories5": {
+    "title": "col cont. for category 5",
+    "children": [
+      "image#christmas__category5--image",
+      "link#christmas__category5--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category5--image": {
+    "title": "image for christmas category 5",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_5.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat6720974/Adornos-navidenos",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category5--link": {
+    "title": "link for christmas category 5",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat6720974/Adornos-navidenos",
+      "label": "Decoración",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories6": {
+    "title": "col cont. for category 6",
+    "children": [
+      "image#christmas__category6--image",
+      "link#christmas__category6--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category6--image": {
+    "title": "image for christmas category 6",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_6.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat7180945/Mesa-Navidad",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category6--link": {
+    "title": "link for christmas category 6",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat7180945/Mesa-Navidad",
+      "label": "Mesa",
+      "blockClass": "christmas__category--link"
+    }
+  },
+  "flex-layout.col#content__categories7": {
+    "title": "col cont. for category 1",
+    "children": [
+      "image#christmas__category7--image",
+      "link#christmas__category7--link"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "christmas-content__categories"
+    }
+  },
+  "image#christmas__category7--image": {
+    "title": "image for christmas category 7",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas_category_7.png",
+      "blockClass": "christmas__category--image",
+      "height": 110,
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat10781000/Colecciones-de-Navidad?isPLP=1&sred=navidad",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "link#christmas__category7--link": {
+    "title": "link for christmas category 7",
+    "props": {
+      "href": "https://www.falabella.com.co/falabella-co/category/cat10781000/Colecciones-de-Navidad?isPLP=1&sred=navidad",
+      "label": "Colecciones",
+      "blockClass": "christmas__category--link"
+    }
+  }
+}

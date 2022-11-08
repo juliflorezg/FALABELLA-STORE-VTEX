@@ -1,5 +1,8 @@
 {
   "store.custom#about-us": {
     "path": "/quienes-somos"
+  },
+  "store.custom#christmas-page": {
+    "path": "/temporada-navidad"
   }
 }
