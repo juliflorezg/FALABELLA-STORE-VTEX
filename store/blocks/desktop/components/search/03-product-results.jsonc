@@ -6,8 +6,10 @@
       "flex-layout.col#desktop-search__results--content"
     ],
     "props": {
-      "preventHorizontalStretch": true,
-      "fullWidth": true
+      // "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "desktop-search__results"
+      // "colSizing": "auto"
     }
   },
   // product filter
@@ -29,8 +31,8 @@
       // "flex-layout.row#results__content--fetch-more"
     ],
     "props": {
-      "width": "grow",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "width": "75%"
     }
   },
   "flex-layout.row#results__content--search-info": {
@@ -38,18 +40,21 @@
     "children": [
       "flex-layout.col#content__search-info--productCount",
       "flex-layout.row#content__search-info--orderBy&Switcher"
-    ]
+    ],
+    "props": {
+      "blockClass": "results__content--search-info"
+    }
   },
   "flex-layout.col#content__search-info--productCount": {
     "title": "col cont. for search info",
-    "children": ["total-products.v2"],
+    "children": ["order-by.v2"],
     "props": {
       "blockClass": "content__search-info--productCount"
     }
   },
   "flex-layout.row#content__search-info--orderBy&Switcher": {
     "title": "row cont. for orderBy & layout switcher",
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "children": ["total-products.v2", "gallery-layout-switcher"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -93,31 +98,53 @@
   "product-summary.shelf#search-page__product-shelf": {
     "children": [
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-brand#search-page__product-brand",
+      "product-summary-name#search-page__product-name",
       // "product-price",
-      "product-summary-price",
+      "product-summary-price#search-page__product-price",
       "product-list-price", //without discount modifications
 
-      "product-selling-price", //*with discount modifications
+      "product-selling-price#search-page__product-selling-price", //*with discount modifications
       "product-summary-sku-selector",
       "modal-trigger##global__quick-view",
       "add-to-cart-button"
     ]
   },
-  "product-summary-name": {
-    "props": {
-      "tag": "h3"
-    }
-  },
   "product-summary-image": {
     "props": {
       "height": {
-        "desktop": 300,
+        "desktop": 250,
         "mobile": 200
       }
     }
   },
+  "product-summary-brand#search-page__product-brand": {
+    "title": "product brand for PLP",
+    "props": {
+      "blockClass": "search-page__product-brand"
+    }
+  },
+  "product-summary-name#search-page__product-name": {
+    "title": "product name for PLP",
+    "props": {
+      "tag": "h3",
+      "blockClass": "search-page__product-name"
+    }
+  },
+  "product-summary-price#search-page__product-price": {
+    "title": "products selling price for PLP",
+    "props": {
+      "blockClass": "search-page__product-price"
+    }
+  },
+  "product-selling-price#search-page__product-selling-price": {
+    "title": "products selling price for PLP",
+    "props": {
+      "blockClass": "search-page__product-selling-price"
+    }
+  },
   "product-summary-sku-selector": {
+    "title": "products SKU selector price for PLP",
     "props": {
       "hideImpossibleCombinations": false,
       "displayMode": "select"
@@ -133,7 +160,7 @@
   "rich-text#global__quick-view--trigger": {
     "title": "label for product quick view",
     "props": {
-      "text": "ver producto"
+      "text": "Vista rápida"
     }
   },
   "modal-layout#global__quick-view--modal content": {
