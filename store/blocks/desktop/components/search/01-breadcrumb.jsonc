@@ -1,6 +1,9 @@
 {
   "flex-layout.row#desktop-search__bread": {
     "title": "row cont. for breadcrumb in search pages",
-    "children": ["breadcrumb.search"]
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "desktop-search__bread"
+    }
   }
 }
