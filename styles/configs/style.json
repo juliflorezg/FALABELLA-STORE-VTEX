@@ -152,7 +152,7 @@
     "hover-text": {
       "action-primary": "#333333",
       "action-secondary": "#dbe9fd",
-      "link": "#0c389f",
+      "link": "#333333",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
