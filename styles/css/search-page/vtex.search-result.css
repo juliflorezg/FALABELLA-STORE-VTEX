@@ -1,0 +1,28 @@
+.galleryTitle--layout {
+  text-transform: capitalize;
+}
+
+.galleryLayoutOptionButton {
+  gap: 7px;
+  padding: 0 10px;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #eee;
+  outline: 1px solid white;
+}
+.orderByButton {
+  justify-content: flex-start;
+}
+
+.gallery {
+  padding-left: 0;
+  gap: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.galleryItem {
+  padding: 0;
+}
+

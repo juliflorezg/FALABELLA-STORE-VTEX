@@ -1,0 +1,33 @@
+.element {
+  background-color: #fff;
+  border-radius: 0;
+  padding: 0;
+}
+
+.container {
+  border-radius: 0;
+}
+
+.nameContainer--search-page__product-name {
+  justify-content: start;
+  padding-left: 15px;
+  padding-block: 10px;
+}
+
+.productBrandContainer--search-page__product-brand {
+  text-align: left;
+  padding-left: 15px;
+  text-transform: uppercase;
+  color: #888;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.priceContainer--search-page__product-price {
+  align-items: flex-start;
+  padding-left: 15px;
+}
+
+.sellingPriceContainer--search-page__product-price {
+  text-align: left;
+}
