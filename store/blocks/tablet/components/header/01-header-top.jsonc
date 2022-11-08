@@ -3,7 +3,8 @@
     "title": "header top mobile",
     "children": [
       "logo#header__top--logo-mobile",
-      "drawer#header__menu--mobile",
+      // "drawer#header__menu--mobile",
+      "flex-layout.row#mega-menu__mobile",
       "header-spacer",
       "modal-trigger#header__middle--login",
       "minicart.v2"
@@ -22,31 +23,31 @@
       "blockClass": "header__logo--mobile"
     }
   },
-  "drawer#header__menu--mobile": {
-    "title": "drawer block mobile",
-    "blocks": ["drawer-trigger#drawer__trigger--mobile"],
-    "children": ["menu#header__menu"]
-  },
-  "drawer-trigger#drawer__trigger--mobile": {
-    "title": "drawer trigger block mobile",
-    "children": ["flex-layout.row#menu__trigger--mobile"]
-  },
-  "flex-layout.row#menu__trigger--mobile": {
-    "title": "row container, drawer trigger mobile",
-    "children": ["rich-text#drawer__trigger-icon-mobile"],
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "menu__trigger--mobile"
-    }
-  },
-  "rich-text#drawer__trigger-icon-mobile": {
-    "title": "drawer icon mobile",
-    "props": {
-      "text": ".",
-      "blockClass": "drawer__trigger-icon-mobile",
-      "verticalAlign": "middle"
-    }
-  },
+  // "drawer#header__menu--mobile": {
+  //   "title": "drawer block mobile",
+  //   "blocks": ["drawer-trigger#drawer__trigger--mobile"],
+  //   "children": ["menu#header__menu"]
+  // },
+  // "drawer-trigger#drawer__trigger--mobile": {
+  //   "title": "drawer trigger block mobile",
+  //   "children": ["flex-layout.row#menu__trigger--mobile"]
+  // },
+  // "flex-layout.row#menu__trigger--mobile": {
+  //   "title": "row container, drawer trigger mobile",
+  //   "children": ["rich-text#drawer__trigger-icon-mobile"],
+  //   "props": {
+  //     "colSizing": "auto",
+  //     "blockClass": "menu__trigger--mobile"
+  //   }
+  // },
+  // "rich-text#drawer__trigger-icon-mobile": {
+  //   "title": "drawer icon mobile",
+  //   "props": {
+  //     "text": ".",
+  //     "blockClass": "drawer__trigger-icon-mobile",
+  //     "verticalAlign": "middle"
+  //   }
+  // },
   "modal-trigger#header__middle--login": {
     "title": "login modal trigger mobile",
     "children": [

@@ -1,0 +1,86 @@
+.menuContainerNav {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.menuContainer {
+  overflow: unset;
+}
+
+.triggerContainer {
+  position: relative;
+  min-width: 200px;
+  /* border: 1px solid red; */
+  /* background-color: red; */
+  display: flex !important;
+  /* justify-content: flex-start; */
+}
+
+.triggerContainer::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+.triggerContainer::after {
+  position: absolute;
+  content: 'Categorías';
+  left: 50px;
+  color: rgb(77, 77, 77);
+  font-weight: bold;
+}
+
+.styledLinkContainer {
+  color: #8ac21a;
+}
+
+.menuItem {
+  border-left: 3.5px solid transparent;
+}
+.menuItem:hover {
+  border-left: 3.5px solid #8ac21a;
+  color: #8ac21a;
+}
+
+.menuItem .styledLink:hover {
+  border-left: 3.5px solid #8ac21a;
+  color: #8ac21a;
+}
+
+.caretIcon {
+  color: #8ac21a;
+}
+
+.submenuItem—isOpen {
+  background-color: crimson;
+}
+
+.styledLinkText:hover {
+  color: rgb(138, 194, 26);
+}
+
+.submenuItem--isClosed
+  .styledLinkContainer.first-child
+  .styled-link:first-child {
+  background-color: crimson;
+}
+
+.seeAllLink{
+  text-decoration: none;
+}
+.seeAllLink:hover{
+  color:#8ac21a
+}
+
+/* @media screen and (max-width: 1024px) {
+  .departmentsTitle{
+    border-top: 3px solid #333;
+  }
+} */
