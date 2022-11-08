@@ -59,16 +59,36 @@
   "flex-layout.row#minicart__row--mobile": {
     "children": [
       "flex-layout.col#minicart__col--image",
-      "flex-layout.col#minicart__col--info"
+      "flex-layout.col#minicart__col--info",
+      "flex-layout.col#minicart__col--remove"
     ]
   },
   "flex-layout.col#minicart__col--image": {
     "children": ["product-list-image"]
   },
   "flex-layout.col#minicart__col--info": {
-    "children": ["vtex.product-list:product-name"]
+    "children": [
+      "vtex.product-list@0.x:product-name",
+      "quantity-selector#minicart",
+      "price"
+    ]
+  },
+  "quantity-selector#minicart": {
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  "flex-layout.col#minicart__col--remove": {
+    "children": ["remove-button"]
   },
   "flex-layout.row#minicart__footer": {
+    "children": [
+      "flex-layout.col#minicart__footer",
+      "minicart-summary",
+      "minicart-checkout-button"
+    ]
+  },
+  "flex-layout.col#minicart__footer": {
     "children": ["minicart-summary", "minicart-checkout-button"]
   }
 }

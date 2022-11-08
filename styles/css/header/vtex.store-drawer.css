@@ -1,0 +1,8 @@
+.childrenContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.openIconContainer{
+  color: white
+}

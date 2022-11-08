@@ -1,0 +1,11 @@
+{
+  "responsive-layout.desktop#christmas-page__content": {
+    "children": [
+      "flex-layout.row#christmas-page__content--banner",
+      "flex-layout.row#christmas-page__content--categories"
+    ],
+    "props": {
+      "blockClass": "christmas-page__content--desktop"
+    }
+  }
+}

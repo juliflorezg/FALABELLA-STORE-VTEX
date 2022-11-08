@@ -1,0 +1,33 @@
+.menuItem--drawer__links1--link {
+  padding-block: 10px;
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.styledLinkContainer--drawer__links1--link,
+.styledLinkContainer--drawer__links2--link {
+  margin-inline: 16px;
+}
+
+.styledLinkContent--drawer__links1--link {
+  align-items: center;
+  font-weight: bold;
+}
+
+.menuItem--drawer__links1--link:last-child {
+  border-bottom: 3px solid rgb(142, 142, 142);
+}
+
+.menuContainerNav--drawer__links2--menu {
+  background-color: #333;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.menuItem--drawer__links2--link {
+  padding-block: 10px;
+}
+
+.styledLink--drawer__links2--link {
+  color: white;
+  font-weight: bold;
+}

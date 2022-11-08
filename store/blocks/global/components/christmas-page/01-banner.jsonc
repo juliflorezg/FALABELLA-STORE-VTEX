@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#christmas-page__content--banner": {
+    "title": "row container christmas banner",
+    "children": ["image#christmas-banner-image"],
+    "props": {
+      "blockClass": "christmas-banner--container"
+    }
+  },
+  "image#christmas-banner-image": {
+    "title": "christmas image",
+    "props": {
+      "src": "assets/img/global/statics/christmas-page/christmas-banner.png",
+      // "maxWidth": 600,
+      "title": "christmas img for banner",
+      "blockClass": "christmas--img",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat1360967/Televisores-y-Smart-tv",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}

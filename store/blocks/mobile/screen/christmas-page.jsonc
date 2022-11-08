@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#christmas-page__content": {
+    "children": [
+      "flex-layout.row#christmas-page__content--banner",
+      "flex-layout.row#christmas-page__content--categories"
+    ]
+  }
+}
