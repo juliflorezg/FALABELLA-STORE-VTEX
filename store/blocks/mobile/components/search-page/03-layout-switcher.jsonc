@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#search-page-mobile__layout-switcher--row-container": {
+    "title": "row cont. for layout-switcher, search page, mobile",
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "horizontalAlign": "right",
+      "colSizing": "auto",
+      "blockClass": "search-page-mobile__layout-switcher--row-container"
+    }
+  }
+}

@@ -9,6 +9,7 @@
     }
   },
   "flex-layout.col#search-page-mobile__title&results--col-container": {
+    "title": "col cont. for title and results count, search page, mobile",
     "children": ["search-title.v2", "total-products.v2#search-result__total"],
     "props": {
       "blockClass": "search-page-mobile__title-results--col-container"
