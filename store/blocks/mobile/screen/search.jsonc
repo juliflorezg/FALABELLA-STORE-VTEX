@@ -19,10 +19,32 @@
   "flex-layout.col#mobile-search__wrapper": {
     "title": "col cont. for title and results blocks",
     "children": [
-      "flex-layout.row#search-page-mobile__title&results--row-container"
+      // "flex-layout.row#search-page-mobile__title&results--row-container",
+      // "sticky-layout#search-page-mobile__sticky-filter",
+      "sticky-layout.stack-container#search-page-mobile__filter",
+      "flex-layout.row#search-page-mobile__layout-switcher--row-container",
+      "flex-layout.row#results__content--products"
+    ],
+    "props": {
+      "blockClass": "mobile-search__wrapper"
+    }
+  },
+  "sticky-layout.stack-container#search-page-mobile__filter": {
+    "children": [
+      "flex-layout.row#search-page-mobile__title&results--row-container",
+      "sticky-layout#search-page-mobile__sticky-filter"
+    ],
+    "props": {
+      "position": "top"
+    }
+  },
+  "sticky-layout#search-page-mobile__sticky-filter": {
+    "title": "sticky cont. for filter, search page, mobile",
+    "children": [
+      "flex-layout.row#search-page-mobile__filter&orderby--row-container"
     ]
     // "props": {
-    //   "blockClass": "desktop-search__title&results--col-container"
+    //   "position": "TOP"
     // }
   }
 }
