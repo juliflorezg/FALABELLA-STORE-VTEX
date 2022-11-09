@@ -65,7 +65,7 @@
   },
   "flex-layout.row#content__search-info--orderBy&Switcher": {
     "title": "row cont. for orderBy & layout switcher",
-    "children": [ "gallery-layout-switcher"],
+    "children": ["gallery-layout-switcher"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -105,7 +105,7 @@
       "ListSummary": "product-summary.shelf#search-page__product-shelf-list"
     }
   },
-  
+
   //~ product quick view
   "modal-trigger##global__quick-view": {
     "children": [

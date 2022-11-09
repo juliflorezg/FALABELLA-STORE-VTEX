@@ -3,6 +3,12 @@
   "product-summary.shelf#search-page__product-shelf": {
     "children": [
       "product-summary-image",
+      "flex-layout.col#search-page__product-shelf--col-container"
+    ]
+  },
+  "flex-layout.col#search-page__product-shelf--col-container": {
+    "title": "col container for product info, search page",
+    "children": [
       "product-summary-brand#search-page__product-brand",
       "product-summary-name#search-page__product-name",
       // "product-price",
@@ -14,7 +20,11 @@
       "product-rating-inline#search-page__product-rating",
       "modal-trigger##global__quick-view",
       "add-to-cart-button#search-page__product-add-button"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "left",
+      "blockClass": "search-page__product-shelf--col-container"
+    }
   },
   "product-summary-image": {
     "props": {
@@ -57,7 +67,7 @@
       "blockClass": "search-page__product-sku-selector"
     }
   },
-  "product-rating-inline#search-page__product-rating":{
+  "product-rating-inline#search-page__product-rating": {
     "title": "products rating for PLP",
     "props": {
       "blockClass": "search-page__product-rating"
