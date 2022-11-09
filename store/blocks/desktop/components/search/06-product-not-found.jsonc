@@ -1,0 +1,12 @@
+{
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#desktop-search__bread", "flex-layout.row#not-found"]
+  },
+
+  "flex-layout.row#not-found": {
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  }
+}
