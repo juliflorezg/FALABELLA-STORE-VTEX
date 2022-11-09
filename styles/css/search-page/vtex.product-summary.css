@@ -10,13 +10,13 @@
 
 .nameContainer--search-page__product-name {
   justify-content: start;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   padding-block: 10px;
 }
 
 .productBrandContainer--search-page__product-brand {
   text-align: left;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   text-transform: uppercase;
   color: #888;
   font-size: 0.75rem;
@@ -25,7 +25,7 @@
 
 .priceContainer--search-page__product-price {
   align-items: flex-start;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .sellingPriceContainer--search-page__product-price {
@@ -34,7 +34,7 @@
 
 .skuSelectorContainer--search-page__product-sku-selector {
   text-align: left;
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .priceContainer--search-page__product-price{
