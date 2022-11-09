@@ -1,0 +1,73 @@
+{
+  //this block handles all shelf elements, can be used in any page, not only plp/pdp
+  "product-summary.shelf#search-page__product-shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-brand#search-page__product-brand",
+      "product-summary-name#search-page__product-name",
+      // "product-price",
+      "product-summary-price#search-page__product-price",
+      "product-list-price", //without discount modifications
+
+      "product-selling-price#search-page__product-selling-price", //*with discount modifications
+      "product-summary-sku-selector#search-page__product-SKU-selector",
+      "product-rating-inline#search-page__product-rating",
+      "modal-trigger##global__quick-view",
+      "add-to-cart-button#search-page__product-add-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "height": {
+        "desktop": 250,
+        "mobile": 200
+      }
+    }
+  },
+  "product-summary-brand#search-page__product-brand": {
+    "title": "product brand for PLP",
+    "props": {
+      "blockClass": "search-page__product-brand"
+    }
+  },
+  "product-summary-name#search-page__product-name": {
+    "title": "product name for PLP",
+    "props": {
+      "tag": "h3",
+      "blockClass": "search-page__product-name"
+    }
+  },
+  "product-summary-price#search-page__product-price": {
+    "title": "products selling price for PLP",
+    "props": {
+      "blockClass": "search-page__product-price"
+    }
+  },
+  "product-selling-price#search-page__product-selling-price": {
+    "title": "products selling price for PLP",
+    "props": {
+      "blockClass": "search-page__product-selling-price"
+    }
+  },
+  "product-summary-sku-selector#search-page__product-SKU-selector": {
+    "title": "products SKU selector price for PLP",
+    "props": {
+      "hideImpossibleCombinations": false,
+      "displayMode": "select",
+      "blockClass": "search-page__product-sku-selector"
+    }
+  },
+  "product-rating-inline#search-page__product-rating":{
+    "title": "products rating for PLP",
+    "props": {
+      "blockClass": "search-page__product-rating"
+    }
+  },
+  "add-to-cart-button#search-page__product-add-button": {
+    "title": "products add-to-cart button for PLP",
+    "props": {
+      "blockClass": "search-page__product-button",
+      "text": "AGREGAR A LA BOLSA"
+    }
+  }
+}

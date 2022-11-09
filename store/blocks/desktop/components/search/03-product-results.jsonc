@@ -15,10 +15,21 @@
   // product filter
   "flex-layout.col#desktop-search__results--filter": {
     "title": "col cont. for filter in main content",
-    "children": ["filter-navigator.v3"],
+    "children": [
+      "search-title.v2",
+      "total-products.v2#search-result__total",
+      "filter-navigator.v3"
+    ],
     "props": {
       "blockClass": "desktop-search__results--filter",
+      "preventVerticalStretch": true,
       "width": "25%"
+    }
+  },
+  "total-products.v2#search-result__total": {
+    "title": "page total for PLP",
+    "props": {
+      "blockClass": "search-result__total"
     }
   },
   // product results
@@ -54,7 +65,7 @@
   },
   "flex-layout.row#content__search-info--orderBy&Switcher": {
     "title": "row cont. for orderBy & layout switcher",
-    "children": ["total-products.v2", "gallery-layout-switcher"],
+    "children": [ "gallery-layout-switcher"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
@@ -90,66 +101,11 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#search-page__product-shelf",
-      "GridSummary": "product-summary.shelf#search-page__product-shelf"
+      "GridSummary": "product-summary.shelf#search-page__product-shelf",
+      "ListSummary": "product-summary.shelf#search-page__product-shelf-list"
     }
   },
-  //this block handles all shelf elements, can be used in any page, not only plp/pdp
-  "product-summary.shelf#search-page__product-shelf": {
-    "children": [
-      "product-summary-image",
-      "product-summary-brand#search-page__product-brand",
-      "product-summary-name#search-page__product-name",
-      // "product-price",
-      "product-summary-price#search-page__product-price",
-      "product-list-price", //without discount modifications
-
-      "product-selling-price#search-page__product-selling-price", //*with discount modifications
-      "product-summary-sku-selector",
-      "modal-trigger##global__quick-view",
-      "add-to-cart-button"
-    ]
-  },
-  "product-summary-image": {
-    "props": {
-      "height": {
-        "desktop": 250,
-        "mobile": 200
-      }
-    }
-  },
-  "product-summary-brand#search-page__product-brand": {
-    "title": "product brand for PLP",
-    "props": {
-      "blockClass": "search-page__product-brand"
-    }
-  },
-  "product-summary-name#search-page__product-name": {
-    "title": "product name for PLP",
-    "props": {
-      "tag": "h3",
-      "blockClass": "search-page__product-name"
-    }
-  },
-  "product-summary-price#search-page__product-price": {
-    "title": "products selling price for PLP",
-    "props": {
-      "blockClass": "search-page__product-price"
-    }
-  },
-  "product-selling-price#search-page__product-selling-price": {
-    "title": "products selling price for PLP",
-    "props": {
-      "blockClass": "search-page__product-selling-price"
-    }
-  },
-  "product-summary-sku-selector": {
-    "title": "products SKU selector price for PLP",
-    "props": {
-      "hideImpossibleCombinations": false,
-      "displayMode": "select"
-    }
-  },
+  
   //~ product quick view
   "modal-trigger##global__quick-view": {
     "children": [
@@ -160,7 +116,8 @@
   "rich-text#global__quick-view--trigger": {
     "title": "label for product quick view",
     "props": {
-      "text": "Vista rápida"
+      "text": "Vista rápida",
+      "blockClass": "global__quick-view--trigger"
     }
   },
   "modal-layout#global__quick-view--modal content": {
@@ -168,7 +125,7 @@
     "children": ["product-summary-name", "product-summary-image"]
   },
 
-  //switcher for gallery layout
+  //? switcher for gallery layout
   "gallery-layout-switcher": {
     "children": [
       /*

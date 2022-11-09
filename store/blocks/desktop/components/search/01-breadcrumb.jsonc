@@ -5,5 +5,10 @@
     "props": {
       "blockClass": "desktop-search__bread"
     }
+  }, 
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
   }
 }

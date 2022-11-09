@@ -1,0 +1,63 @@
+{
+  //~ product summary for list layout
+  "product-summary.shelf#search-page__product-shelf-list": {
+    "children": [
+      "flex-layout.row#search-page__product-shelf-list--container"
+      // "product-summary-image",
+      // "product-summary-space",
+      // "product-summary-name",
+      // "product-summary-price",
+      // // "product-summary-selling-price",
+      // "add-to-cart-button"
+    ]
+  },
+  "flex-layout.row#search-page__product-shelf-list--container": {
+    "title": "row cont. for product in list view, search page",
+    "children": [
+      "flex-layout.col#search-page__product-list--image-container",
+      "flex-layout.col#search-page__product-list--info-container",
+      "flex-layout.col#search-page__product-list--cta-container"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "search-page__product-shelf-list--container"
+      // "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#search-page__product-list--image-container": {
+    "title": "col cont. for product image, search page",
+    "children": ["product-summary-image"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#search-page__product-list--info-container": {
+    "title": "col cont. for product info, search page",
+    "children": [
+      "product-summary-brand",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-description#search-page__product-description"
+      // "add-to-cart-button#product__add-to-cart--button"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "search-page__product-shelf-list--info-container"
+    }
+  },
+  "product-summary-description#search-page__product-description": {
+    "title": "product description for PLP",
+    "props": {
+      "blockClass": "search-page__product-description"
+    }
+  },
+  "flex-layout.col#search-page__product-list--cta-container": {
+    "title": "col cont. for product CTA, search page",
+    "children": ["product-summary-price", "add-to-cart-button"],
+    "props": {
+      "width": "30%"
+    }
+  }
+}
