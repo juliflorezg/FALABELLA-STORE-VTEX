@@ -35,3 +35,15 @@
 .flexRowContent--results__content--search-info {
   margin-bottom: 10px;
 }
+
+.flexRowContent--search-page__product-shelf-list--container{
+  padding: 20px 50px;
+}
+
+.flexCol--search-page__product-shelf-list--info-container{
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+

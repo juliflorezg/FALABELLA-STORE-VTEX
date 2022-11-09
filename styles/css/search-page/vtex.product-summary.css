@@ -31,3 +31,13 @@
 .sellingPriceContainer--search-page__product-price {
   text-align: left;
 }
+
+.skuSelectorContainer--search-page__product-sku-selector {
+  text-align: left;
+  padding-left: 15px;
+}
+
+.priceContainer--search-page__product-price{
+  padding-block: 0;
+
+}

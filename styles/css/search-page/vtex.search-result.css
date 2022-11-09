@@ -1,5 +1,18 @@
 .galleryTitle--layout {
   text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.totalProducts--layout {
+  padding-left: 0;
+  /* padding-top: 0;
+  padding-bottom: 0; */
+  text-align: left;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  font-size: .8rem;
 }
 
 .galleryLayoutOptionButton {
@@ -25,4 +38,3 @@
 .galleryItem {
   padding: 0;
 }
-
