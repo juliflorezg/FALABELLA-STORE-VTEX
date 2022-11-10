@@ -79,9 +79,9 @@
   "semanticColors": {
     "background": {
       "base": "#ffffff",
-      "base--inverted": "#03044e",
-      "action-primary": "#a2dd30",
-      "action-secondary": "#eef3f7",
+      "base--inverted": "#333333",
+    "action-primary": "#75a21e",
+      "action-secondary": "#333333",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#a2dd30",
+      "action-primary": "#75a21e",
       "action-secondary": "#eef3f7",
       "link": "#a2dd30",
       "emphasis": "#f71963",
@@ -152,7 +152,7 @@
     "hover-text": {
       "action-primary": "#333333",
       "action-secondary": "#dbe9fd",
-      "link": "#0c389f",
+      "link": "#333333",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -224,7 +224,7 @@
       "base": "#3f3f40",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#a2dd30",
+      "action-secondary": "#75a21e",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",

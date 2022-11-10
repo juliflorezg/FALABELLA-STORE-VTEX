@@ -1,0 +1,46 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile-search__wrapper"
+    ],
+    "props": {
+      "blockClass": "search-result-layout__desktop",
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#mobile-search__wrapper": {
+    "title": "row cont. for search page blocks, mobile",
+    "children": ["flex-layout.col#mobile-search__wrapper"],
+    "props": {
+      "blockClass": "mobile-search__wrapper"
+    }
+  },
+  "flex-layout.col#mobile-search__wrapper": {
+    "title": "col cont. for title and results blocks",
+    "children": [
+      "flex-layout.row#desktop-search__bread",
+      "sticky-layout.stack-container#search-page-mobile__filter",
+      "flex-layout.row#search-page-mobile__layout-switcher--row-container",
+      "flex-layout.row#results__content--products"
+    ],
+    "props": {
+      "blockClass": "mobile-search__wrapper"
+    }
+  },
+  "sticky-layout.stack-container#search-page-mobile__filter": {
+    "children": [
+      "flex-layout.row#mobile-search__banner",
+      "flex-layout.row#search-page-mobile__title&results--row-container",
+      "sticky-layout#search-page-mobile__sticky-filter"
+    ],
+    "props": {
+      "position": "top"
+    }
+  },
+  "sticky-layout#search-page-mobile__sticky-filter": {
+    "title": "sticky cont. for filter, search page, mobile",
+    "children": [
+      "flex-layout.row#search-page-mobile__filter&orderby--row-container"
+    ]
+  }
+}

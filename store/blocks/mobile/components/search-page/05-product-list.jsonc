@@ -1,0 +1,68 @@
+{
+  "responsive-layout.mobile#search-page__product-shelf-list": {
+    "title": "product shelf list, for mobile view",
+    "children": [
+      "flex-layout.row#search-page__product-shelf-list--container-mobile"
+    ]
+  },
+  "flex-layout.row#search-page__product-shelf-list--container-mobile": {
+    "title": "row cont. for product in list view, search page, mobile",
+    "children": [
+      "flex-layout.col#search-page__product-list--image-SKU-container-mobile",
+      "flex-layout.col#search-page__product-list--info-cta-mobile"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "search-page__product-shelf-list--container-mobile",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#search-page__product-list--image-SKU-container-mobile": {
+    "title": "col cont. for product image & SKU selector, search page, mobile",
+    "children": [
+      "product-summary-image",
+      "product-summary-sku-selector#search-page__product-SKU-selector"
+    ],
+    "props": {
+      "width": "30%",
+      "blockClass": "search-page__product-list--image-SKU-container-mobile"
+    }
+  },
+  "flex-layout.col#search-page__product-list--info-cta-mobile": {
+    "title": "col cont. for product info & CTA, search page, mobile",
+    "children": [
+      "flex-layout.row#product-list__info-cta-mobile--brand-stars",
+      "product-summary-name#search-page__product-name",
+      "product-summary-price#search-page__product-price",
+      "product-selling-price#search-page__product-selling-price",
+      "product-summary-description#search-page__product-description",
+      "modal-trigger##global__quick-view",
+      "add-to-list-btn",
+      "flex-layout.row#product-list__info-cta-mobile--button"
+    ],
+    "props": {
+      "width": "70%",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "search-page__product-list--info-cta-mobile"
+    }
+  },
+  "flex-layout.row#product-list__info-cta-mobile--brand-stars": {
+    "title": "row cont. for brand and rating product list, mobile",
+    "children": [
+      "product-summary-brand#search-page__product-brand",
+      "product-rating-inline#search-page__product-rating"
+    ],
+    "props": {
+      "colSizing": "auto"
+      // "horizontalAlign": ""
+    }
+  },
+  "flex-layout.row#product-list__info-cta-mobile--button": {
+    "title": "row cont. for add to cart button, product list, mobile",
+    "children": ["add-to-cart-button#search-page__product-add-button"],
+    "props": {
+      "blockClass": "product-list--info-cta-mobile--button"
+    }
+  }
+}

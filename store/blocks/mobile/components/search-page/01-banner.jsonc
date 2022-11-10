@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#mobile-search__banner": {
+    "title": "row cont. PLP banner, mobile",
+    "children": ["image#PLP-banner__mobile"],
+    "props": {
+      "blockClass": "mobile-search__banner",
+      "fullWidth": true
+    }
+  },
+  "image#PLP-banner__mobile": {
+    "title": "banner image, PLP mobile",
+    "props": {
+      "src": "assets/img/mobile/PLP__banner.png",
+      "blockClass": "PLP-banner__img--mobile",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/category/cat1660941/Celulares-y-Smartphones?f.product.brandName=vivo",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}
