@@ -31,13 +31,14 @@
   "flex-layout.col#search-page__product-list--info-cta-mobile": {
     "title": "col cont. for product info & CTA, search page, mobile",
     "children": [
-      "flex-layout.row#product-list--info-cta-mobile--brand-stars",
+      "flex-layout.row#product-list__info-cta-mobile--brand-stars",
       "product-summary-name#search-page__product-name",
       "product-summary-price#search-page__product-price",
       "product-selling-price#search-page__product-selling-price",
       "product-summary-description#search-page__product-description",
       "modal-trigger##global__quick-view",
-      "add-to-cart-button#search-page__product-add-button"
+      "add-to-list-btn",
+      "flex-layout.row#product-list__info-cta-mobile--button"
     ],
     "props": {
       "width": "70%",
@@ -46,7 +47,7 @@
       "blockClass": "search-page__product-list--info-cta-mobile"
     }
   },
-  "flex-layout.row#product-list--info-cta-mobile--brand-stars": {
+  "flex-layout.row#product-list__info-cta-mobile--brand-stars": {
     "title": "row cont. for brand and rating product list, mobile",
     "children": [
       "product-summary-brand#search-page__product-brand",
@@ -55,6 +56,13 @@
     "props": {
       "colSizing": "auto"
       // "horizontalAlign": ""
+    }
+  },
+  "flex-layout.row#product-list__info-cta-mobile--button": {
+    "title": "row cont. for add to cart button, product list, mobile",
+    "children": ["add-to-cart-button#search-page__product-add-button"],
+    "props": {
+      "blockClass": "product-list--info-cta-mobile--button"
     }
   }
 }

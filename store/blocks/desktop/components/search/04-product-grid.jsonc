@@ -19,6 +19,7 @@
       "product-summary-sku-selector#search-page__product-SKU-selector",
       "product-rating-inline#search-page__product-rating",
       "modal-trigger##global__quick-view",
+      "add-to-list-btn",
       "add-to-cart-button#search-page__product-add-button"
     ],
     "props": {
@@ -29,8 +30,8 @@
   "product-summary-image": {
     "props": {
       "height": {
-        "desktop": 250,
-        "mobile": 200
+        "desktop": 220,
+        "mobile": 150
       }
     }
   },

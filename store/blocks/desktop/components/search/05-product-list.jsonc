@@ -47,7 +47,8 @@
       "product-summary-name#search-page__product-name",
       "product-rating-inline",
       "product-summary-description#search-page__product-description",
-      "modal-trigger##global__quick-view"
+      "modal-trigger##global__quick-view",
+      "add-to-list-btn"
       // "add-to-cart-button#product__add-to-cart--button"
     ],
     "props": {
