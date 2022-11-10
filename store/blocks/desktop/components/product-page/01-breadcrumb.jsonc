@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#product-page__breadcrumb": {
+    "title": "row cont. for breadcrumb, product page",
+    "children": ["flex-layout.col#product-page__breadcrumb"]
+  },
+  "flex-layout.col#product-page__breadcrumb": {
+    "title": "col cont. for breadcrumb, product page",
+    "children": ["breadcrumb"]
+  }
+}

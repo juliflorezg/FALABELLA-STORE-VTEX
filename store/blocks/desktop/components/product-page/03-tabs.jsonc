@@ -1,0 +1,6 @@
+{
+  "flex-layout.row#product-page__tabs": {
+    "title": "row cont. for extra info, product page",
+    "children": ["breadcrumb"]
+  }
+}

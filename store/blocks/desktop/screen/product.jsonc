@@ -1,0 +1,15 @@
+{
+  "store.product": {
+    "children": [
+      // "rich-text#product__title"
+      "flex-layout.row#product-page__breadcrumb",
+      "flex-layout.row#product-page__product-info",
+      "flex-layout.row#product-page__tabs"
+    ]
+  }
+  // "rich-text#product__title": {
+  //   "props": {
+  //     "text": "# Mi PDP"
+  //   }
+  // }
+}
