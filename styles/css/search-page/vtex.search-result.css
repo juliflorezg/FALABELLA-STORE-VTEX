@@ -1,0 +1,76 @@
+.galleryTitle--layout {
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.totalProducts--layout {
+  padding-left: 0;
+  /* padding-top: 0;
+  padding-bottom: 0; */
+  text-align: left;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  font-size: 0.8rem;
+}
+
+.galleryLayoutOptionButton {
+  gap: 7px;
+  padding: 0 10px;
+}
+
+.galleryLayoutOptionButton--selected {
+  background-color: #eee;
+  outline: 1px solid white;
+}
+.orderByButton {
+  justify-content: flex-start;
+}
+
+.gallery {
+  padding-left: 0;
+  gap: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.galleryItem {
+  padding: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  mobile */
+
+@media screen and (max-width: 1024px) {
+  .totalProducts--layout {
+    border-bottom: 0px;
+  }
+}
+
+.filterAccordionBreadcrumbs{
+  background-color: #333;
+  justify-content: center;
+}
+.filterBreadcrumbsText{
+  position: relative;
+  visibility: hidden;
+  min-width: 90px;
+}
+.filterBreadcrumbsText::after{
+  position: absolute;
+  content: "FILTRAR";
+  left: 0;
+  /* top: 50%; */
+  transform: translateY(2px);
+  /* left: -50%;
+  transform: translateX(50%); */
+  width: 100%;
+  height: 100%;
+  color: white;
+  visibility: visible;
+  font-size: 1.25rem;
+}
+
+.filterBreadcrumbsItemName{
+  color: white;
+}

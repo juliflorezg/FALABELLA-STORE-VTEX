@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#search-page-mobile__title&results--row-container": {
+    "title": "row cont. for title and results count, search page, mobile",
+    "children": [
+      "flex-layout.col#search-page-mobile__title&results--col-container"
+    ],
+    "props": {
+      "blockClass": "search-page-mobile__title-results--row-container"
+    }
+  },
+  "flex-layout.col#search-page-mobile__title&results--col-container": {
+    "title": "col cont. for title and results count, search page, mobile",
+    "children": ["search-title.v2", "total-products.v2#search-result__total"],
+    "props": {
+      "blockClass": "search-page-mobile__title-results--col-container"
+    }
+  }
+}

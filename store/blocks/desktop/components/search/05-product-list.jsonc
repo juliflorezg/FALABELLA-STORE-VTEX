@@ -1,0 +1,79 @@
+{
+  //~ product summary for list layout
+  "product-summary.shelf#search-page__product-shelf-list": {
+    "children": [
+      "responsive-layout.desktop#search-page__product-shelf-list",
+      "responsive-layout.mobile#search-page__product-shelf-list"
+      // "product-summary-image",
+      // "product-summary-space",
+      // "product-summary-name",
+      // "product-summary-price",
+      // // "product-summary-selling-price",
+      // "add-to-cart-button"
+    ]
+  },
+  "responsive-layout.desktop#search-page__product-shelf-list": {
+    "title": "product shelf list, for desktop view",
+    "children": [
+      "flex-layout.row#search-page__product-shelf-list--container-desktop"
+    ]
+  },
+  "flex-layout.row#search-page__product-shelf-list--container-desktop": {
+    "title": "row cont. for product in list view, search page, desktop",
+    "children": [
+      "flex-layout.col#search-page__product-list--image-container",
+      "flex-layout.col#search-page__product-list--info-container",
+      "flex-layout.col#search-page__product-list--cta-container"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "search-page__product-shelf-list--container",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#search-page__product-list--image-container": {
+    "title": "col cont. for product image, search page, desktop",
+    "children": ["product-summary-image"],
+    "props": {
+      "width": "20%",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#search-page__product-list--info-container": {
+    "title": "col cont. for product info, search page, desktop",
+    "children": [
+      "product-summary-brand#search-page__product-brand",
+      "product-summary-name#search-page__product-name",
+      "product-rating-inline",
+      "product-summary-description#search-page__product-description",
+      "modal-trigger##global__quick-view",
+      "add-to-list-btn"
+      // "add-to-cart-button#product__add-to-cart--button"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left",
+      "blockClass": "search-page__product-shelf-list--info-container"
+    }
+  },
+  "product-summary-description#search-page__product-description": {
+    "title": "product description for PLP",
+    "props": {
+      "blockClass": "search-page__product-description"
+    }
+  },
+  "flex-layout.col#search-page__product-list--cta-container": {
+    "title": "col cont. for product CTA, search page",
+    "children": [
+      "product-summary-price#search-page__product-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "blockClass": "search-page__product-list--cta-container"
+    }
+  }
+}
