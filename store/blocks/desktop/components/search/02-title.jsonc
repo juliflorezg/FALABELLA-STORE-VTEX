@@ -1,9 +1,0 @@
-{
-  "flex-layout.row#desktop-search__title": {
-    "title": "row cont. for title in search pages",
-    "children": ["search-title.v2"],
-    "props": {
-      "blockClass": "desktop-search__title"
-    }
-  }
-}

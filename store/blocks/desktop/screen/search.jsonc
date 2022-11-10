@@ -2,6 +2,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#desktop-search__bread",
+      "flex-layout.row#desktop-search__banner",
       "flex-layout.row#desktop-search__title&results--row-container"
     ],
     "props": {
@@ -19,9 +20,9 @@
     }
   },
   "flex-layout.col#desktop-search__title&results--col-container": {
-    "title": "col cont. for title and results blocks",
+    "title": "col cont. for results block",
     "children": [
-      "flex-layout.row#desktop-search__title",
+      // "flex-layout.row#desktop-search__title",
       "flex-layout.row#desktop-search__results"
     ]
     // "props": {
