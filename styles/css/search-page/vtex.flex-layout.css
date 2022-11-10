@@ -59,6 +59,16 @@
   gap: 16px;
 }
 
+.flexRow--quick-view__modal{
+  padding: 15px;
+}
+
+.flexCol--quick-view__modal--info{
+  gap: 10px;
+  padding-inline-start: 15px;
+  /* min-width: 250px; */
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
 
 .flexRow--mobile-search__wrapper {
@@ -106,4 +116,12 @@
 .flexCol--search-page__product-list--image-SKU-container-mobile {
   align-items: center;
   gap: 15px;
+}
+
+.flexCol--search-page__product-list--info-cta-mobile {
+  padding-left: 15px;
+}
+
+.flexRow--product-list--info-cta-mobile--button {
+  max-width: 250px;
 }
