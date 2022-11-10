@@ -6,20 +6,36 @@
       "flex-layout.col#product-info--data"
     ]
   },
-  "flex-layout.col#product-info--image":{
+  "flex-layout.col#product-info--image": {
     "title": "col cont. for product image, product page",
-    "children": [
-      "product-images"
-    ]
+    "children": ["product-images#product-page__images--desktop"]
   },
-  "flex-layout.col#product-info--data":{
+  "product-images#product-page__images--desktop": {
+    "title": "product images for PDP, desktop",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "max-height": 480,
+      "zoomMode": "in-place-hover"
+    }
+  },
+  "flex-layout.col#product-info--data": {
     "title": "col cont. for product data, product page",
     "children": [
-      "product-summary-name",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-identifier.product",
       "product-price",
-      "product-quantity"
-
-
-    ]
+      "product-quantity",
+      "product-description",
+      // "product-details"
+      "product-rating-inline",
+      "product-separator",
+      "product-specifications",
+      "sku-selector",
+      "shipping-simulator"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
   }
 }
