@@ -1,0 +1,6 @@
+.videoContainer--content-two__video-one {
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 16/9;
+  margin-bottom: 26px;
+}

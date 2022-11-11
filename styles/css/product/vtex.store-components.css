@@ -1,0 +1,15 @@
+.imageElement--info__phone-icon{
+  width:20px;
+  aspect-ratio: 1;
+}
+
+.productBrandName--product-page__brand{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.imageElement--product-share__icon{
+  width:20px;
+  aspect-ratio: 1;
+}
