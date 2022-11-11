@@ -55,7 +55,9 @@
     "vtex.store-video": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.overlay-layout": "0.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
