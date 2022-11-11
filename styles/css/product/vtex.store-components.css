@@ -13,3 +13,27 @@
   width:20px;
   aspect-ratio: 1;
 }
+
+.specificationsTitle{
+  padding: 20px 0;
+  border-bottom: 2px solid #a2dd30;
+  color: rgb(63 63 63)
+}
+
+.imageElement--content-two__image-one{
+  display: block;
+  width: 80%;
+  margin-top: 30px;
+  margin: 30px auto 0 ;
+  /* transform: translateX(10%); */
+}
+
+.infoCardHeadline--content-two__info-card-one{
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4 !important;
+  color: black;
+}
