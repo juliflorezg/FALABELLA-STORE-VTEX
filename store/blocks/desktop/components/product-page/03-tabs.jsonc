@@ -54,7 +54,8 @@
     "tab-content.item#tabs__list--reviews-and-ratings":{
       "title" : "tab content item, reviews & ratings",
       "children": [
-        "rich-text#reviews"
+        "rich-text#reviews",
+        "product-reviews"
       ],
       "props": {
         "tabId": "reviews-and-ratings"
@@ -69,7 +70,8 @@
     "tab-content.item#tabs__list--product-specifications":{
       "title" : "tab content item, product specifications",
       "children": [
-
+        "product-specifications"
+        
       ],
       "props": {
         "tabId": "product-specifications"
@@ -79,6 +81,7 @@
     "tab-content.item#tabs__list--questions":{
       "title" : "tab content item, questions",
       "children": [
+        "product-questions-and-answers"
 
       ],
       "props": {
