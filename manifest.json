@@ -55,11 +55,15 @@
     "vtex.store-video": "1.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.checkout-summary": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "vtex.overlay-layout": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.sandbox": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtex.reviews-and-ratings": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#product-page__product-info--desktop": {
+    "title": "row cont. for product general info, product page",
+    "children": [
+      "flex-layout.col#product-info__image&info",
+      "flex-layout.col#product-info__data"
+    ],
+    "props": {
+      "blockClass": "product-page__product-info--desktop",
+      "colSizing": "auto",
+      "colGap": 8
+    }
+  }
+
+
+  
+}

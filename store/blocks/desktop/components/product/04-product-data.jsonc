@@ -1,0 +1,147 @@
+{
+  "flex-layout.col#product-info__data": {
+    "title": "col cont. for product data, product page",
+    "children": [
+      "flex-layout.row#product-info__data--brand&identifier",
+      "flex-layout.row#product-info__data--name&share",
+      "flex-layout.row#product-info__data--rating&highlight",
+      "flex-layout.row#product-info__data--sku&button"
+      // "vtex.store-components:product-name",
+      // "product-separator",
+      // "product-quantity",
+      // "product-description"
+      // "product-details"
+      // "product-specifications",
+      // "shipping-simulator"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#product-info__data--brand&identifier": {
+    "title": "row cont. for product brand & identifier",
+    "children": [
+      "vtex.store-components:product-brand#product-page__brand",
+      "product-identifier.product"
+    ],
+    "props": { "colSizing": "auto", "marginBottom": 3 }
+  },
+  "vtex.store-components:product-brand#product-page__brand": {
+    "props": {
+      "blockClass": "product-page__brand"
+    }
+  },
+  "flex-layout.row#product-info__data--name&share": {
+    "title": "row cont. for product name & share",
+    "children": [
+      "vtex.store-components:product-name#product-page__name",
+      "overlay-trigger#product-share"
+    ],
+    "props": { "colSizing": "auto", "marginBottom": 4 }
+  },
+  "vtex.store-components:product-name#product-page__name": {
+    "props": {
+      "blockClass": "product-page__name"
+    }
+  },
+  "overlay-trigger#product-share": {
+    "children": [
+      "image#product-share__icon",
+      "overlay-layout#product-share__content"
+    ]
+  },
+  "image#product-share__icon": {
+    "props": {
+      "src": "assets/icons/share-icon.svg",
+      "blockClass": "product-share__icon"
+    }
+  },
+  "overlay-layout#product-share__content": {
+    "children": ["share"]
+  },
+  "flex-layout.row#product-info__data--rating&highlight": {
+    "title": "row cont. for product rating & highlight",
+    "children": [
+      "product-rating-inline#product__rating",
+      "vtex.product-highlights@2.x:product-highlights#product-page__product-highlight"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "marginBottom": 4,
+      "blockClass": "product-info__data--rating-highlight"
+    }
+  },
+  "product-rating-inline#product__rating": {
+    "props": {
+      "blockClass": "product__rating"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#product-page__product-highlight": {
+    "children": ["product-highlight-text#product_highlight__text"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Envío rápido"],
+        "type": "show"
+      }
+    }
+  },
+  "product-highlight-text#product_highlight__text": {
+    "props": {
+      "message": "envío rápido",
+      // "message": "hola",
+      "blockClass": "product_highlight__text",
+      "width": "100px"
+    }
+  },
+  "flex-layout.row#product-info__data--sku&button": {
+    "title": "row cont. for sku-selector & buy button",
+    "children": [
+      "flex-layout.col#data__sku&button--sku",
+      "flex-layout.col#data__sku&button--button"
+    ]
+  },
+  "flex-layout.col#data__sku&button--sku": {
+    "title": "col cont. for sku-selector",
+    "children": ["sku-selector", "product-separator", "product-description"]
+  },
+  "flex-layout.col#data__sku&button--button": {
+    "title": "col cont. for buy button",
+    "children": [
+      "product-price",
+      "product-selling-price",
+      // "product-separator",
+      "flex-layout.row#product__add-to-cart--container",
+      // "product-separator",
+      "flex-layout.row#sku&button__button--cmr-card"
+    ]
+  },
+  "flex-layout.row#product__add-to-cart--container": {
+    "title": "row cont. for add to cart button, product page",
+    "children": ["add-to-cart-button#product__buy-button"],
+    "props": {
+      "blockClass": "product__add-to-cart--container"
+    }
+  },
+  "add-to-cart-button#product__buy-button": {
+    "title": "buy button, product page",
+    "props": {
+      "text": "Agregar a la bolsa",
+      "blockClass": "product__buy-button"
+    }
+  },
+  "flex-layout.row#sku&button__button--cmr-card": {
+    "title": "row cont. for cmr card info",
+    "children": ["image#product__cmr-card"]
+  },
+  "image#product__cmr-card": {
+    "title": "cmr card image, product page",
+    "props": {
+      "src": "assets/img/global/product/cmr-card.png",
+      "link": {
+        "url": "https://www.falabella.com.co/falabella-co/page/CMR-enlinea?staticPageId=22200001&detalleClic=pdpconOU&seller=FALABELLA_COLOMBIA&category=J11141102&from=kOip6l6uDoIrqeFrSDvBpYeOTqnoISOnT9wJkaoSi0XymtGTDJjK05L3Y3eCwCHhYfezum5jldV86T6/7T5KZXsNkJ5pDqXRGoI2XPsMk1jbS/47wc6AeUTX5bNd4teprAwxHURP0/e6e/L6OX9i1dB50GNauwtA9A9Po0u3k8mSVJAsvDWoVF/ohkwuS3U2yy3ClGYQLGotNQ5q2m/zwPgSUoI3pQC6T8QSW4rBwoD4bRWkvlJpCLHUsfbhT/OdYKI0c/7h04nJYDGKNWPXClIfDrL8vfowh3ReRukIF1bdRsVr+iXTInu2dQJXsKKyAnwyCug8u1+2KutZwOw36A=="
+      },
+      "maxWidth": "300px"
+    }
+  }
+}

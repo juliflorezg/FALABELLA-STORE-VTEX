@@ -1,0 +1,74 @@
+{
+  "flex-layout.col#product-info__image&info": {
+    "title": "col cont. for product image, product page",
+    "children": [
+      "product-images#product-page__images--desktop",
+      // "product-images",
+      "flex-layout.row#image&info__text-one",
+      "flex-layout.row#image&info__text-two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "width": "45%",
+      "preventVerticalStretch": true
+      // "rowGap": 4
+    }
+  },
+  "product-images#product-page__images--desktop": {
+    "title": "product images for PDP, desktop",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "max-height": 480,
+      "zoomMode": "in-place-hover"
+    }
+  },
+  "flex-layout.row#image&info__text-one": {
+    "title": "row cont. for phone info",
+    "children": ["image#info__phone-icon", "rich-text#info__phone-text"],
+    "props": {
+      "colSizing": "auto",
+      // "horizontalAlign": "center",
+      "blockClass": "image&info__text-one",
+      "colGap": 3
+    }
+  },
+  "image#info__phone-icon": {
+    "title": "icon for phone info",
+    "props": {
+      "src": "assets/icons/headset-icon.svg",
+      "maxHeight": 25,
+      "blockClass": "info__phone-icon"
+    }
+  },
+  "rich-text#info__phone-text": {
+    "title": "text for phone info",
+    "props": {
+      "text": "¿Necesitas ayuda?<br>Llámanos al **601 587 8006**"
+    }
+  },
+  "flex-layout.row#image&info__text-two": {
+    "title": "row cont. for return info",
+    "children": ["image#info__return-icon", "rich-text#info__return-text"],
+    "props": {
+      "colSizing": "auto",
+      // "horizontalAlign": "center",
+      "blockClass": "image&info__text-two",
+      "colGap": 3
+    }
+  },
+  "image#info__return-icon": {
+    "title": "icon for return info",
+    "props": {
+      "src": "assets/icons/arrow-back.svg",
+      "maxHeight": 25,
+      "blockClass": "info__phone-icon"
+    }
+  },
+  "rich-text#info__return-text": {
+    "title": "text for return info",
+    "props": {
+      "text": "Compra sin preocuparte<br>Ten en cuenta nuestra politica de [Cambios y Devoluciones y El Derecho de retracto.](https://www.falabella.com.co/falabella-co/page/Cambios-y-Devoluciones?staticPageId=20200002)",
+      "blockClass": "info__return-text"
+    }
+  }
+}

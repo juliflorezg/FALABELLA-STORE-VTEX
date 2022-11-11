@@ -1,0 +1,31 @@
+{
+  "responsive-layout.desktop#product-page__desktop--layout": {
+    "children": [
+      // "rich-text#product__title"
+      "flex-layout.row#product-page__layout--row"
+    ]
+  },
+  "flex-layout.row#product-page__layout--row": {
+    "title": "row cont. for PDP desktop layout",
+    "children": ["flex-layout.col#product-page__layout--col"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#product-page__layout--col": {
+    "title": "col cont. for PDP desktop layout",
+    "children": [
+      "flex-layout.row#product-page__breadcrumb",
+      "flex-layout.row#product-page__product-info--desktop",
+      "flex-layout.row#product-page__tabs"
+    ],
+    "props": {
+      "blockClass": "product-page__layout--col"
+    }
+  }
+  // "rich-text#product__title": {
+  //   "props": {
+  //     "text": "# Mi PDP"
+  //   }
+  // }
+}

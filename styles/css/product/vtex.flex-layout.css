@@ -1,0 +1,23 @@
+.flexCol--product-page__layout--col{
+  background-color: #eee;
+}
+
+.flexRow--product-page__breadcrumb--row,
+  .flexRowContent--product-page__product-info--desktop{
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.flexRowContent--product-page__product-info--desktop{
+ padding: 0 35px;
+}
+
+.flexRow--product-info__data--rating-highlight{
+  border-bottom: 2px solid #eee;
+}
+
+.flexRow--product__add-to-cart--container{
+  margin: 25px 0;
+}
