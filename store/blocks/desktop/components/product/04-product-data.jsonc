@@ -16,7 +16,7 @@
     ],
     "props": {
       "preventVerticalStretch": true,
-      "width": "grow"
+      "width": "55%"
     }
   },
   "flex-layout.row#product-info__data--brand&identifier": {
@@ -141,7 +141,8 @@
       "link": {
         "url": "https://www.falabella.com.co/falabella-co/page/CMR-enlinea?staticPageId=22200001&detalleClic=pdpconOU&seller=FALABELLA_COLOMBIA&category=J11141102&from=kOip6l6uDoIrqeFrSDvBpYeOTqnoISOnT9wJkaoSi0XymtGTDJjK05L3Y3eCwCHhYfezum5jldV86T6/7T5KZXsNkJ5pDqXRGoI2XPsMk1jbS/47wc6AeUTX5bNd4teprAwxHURP0/e6e/L6OX9i1dB50GNauwtA9A9Po0u3k8mSVJAsvDWoVF/ohkwuS3U2yy3ClGYQLGotNQ5q2m/zwPgSUoI3pQC6T8QSW4rBwoD4bRWkvlJpCLHUsfbhT/OdYKI0c/7h04nJYDGKNWPXClIfDrL8vfowh3ReRukIF1bdRsVr+iXTInu2dQJXsKKyAnwyCug8u1+2KutZwOw36A=="
       },
-      "maxWidth": "315px"
+      // "maxWidth": "315px"
+      "blockClass": "product__cmr-card"
     }
   }
 }
