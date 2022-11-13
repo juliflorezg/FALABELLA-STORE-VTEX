@@ -10,8 +10,8 @@
     "props": {
       "horizontalAlign": "center",
       "width": "45%",
-      "preventVerticalStretch": true
-      // "rowGap": 4
+      "preventVerticalStretch": true,
+      "blockClass": "product-info__image-info"
     }
   },
   "product-images#product-page__images--desktop": {
