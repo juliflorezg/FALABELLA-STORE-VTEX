@@ -1,0 +1,26 @@
+{
+  "responsive-layout.mobile#product-page__mobile--layout": {
+    "children": ["flex-layout.row#product-page__mobile-layout--row"]
+  },
+  "flex-layout.row#product-page__mobile-layout--row": {
+    "title": "row cont. for PDP mobile layout",
+    "children": ["flex-layout.col#product-page__mobile-layout--col"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#product-page__mobile-layout--col": {
+    "title": "col cont. for PDP mobile layout",
+    "children": [
+      "flex-layout.row#product-page__breadcrumb",
+      "flex-layout.row#product-brand__mobile"
+    ]
+  },
+  "flex-layout.row#product-brand__mobile": {
+    "title": "row cont. for brand, product page, mobile",
+    "children": ["vtex.store-components:product-brand#product-page__brand"],
+    "props": {
+      "blockClass": "product-brand__mobile"
+    }
+  }
+}
