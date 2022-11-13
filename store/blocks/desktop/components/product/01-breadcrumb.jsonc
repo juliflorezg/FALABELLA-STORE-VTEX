@@ -9,5 +9,10 @@
   "flex-layout.col#product-page__breadcrumb": {
     "title": "col cont. for breadcrumb, product page",
     "children": ["breadcrumb"]
+  },
+  "breadcrumb":{
+    "props": {
+      "showOnMobile": true
+    }
   }
 }
