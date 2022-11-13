@@ -20,16 +20,47 @@
   text-transform: uppercase;
 }
 
-.wrapper--content-two__subtitle-one {
+.wrapper--content-two__subtitle-one,
+.wrapper--content-two__subtitle-two {
   color: black;
 }
 
+.headingLevel3--content-two__subtitle-one,
+.headingLevel3--content-two__subtitle-two{
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+
 .headingLevel3--images-layout-one__text-image-col--title,
-.paragraph--images-layout-one__text-image-col--text{
+.paragraph--images-layout-one__text-image-col--text {
   margin: 0;
   margin-bottom: 15px;
 }
-.headingLevel3--images-layout-one__text-image-col--title{
+.headingLevel3--images-layout-one__text-image-col--title {
   font-size: 1.5rem;
   color: black;
+}
+
+.paragraph--content-two__info-one {
+  width: 80%;
+  margin: 0 auto 60px;
+  color: black;
+  line-height: 1.3;
+}
+
+.headingLevel3--content-two__warranty--subtitle{
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.list--content-two__warranty--duration{
+  margin: 0;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  color: black;
+}
+
+.paragraph--content-two__warranty--description{
+  margin-top: 0;
 }

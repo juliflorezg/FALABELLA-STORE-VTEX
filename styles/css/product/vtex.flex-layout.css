@@ -12,11 +12,23 @@
 }
 
 .flexRowContent--product-page__product-info--desktop {
-  padding: 0 35px;
+  padding: 15px 35px;
+}
+
+.flexCol--product-info__image-info {
+  position: relative;
+}
+.flexCol--product-info__image-info::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  right: -2px;
+  background-color: #eee;
 }
 
 .flexRow--product-info__data--rating-highlight {
-  border-bottom: 2px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 .flexRow--product__add-to-cart--container {
@@ -24,11 +36,19 @@
 }
 
 .flexRowContent--product-specifications__content {
-  padding: 0 30px;
+  padding: 0 40px;
   gap: 50px;
 }
 
 .flexRowContent--content-two__images-layout-one {
   padding: 30px 0;
   gap: 20px;
+}
+
+.flexRow--content-two__warranty-info--text {
+  margin-top: 50px;
+}
+
+.flexRowContent--content-two__warranty-info--text {
+  display: block;
 }
