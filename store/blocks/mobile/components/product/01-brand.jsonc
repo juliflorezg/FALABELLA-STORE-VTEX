@@ -1,9 +1,0 @@
-{
-  "flex-layout.row#product-brand__mobile": {
-    "title": "row cont. for brand, product page, mobile",
-    "children": ["vtex.store-components:product-brand#product-page__brand"],
-    "props": {
-      "blockClass": "product-brand__mobile"
-    }
-  }
-}
