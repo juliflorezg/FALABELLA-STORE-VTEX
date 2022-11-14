@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#product-sku-selector__mobile": {
+    "title": "row cont. for sku-selector & description, product page, mobile",
+    "children": ["sku-selector", "product-description"],
+    "props": {
+      "blockClass": "product-sku-selector__mobile",
+      "colSizing": "auto"
+    }
+  }
+}
