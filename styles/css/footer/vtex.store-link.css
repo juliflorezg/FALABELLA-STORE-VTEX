@@ -1,5 +1,5 @@
 .label--footer__link,
-.label--footer__sucribete--link {
+.label--footer__suscribete--link {
   min-width: max-content;
   color: rgb(136, 136, 136);
 }
@@ -7,11 +7,11 @@
   text-decoration: none !important;
   color: rgb(221, 221, 221);
 }
-.label--footer__sucribete--link {
+.label--footer__suscribete--link {
   color: rgb(221, 221, 221);
   font-weight: bold;
 }
-.label--footer__sucribete--link:hover {
+.label--footer__suscribete--link:hover {
   text-decoration: none !important;
 }
 
@@ -27,9 +27,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .link--footer__sucribete--link {
+  .link--footer__suscribete--link {
     padding-bottom: 25px;
     /* border-bottom: 0.5px solid rgb(136, 136, 136); */
     /* justify-self: stretch; */
+  }
+
+  .link--footer__suscribete--link,
+  .link--footer__compra-segura--link {
+    width: auto !important;
+    justify-content: flex-start !important;
+  }
+
+  .label--footer__suscribete--link {
+    min-width: unset;
   }
 }

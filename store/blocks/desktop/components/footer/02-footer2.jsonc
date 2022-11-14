@@ -45,7 +45,7 @@
     "props": {
       "href": "https://www.falabella.com.co/falabella-co/page/registros_2018?staticPageId=7100001",
       "label": "Suscríbete y entérate de nuestras ofertas y productos",
-      "blockClass": "footer__sucribete--link"
+      "blockClass": "footer__suscribete--link"
     }
   }
 }

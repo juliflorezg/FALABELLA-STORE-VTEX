@@ -39,8 +39,16 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~mobile */
 
-.flexRow--footer__menus--mobile{
+.flexRow--footer__menus--mobile {
   background-color: #181818;
   border-top: 4px solid #a2dd30;
-padding: 0 5%;
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1300px) {
+  .flexRow--footer__row1--desktop,
+  .flexRow--footer__row2--desktop,
+  .flexRow--footer__row3--desktop {
+    padding-inline: 5%;
+  }
 }

@@ -8,7 +8,8 @@
     "props": {
       "colSizing": "auto",
       "horizontalAlign": "left",
-      "colGap": 4
+      "colGap": 4,
+      "preserveLayoutOnMobile": true
     }
   }
 }
