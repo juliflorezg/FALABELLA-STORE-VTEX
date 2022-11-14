@@ -2,6 +2,7 @@
   background-color: #181818;
   border-top: 4px solid #a2dd30;
   padding: 0 5%;
+  padding-bottom: 140px;
 }
 
 @media screen and (max-width: 1024px) {
