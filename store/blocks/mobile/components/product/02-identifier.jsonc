@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#product-identifier__mobile": {
+    "title": "row cont. for product identifier, product page, mobile",
+    "children": ["product-identifier.product"],
+    "props": {
+      "blockClass": "product-identifier__mobile"
+    }
+  }
+}
