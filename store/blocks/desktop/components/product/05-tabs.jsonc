@@ -3,340 +3,92 @@
     "title": "row cont. for extra info, product page",
     "children": ["tab-layout#product-page__tabs"]
   },
-  "tab-layout#product-page__tabs": {
-    "title": "tab layout for product-page",
+  "tab-layout#product-page__tabs" :{
+    "title" : "tab layout for product-page",
     "children": [
       "tab-list#product-page__tabs--list",
       "tab-content#product-page__tabs--content"
     ]
+    
   },
-  "tab-list#product-page__tabs--list": {
-    "title": "tab list for product-page",
-    "children": [
-      "tab-list.item#tabs__list--product-specifications",
-      "tab-list.item#tabs__list--reviews-and-ratings"
-    ]
-  },
-  "tab-list.item#tabs__list--product-specifications": {
-    "title": "tab list item, product specifications",
-    "props": {
-      "tabId": "product-specifications",
-      "label": "Información adicional",
-      "defaultActiveTab": true
-    }
-  },
-  "tab-list.item#tabs__list--reviews-and-ratings": {
-    "title": "tab list item, reviews & ratings",
-    "props": {
-      "tabId": "reviews-and-ratings",
-      "label": "Revisiones y calificaciones"
-    }
-  },
-  "tab-content#product-page__tabs--content": {
-    "title": "tab content, product page",
-    "children": [
-      "tab-content.item#tabs__list--product-specifications",
-      "tab-content.item#tabs__list--reviews-and-ratings"
-    ]
-  },
+    "tab-list#product-page__tabs--list": {
+      "title" : "tab list for product-page",
+      "children": [
+        "tab-list.item#tabs__list--reviews-and-ratings",
+        "tab-list.item#tabs__list--product-specifications",
+        "tab-list.item#tabs__list--questions"
+      ]
+    },
+    "tab-list.item#tabs__list--reviews-and-ratings": {
+      "title" : "tab list item, reviews & ratings",
+      "props" : {
+        "tabId": "reviews-and-ratings",
+        "label": "Revisiones y calificaciones",
+        "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#tabs__list--product-specifications": {
+      "title" : "tab list item, product specifications",
+      "props" : {
+        "tabId": "product-specifications",
+        "label": "Especificaciones",
+        "defaultActiveTab": false
+      }
+    },
+    "tab-list.item#tabs__list--questions": {
+      "title" : "tab list item, questions",
+      "props" : {
+        "tabId": "questions",
+        "label": "Preguntas y respuestas",
+        "defaultActiveTab": false
+      }
+    },
+    "tab-content#product-page__tabs--content": {
+      "title" : "tab content, product page",
+      "children": [
+        "tab-content.item#tabs__list--reviews-and-ratings",
+        "tab-content.item#tabs__list--product-specifications",
+        "tab-content.item#tabs__list--questions"
+      ]
+    },
+    "tab-content.item#tabs__list--reviews-and-ratings":{
+      "title" : "tab content item, reviews & ratings",
+      "children": [
+        "rich-text#reviews",
+        "product-reviews"
+      ],
+      "props": {
+        "tabId": "reviews-and-ratings"
+      }
+      
+    },
+    "rich-text#reviews": {
+      "props": {
+        "text": "### reviews"
+      }
+    },
+    "tab-content.item#tabs__list--product-specifications":{
+      "title" : "tab content item, product specifications",
+      "children": [
+        "product-specifications"
+        
+      ],
+      "props": {
+        "tabId": "product-specifications"
+      }
+      
+    },
+    "tab-content.item#tabs__list--questions":{
+      "title" : "tab content item, questions",
+      "children": [
+        "product-questions-and-answers"
 
-  "tab-content.item#tabs__list--product-specifications": {
-    "title": "tab content item, product specifications",
-    "children": ["flex-layout.row#product-specifications__content"],
-    "props": {
-      "tabId": "product-specifications"
+      ],
+      "props": {
+        "tabId": "questions"
+      }
+      
     }
-  },
-  "flex-layout.row#product-specifications__content": {
-    "title": "row cont. for product specifications section",
-    "children": [
-      "flex-layout.col#product-specifications__content--one",
-      "flex-layout.col#product-specifications__content--two"
-    ],
-    "props": {
-      "blockClass": "product-specifications__content"
-    }
-  },
-  "flex-layout.col#product-specifications__content--one": {
-    "title": "col cont. for product specifications",
-    "children": ["product-specifications"],
-    "props": {
-      // "horizontalAlign": "center"
-      "width": "40%",
-      "blockClass": "product-specifications__content--one"
-    }
-  },
-  "flex-layout.col#product-specifications__content--two": {
-    "title": "col cont. for products additional info",
-    "children": [
-      "rich-text#content-two__title",
-      "image#content-two__image-one",
-      "video#content-two__video-one",
-      // "sandbox#content-two__video-one",
-      "disclosure-layout#content-two__disclosure"
-    ],
-    "props": {
-      // "horizontalAlign": "center"
-      "width": "60%",
-      "blockClass": "product-specifications__content--two"
-    }
-  },
-  "rich-text#content-two__title": {
-    "title": "first title, content two column, product page",
-    "props": {
-      "text": "## Información del Producto",
-      "blockClass": "content-two__title"
-    }
-  },
-  "image#content-two__image-one": {
-    "title": "first image, content two column, product page",
-    "props": {
-      "src": "assets/img/global/product/additional_info-image1.png",
-      "blockClass": "content-two__image-one"
-    }
-  },
-  "video#content-two__video-one": {
-    "title": "first video, content two column, product page",
-    "props": {
-      "src": "https://www.youtube.com/watch?v=0Pnj3J9q8ZI",
-      "width": "80%",
-      "controlsType": "native",
-      "blockClass": "content-two__video-one"
-    }
-  },
-  // "sandbox#content-two__video-one": {
-  //   "title": "iframe for video 1",
-  //   "props": {
-  //     "initialContent": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0Pnj3J9q8ZI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-  //   }
-  // },
-
-  "disclosure-layout#content-two__disclosure": {
-    "title": "disclosure layout, additional content, product tabs",
-    "children": [
-      "disclosure-content#content-two__disclosure--content",
-      "disclosure-trigger#content-two__disclosure--trigger"
-    ]
-  },
-  "disclosure-trigger#content-two__disclosure--trigger": {
-    "children": ["flex-layout.row#show-more__trigger--container"],
-    "props": {
-      "blockClass": "content-two__disclosure--trigger"
-    }
-  },
-  "flex-layout.row#show-more__trigger--container": {
-    "title": "row cont. for show more trigger text",
-    "children": ["rich-text#content-two__disclosure--trigger-text"]
-  },
-  "rich-text#content-two__disclosure--trigger-text": {
-    "title": "text for disclosure trigger",
-    "props": {
-      "text": "Ver",
-      "blockClass": "content-two__disclosure--trigger-text"
-    }
-  },
-  "disclosure-content#content-two__disclosure--content": {
-    "children": [
-      "rich-text#content-two__subtitle-one",
-      "info-card#content-two__info-card-one",
-      "flex-layout.row#content-two__images-layout-one",
-      "rich-text#content-two__subtitle-two",
-      "rich-text#content-two__info-one",
-      "info-card#content-two__info-card-two",
-      "info-card#content-two__info-card-three",
-      "info-card#content-two__info-card-four",
-      "info-card#content-two__info-card-five",
-      "image#content-two__image-two",
-      "flex-layout.row#content-two__warranty-info--text"
-    ]
-  },
-
-  "rich-text#content-two__subtitle-one": {
-    "title": "first subtitle, content two column, product page",
-    "props": {
-      "text": "### Pantalla AMOLED de 1.62\"",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
-      "blockClass": "content-two__subtitle-one"
-    }
-  },
-  "info-card#content-two__info-card-one": {
-    "title": "first info card, content two column, product page",
-    "props": {
-      "headline": "Todo se presenta en detalle en alta resolución. Aún mejor, gracias al modo siempre activo, puede leer la fecha y la hora sin levantar la muñeca ni usar los dedos.",
-      "textPosition": "left",
-      "imageUrl": "assets/img/global/product/info-card-1.png",
-      "callToActionMode": "none",
-      "blockClass": "content-two__info-card-one"
-    }
-  },
-
-  "flex-layout.row#content-two__images-layout-one": {
-    "children": [
-      "flex-layout.col#images-layout-one__image-col",
-      "flex-layout.col#images-layout-one__text&image-col"
-    ],
-
-    "props": {
-      "blockClass": "content-two__images-layout-one",
-      "preserveLayoutOnMobile": true,
-      "colSizing": "auto"
-    }
-  },
-
-  "flex-layout.col#images-layout-one__image-col": {
-    "title": "col for image1 in images layout one",
-    "children": ["image#images-layout-one__image1"],
-    "props": {
-      "verticalAlign": "middle"
-    }
-  },
-  "image#images-layout-one__image1": {
-    "title": "image 1 for images layout one",
-    "props": {
-      "src": "assets/img/global/product/additional_info-image-2.png"
-    }
-  },
-  "flex-layout.col#images-layout-one__text&image-col": {
-    "title": "col for text and image, images layout one",
-    "children": [
-      "rich-text#images-layout-one__text&image-col--title",
-      "rich-text#images-layout-one__text&image-col--text",
-      "image#images-layout-one__image2"
-    ]
-  },
-  "rich-text#images-layout-one__text&image-col--title": {
-    "title": "title for images layout one",
-    "props": {
-      "text": "### Resistencia al agua 5ATM*",
-      "blockClass": "images-layout-one__text-image-col--title"
-    }
-  },
-  "rich-text#images-layout-one__text&image-col--text": {
-    "title": "text for images layout one",
-    "props": {
-      "text": "Admite natación en piscina, esnórquel y reconocimiento inteligente de los 4 estilos de natación comunes.",
-      "blockClass": "images-layout-one__text-image-col--text"
-    }
-  },
-  "image#images-layout-one__image2": {
-    "title": "image 2 for images layout one",
-    "props": {
-      "src": "assets/img/global/product/additional_info-image-3.png"
-    }
-  },
-  "rich-text#content-two__subtitle-two": {
-    "title": "subtitle two for content two in tabs, product page",
-    "props": {
-      "text": "### Admite más de 110 modos deportivos",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
-      "blockClass": "content-two__subtitle-two"
-    }
-  },
-  "rich-text#content-two__info-one": {
-    "title": "text info for content two in tabs, product page",
-    "props": {
-      "text": "Una amplia variedad de modos deportivos lo ayudan a realizar un seguimiento de las calorías quemadas, los cambios en la frecuencia cardíaca y la duración del entrenamiento.",
-      "blockClass": "content-two__info-one"
-    }
-  },
-
-  "info-card#content-two__info-card-two": {
-    "title": "second info card, content two column, product page",
-    "props": {
-      "headline": "Más colores divertidos",
-      "subhead": "Marfil¿Oliva¿Naranja¿Azul¿Negro¿Rosa",
-      "textPosition": "left",
-      "imageUrl": "assets/img/global/product/info-card-2.png",
-      "callToActionMode": "none",
-      "blockClass": "content-two__info-card-three"
-    }
-  },
-  "info-card#content-two__info-card-three": {
-    "title": "third info card, content two column, product page",
-    "props": {
-      "headline": "Más de 100 caras de bandas dinámicas",
-      "subhead": "Con una representación gráfica más avanzada y efectos de animación más suaves, tanto las caras de banda dinámicas exclusivas como las personalizadas se vuelven superiores.",
-      "textPosition": "right",
-      "imageUrl": "assets/img/global/product/info-card-3.png",
-      "callToActionMode": "none",
-      "blockClass": "content-two__info-card-three"
-    }
-  },
-  "info-card#content-two__info-card-four": {
-    "title": "four info card, content two column, product page",
-    "props": {
-      "headline": "Monitoreo de la frecuencia cardíaca durante todo el día",
-      "subhead": "La banda realiza un seguimiento de su frecuencia cardíaca en tiempo real durante todo el día y ofrece revisiones precisas en gráficos fáciles de leer. La banda vibrará para alertar cuando su frecuencia cardíaca se salga de la zona segura.*",
-      "textPosition": "left",
-      "imageUrl": "assets/img/global/product/info-card-4.png",
-      "callToActionMode": "none",
-      "blockClass": "content-two__info-card-four"
-    }
-  },
-  "info-card#content-two__info-card-five": {
-    "title": "fifth info card, content two column, product page",
-    "props": {
-      "headline": "Seguimiento de la calidad del sueño",
-      "subhead": "La banda monitorea tus patrones de sueño con cuidado y precisión. Puede encontrar estadísticas detalladas sobre el sueño profundo, el sueño ligero y la fase REM* en su teléfono inteligente para ayudarlo a comprender la calidad de su sueño.",
-      "textPosition": "right",
-      "imageUrl": "assets/img/global/product/info-card-5.png",
-      "callToActionMode": "none",
-      "blockClass": "content-two__info-card-five"
-    }
-  },
-  "image#content-two__image-two": {
-    "title": "second image of content two, product page",
-    "props": {
-      "src": "assets/img/global/product/additional_info-image-4.png"
-    }
-  },
-  "flex-layout.row#content-two__warranty-info--text": {
-    "title": "row cont for warranty text, product page",
-    "children": [
-      "rich-text#content-two__warranty--subtitle",
-      "rich-text#content-two__warranty--duration",
-      "rich-text#content-two__warranty--description"
-    ],
-    "props": {
-      "blockClass": "content-two__warranty-info--text",
-      "colSizing": "auto"
-    }
-  },
-  "rich-text#content-two__warranty--subtitle": {
-    "title": "subtitle for warranty section",
-    "props": {
-      "text": "### Garantía del proveedor",
-      "blockClass": "content-two__warranty--subtitle"
-    }
-  },
-  "rich-text#content-two__warranty--duration": {
-    "title": "duration text for warranty section",
-    "props": {
-      "text": "- 1 año.",
-      "blockClass": "content-two__warranty--duration"
-    }
-  },
-  "rich-text#content-two__warranty--description": {
-    "title": "description for warranty section",
-    "props": {
-      "text": "**Producto ambientado, solo incluye productos especificados en la descripción. Para cambios o devoluciones te invitamos a leer nuestras políticas [AQUÍ](https://www.falabella.com.co/falabella-co/static/staticContent1.jsp?active=9&id=cat1850985)**",
-      "blockClass": "content-two__warranty--description"
-    }
-  },
-
-  "tab-content.item#tabs__list--reviews-and-ratings": {
-    "title": "tab content item, reviews & ratings",
-    "children": ["product-reviews#product-page__ratings"],
-    "props": {
-      "tabId": "reviews-and-ratings"
-    }
-  },
-  "product-reviews#product-page__ratings": {
-    "title": "ratings for product in product page",
-    "props": {
-      "blockClass": "product-page__ratings"
-    }
+    
   }
-}
+  

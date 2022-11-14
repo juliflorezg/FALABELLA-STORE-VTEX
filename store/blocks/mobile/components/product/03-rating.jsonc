@@ -1,9 +1,0 @@
-{
-  "flex-layout.row#product-rating__mobile": {
-    "title": "row cont. for rating, product page, mobile",
-    "children": ["product-rating-inline#product__rating"],
-    "props": {
-      "blockClass": "product-rating__mobile"
-    }
-  }
-}
