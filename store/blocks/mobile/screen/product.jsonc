@@ -13,14 +13,20 @@
     "title": "col cont. for PDP mobile layout",
     "children": [
       "flex-layout.row#product-page__breadcrumb",
-      "flex-layout.row#product-brand__mobile"
+      "flex-layout.row#product-brand__mobile",
+      "flex-layout.row#product-info__data--name&share",
+      "flex-layout.row#product-identifier__mobile",
+      "flex-layout.row#product-rating__mobile",
+      "product-images#product-page__images--desktop",
+      "flex-layout.row#product-prices__mobile",
+      "flex-layout.row#product-sku-selector__mobile",
+      "flex-layout.row#sku&button__button--cmr-card",
+      "flex-layout.row#image&info__text-two",
+      "flex-layout.row#image&info__text-one",
+      "flex-layout.row#link__contact-by-phone--mobile",
+      "flex-layout.col#product-specifications__content--one",
+      "flex-layout.col#product-specifications__content--two",
+      "flex-layout.row#product__add-to-cart--container"
     ]
-  },
-  "flex-layout.row#product-brand__mobile": {
-    "title": "row cont. for brand, product page, mobile",
-    "children": ["vtex.store-components:product-brand#product-page__brand"],
-    "props": {
-      "blockClass": "product-brand__mobile"
-    }
   }
 }
