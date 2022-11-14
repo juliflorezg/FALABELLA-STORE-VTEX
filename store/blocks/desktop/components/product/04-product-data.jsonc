@@ -38,7 +38,11 @@
       "vtex.store-components:product-name#product-page__name",
       "overlay-trigger#product-share"
     ],
-    "props": { "colSizing": "auto", "marginBottom": 4 }
+    "props": {
+      "colSizing": "auto",
+      "marginBottom": 4,
+      "blockClass": "product-info__data--name-share"
+    }
   },
   "vtex.store-components:product-name#product-page__name": {
     "props": {

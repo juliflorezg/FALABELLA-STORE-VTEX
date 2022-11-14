@@ -62,7 +62,8 @@
     "children": ["product-specifications"],
     "props": {
       // "horizontalAlign": "center"
-      "width": "40%"
+      "width": "40%",
+      "blockClass": "product-specifications__content--one"
     }
   },
   "flex-layout.col#product-specifications__content--two": {
@@ -76,7 +77,8 @@
     ],
     "props": {
       // "horizontalAlign": "center"
-      "width": "60%"
+      "width": "60%",
+      "blockClass": "product-specifications__content--two"
     }
   },
   "rich-text#content-two__title": {
@@ -176,7 +178,9 @@
     ],
 
     "props": {
-      "blockClass": "content-two__images-layout-one"
+      "blockClass": "content-two__images-layout-one",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     }
   },
 
