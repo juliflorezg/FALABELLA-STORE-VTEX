@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#product-prices__mobile": {
+    "title": "row cont. for prices, product page, mobile",
+    "children": ["product-price", "product-selling-price"],
+    "props": {
+      "blockClass": "product-prices__mobile",
+      "colSizing": "auto"
+    }
+  }
+}
