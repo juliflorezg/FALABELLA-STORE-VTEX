@@ -10,8 +10,8 @@
     "props": {
       "horizontalAlign": "center",
       "width": "45%",
-      "preventVerticalStretch": true
-      // "rowGap": 4
+      "preventVerticalStretch": true,
+      "blockClass": "product-info__image-info"
     }
   },
   "product-images#product-page__images--desktop": {
@@ -24,12 +24,17 @@
   },
   "flex-layout.row#image&info__text-one": {
     "title": "row cont. for phone info",
-    "children": ["image#info__phone-icon", "rich-text#info__phone-text"],
+    "children": [
+      "image#info__phone-icon",
+      "responsive-layout.desktop#image&info__text-one",
+      "responsive-layout.mobile#image&info__text-one"
+    ],
     "props": {
       "colSizing": "auto",
       // "horizontalAlign": "center",
-      "blockClass": "image&info__text-one",
-      "colGap": 3
+      "blockClass": "image-info__text-one",
+      // "colGap": 3,
+      "preserveLayoutOnMobile": true
     }
   },
   "image#info__phone-icon": {
@@ -40,10 +45,25 @@
       "blockClass": "info__phone-icon"
     }
   },
-  "rich-text#info__phone-text": {
-    "title": "text for phone info",
+  "responsive-layout.desktop#image&info__text-one": {
+    "children": ["rich-text#info__phone-text--desktop"],
+    "props":{
+      "blockClass": "responsive-layout__image-info--text-one"
+    }
+  },
+  "rich-text#info__phone-text--desktop": {
+    "title": "text for phone info, mobile",
     "props": {
       "text": "¿Necesitas ayuda?<br>Llámanos al **601 587 8006**"
+    }
+  },
+  "responsive-layout.mobile#image&info__text-one": {
+    "children": ["rich-text#info__phone-text--mobile"]
+  },
+  "rich-text#info__phone-text--mobile": {
+    "title": "text for phone info, mobile",
+    "props": {
+      "text": "¿Necesitas ayuda?<br>**Contáctate con nuestros especialistas:**"
     }
   },
   "flex-layout.row#image&info__text-two": {
@@ -52,8 +72,9 @@
     "props": {
       "colSizing": "auto",
       // "horizontalAlign": "center",
-      "blockClass": "image&info__text-two",
-      "colGap": 3
+      "blockClass": "image-info__text-two",
+      // "colGap": 3,
+      "preserveLayoutOnMobile": true
     }
   },
   "image#info__return-icon": {
