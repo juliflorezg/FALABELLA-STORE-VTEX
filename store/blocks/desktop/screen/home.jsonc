@@ -2,6 +2,7 @@
   "responsive-layout.desktop#home__desktop": {
     "children": [
       // "search-result-layout.customQuery#home__search",
+      "whatsapp-button",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
