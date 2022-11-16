@@ -2,6 +2,7 @@
   "responsive-layout.desktop#home__desktop": {
     "children": [
       // "search-result-layout.customQuery#home__search",
+      "whatsapp-button#whatsapp__button--home",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
@@ -15,5 +16,13 @@
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
     ]
+  },
+  "whatsapp-button#whatsapp__button--home": {
+    "title": "custom component for whatsapp button",
+    "props": {
+      "logo": "assets/icons/whatsapp-logo.png",
+      "phone": "22323444",
+      "message": "Hola, estás comunicandote con ITGloberspartnercl, por favor ingresa tu duda."
+    }
   }
 }
