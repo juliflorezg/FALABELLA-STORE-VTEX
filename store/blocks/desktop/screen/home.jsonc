@@ -16,5 +16,13 @@
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
     ]
+  },
+  "whatsapp-button": {
+    "title": "custom component for whatsapp button",
+    "props": {
+      "logo": "assets/icons/whatsapp-logo.png",
+      "phone": "22323444",
+      "message": "Hola, estás comunicandote con ITGloberspartnercl, por favor ingresa tu duda."
+    }
   }
 }
