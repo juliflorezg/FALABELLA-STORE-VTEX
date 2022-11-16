@@ -3,6 +3,7 @@
     "title": "responsive layout para home en tablet",
     "children": [
       "whatsapp-button#whatsapp__button--home",
+      "list-context.bullet-group",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",

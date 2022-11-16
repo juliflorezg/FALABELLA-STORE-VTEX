@@ -2,6 +2,7 @@
   "responsive-layout.phone#home__phone": {
     "children": [
       "whatsapp-button#whatsapp__button--home",
+      "list-context.bullet-group",
       "slider-layout#home__slider--mobile",
       "flex-layout.row#mobile__disfraces",
       "rich-text#home__titulo-categorias",
