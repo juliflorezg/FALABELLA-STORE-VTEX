@@ -2,7 +2,7 @@
   "responsive-layout.desktop#home__desktop": {
     "children": [
       // "search-result-layout.customQuery#home__search",
-      "whatsapp-button",
+      "whatsapp-button#whatsapp__button--home",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
@@ -17,7 +17,7 @@
       "flex-layout.row#home__desktop--textos"
     ]
   },
-  "whatsapp-button": {
+  "whatsapp-button#whatsapp__button--home": {
     "title": "custom component for whatsapp button",
     "props": {
       "logo": "assets/icons/whatsapp-logo.png",
