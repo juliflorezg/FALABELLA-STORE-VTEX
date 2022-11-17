@@ -25,5 +25,25 @@
       "phone": "22323444",
       "message": "Hola, estás comunicandote con ITGloberspartnercl, por favor ingresa tu duda."
     }
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "mi_imagen-pcs.png",
+          "bulletTitle": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "mi_imagen-calzado.png",
+          "bulletTitle": "Calzado",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
   }
 }
