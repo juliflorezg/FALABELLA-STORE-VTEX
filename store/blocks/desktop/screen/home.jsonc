@@ -1,7 +1,6 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
-      // "search-result-layout.customQuery#home__search",
       "whatsapp-button#whatsapp__button--home",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
@@ -12,6 +11,8 @@
       "slider-layout#home__slider-tendencias--desktop",
       "rich-text#home__titulo-mas-vendidos",
       "list-context.product-list#home__product-shelf",
+      "rich-text#home__titulo-marcas-destacadas",
+      "list-context.bullet-group",
       "flex-layout.row#desktop--beneficios",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
