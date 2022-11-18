@@ -28,23 +28,77 @@
   },
   "list-context.bullet-group": {
     "title": "list context for bullet diagramation",
+    "children": ["slider-layout#slider__custom--bullet-diagramation"],
     "props": {
       "bullets": [
         {
-          "image": "mi_imagen-pcs.png",
+          "image": "assets/img/desktop/home__categorias-1.png",
           "bulletTitle": "Computadores",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "mi_imagen-calzado.png",
+          "image": "assets/img/desktop/home__categorias-3.png",
+          "bulletTitle": "Calzado",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-1.png",
+          "bulletTitle": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-3.png",
+          "bulletTitle": "Calzado",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-1.png",
+          "bulletTitle": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-3.png",
+          "bulletTitle": "Calzado",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-1.png",
+          "bulletTitle": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/desktop/home__categorias-3.png",
           "bulletTitle": "Calzado",
           "link": {
             "url": "/"
           }
         }
       ]
+    }
+  },
+  "slider-layout#slider__custom--bullet-diagramation": {
+    "title": "slider for custom comp. bullet diagramation",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true
     }
   }
 }
