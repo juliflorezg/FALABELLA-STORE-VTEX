@@ -27,6 +27,7 @@
     }
   },
   "list-context.bullet-group": {
+    "title": "list context for bullet diagramation",
     "props": {
       "bullets": [
         {
