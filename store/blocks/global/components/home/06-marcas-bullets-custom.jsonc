@@ -1,0 +1,113 @@
+{
+  "list-context.bullet-group": {
+    "title": "list context for bullet diagramation",
+    "children": ["slider-layout#slider__custom--bullet-diagramation"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/global/custom/bullets/SAMSUNG.svg",
+          "bulletTitle": "Samsung",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/APPLE.svg",
+          "bulletTitle": "Apple",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/LENOVO.svg",
+          "bulletTitle": "Lenovo",
+          "link": {
+            "url": "/queso"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/HACEB.svg",
+          "bulletTitle": "Haceb",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/OSTER.svg",
+          "bulletTitle": "Oster",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/GAP.svg",
+          "bulletTitle": "GAP",
+          "link": {
+            "url": "/electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/SYBILLA.svg",
+          "bulletTitle": "Sybilla",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/ADIDAS.svg",
+          "bulletTitle": "Adidas",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/NIKE.svg",
+          "bulletTitle": "Nike",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/BARBIE.svg",
+          "bulletTitle": "Barbie",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/LEGO.svg",
+          "bulletTitle": "Lego",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/CH.svg",
+          "bulletTitle": "Carolina Herrera",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/global/custom/bullets/DIOR.svg",
+          "bulletTitle": "Dior",
+          "link": {
+            "url": "/madera"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slider__custom--bullet-diagramation": {
+    "title": "slider for custom comp. bullet diagramation",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "slider__custom--bullet-diagramation"
+    }
+  }
+}

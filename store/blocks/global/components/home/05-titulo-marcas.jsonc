@@ -1,0 +1,9 @@
+{
+  "rich-text#home__titulo-marcas-destacadas": {
+    "props": {
+      "text": "### Nuestras Marcas Destacadas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

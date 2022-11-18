@@ -1,6 +1,8 @@
 {
   "responsive-layout.phone#home__phone": {
     "children": [
+      "whatsapp-button#whatsapp__button--home",
+      "list-context.bullet-group",
       "slider-layout#home__slider--mobile",
       "flex-layout.row#mobile__disfraces",
       "rich-text#home__titulo-categorias",
@@ -10,6 +12,8 @@
       "rich-text#home__titulo-mas-vendidos",
       "list-context.product-list#home__product-shelf",
       "slider-layout#phone--beneficios",
+      "rich-text#home__titulo-marcas-destacadas",
+      "list-context.bullet-group",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
     ]

@@ -2,6 +2,8 @@
   "responsive-layout.tablet#home__tablet": {
     "title": "responsive layout para home en tablet",
     "children": [
+      "whatsapp-button#whatsapp__button--home",
+      "list-context.bullet-group",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
@@ -11,6 +13,8 @@
       "slider-layout#home__slider-tendencias--desktop",
       "rich-text#home__titulo-mas-vendidos",
       "list-context.product-list#home__product-shelf",
+      "rich-text#home__titulo-marcas-destacadas",
+      "list-context.bullet-group",
       "flex-layout.row#desktop--beneficios",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
