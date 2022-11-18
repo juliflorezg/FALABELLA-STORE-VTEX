@@ -13,6 +13,8 @@
       "slider-layout#home__slider-tendencias--desktop",
       "rich-text#home__titulo-mas-vendidos",
       "list-context.product-list#home__product-shelf",
+      "rich-text#home__titulo-marcas-destacadas",
+      "list-context.bullet-group",
       "flex-layout.row#desktop--beneficios",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
