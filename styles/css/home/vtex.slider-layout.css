@@ -5,7 +5,7 @@
 .paginationDotsContainer--home__slider {
   transform: translateY(25px);
 }
-.paginationDot--isActive{
+.paginationDot--isActive {
   background-color: #a2dd30;
 }
 
@@ -14,14 +14,12 @@
   margin: 0 auto;
 }
 
-
-.sliderLayoutContainer--home__product-shelf--slider{
+.sliderLayoutContainer--home__product-shelf--slider {
   max-width: 1280px;
   margin: 70px auto;
   /* outline: 2px solid red; */
-  
 }
-.sliderLayoutContainer--home__product-shelf--slider::before{
+.sliderLayoutContainer--home__product-shelf--slider::before {
   position: absolute;
   content: '';
   top: -35px;
@@ -30,9 +28,49 @@
   background-color: #c0c0c0;
 }
 
+.sliderLayoutContainer--slider__custom--bullet-diagramation{
+  max-width: 1280px;
+  margin: 30px auto;
+}
+
+.slideChildrenContainer--slider__custom--bullet-diagramation {
+  display: flex;
+  align-items: unset;
+  justify-content: unset;
+}
+
+.bullet__item--slider__custom--bullet-diagramation {
+  width: 100%;
+  padding-inline: 10px;
+  transition: all .2s ease;
+}
+.bullet__item--slider__custom--bullet-diagramation:hover {
+  filter: brightness(.9);
+}
+
+.bullet__item--link--slider__custom--bullet-diagramation {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #91c42c;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.bullet__item--image--slider__custom--bullet-diagramation {
+  padding: 20px;
+  max-height: 120px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+.bullet__item--title--slider__custom--bullet-diagramation{
+  text-align: center;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
 
 .sliderLayoutContainer--home__slider-tendencias,
-  .sliderLayoutContainer--home__slider--beneficios{
+.sliderLayoutContainer--home__slider--beneficios {
   margin-bottom: 4rem;
 }
