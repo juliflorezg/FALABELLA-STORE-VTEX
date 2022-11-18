@@ -1,9 +1,7 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
-      // "search-result-layout.customQuery#home__search",
       "whatsapp-button#whatsapp__button--home",
-      "list-context.bullet-group",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
@@ -13,6 +11,8 @@
       "slider-layout#home__slider-tendencias--desktop",
       "rich-text#home__titulo-mas-vendidos",
       "list-context.product-list#home__product-shelf",
+      "rich-text#home__titulo-marcas-destacadas",
+      "list-context.bullet-group",
       "flex-layout.row#desktop--beneficios",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
@@ -24,81 +24,6 @@
       "logo": "assets/icons/whatsapp-logo.png",
       "phone": "22323444",
       "message": "Hola, estás comunicandote con ITGloberspartnercl, por favor ingresa tu duda."
-    }
-  },
-  "list-context.bullet-group": {
-    "title": "list context for bullet diagramation",
-    "children": ["slider-layout#slider__custom--bullet-diagramation"],
-    "props": {
-      "bullets": [
-        {
-          "image": "assets/img/desktop/home__categorias-1.png",
-          "bulletTitle": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-3.png",
-          "bulletTitle": "Calzado",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-1.png",
-          "bulletTitle": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-3.png",
-          "bulletTitle": "Calzado",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-1.png",
-          "bulletTitle": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-3.png",
-          "bulletTitle": "Calzado",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-1.png",
-          "bulletTitle": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/desktop/home__categorias-3.png",
-          "bulletTitle": "Calzado",
-          "link": {
-            "url": "/"
-          }
-        }
-      ]
-    }
-  },
-  "slider-layout#slider__custom--bullet-diagramation": {
-    "title": "slider for custom comp. bullet diagramation",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true
     }
   }
 }
