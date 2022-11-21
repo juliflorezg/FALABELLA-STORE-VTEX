@@ -5,7 +5,8 @@
       "flex-layout.row#product-info__data--brand&identifier",
       "flex-layout.row#product-info__data--name&share",
       "flex-layout.row#product-info__data--rating&highlight",
-      "flex-layout.row#product-info__data--sku&button"
+      "flex-layout.row#product-info__data--sku&button",
+      "add-to-cart-info"
       // "vtex.store-components:product-name",
       // "product-separator",
       // "product-quantity",
