@@ -1,6 +1,7 @@
 {
   "responsive-layout.desktop#home__desktop": {
     "children": [
+      "head-tag",
       "whatsapp-button#whatsapp__button--home",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
