@@ -26,7 +26,8 @@
       "flex-layout.row#link__contact-by-phone--mobile",
       "flex-layout.col#product-specifications__content--one",
       "flex-layout.col#product-specifications__content--two",
-      "flex-layout.row#product__add-to-cart--container"
+      "flex-layout.row#product__add-to-cart--container",
+      "modal-trigger#add-to-cart-info" // from desktop
     ]
   }
 }
