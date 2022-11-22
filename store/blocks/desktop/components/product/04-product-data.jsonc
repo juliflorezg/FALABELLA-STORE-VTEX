@@ -165,5 +165,11 @@
       "showCloseButton": true,
       "iconCloseSize": 24
     }
+  },
+  "add-to-cart-info": {
+    "title": "order info, custom component",
+    "props": {
+      "blockClass": "addCartInfo"
+    }
   }
 }
