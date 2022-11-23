@@ -134,6 +134,7 @@
       "flex-layout.row#megamenu__desktop",
       // "flex-layout.row#mega-menu",
       "flex-layout.col#header__search-bar-container",
+      "department-search",
       "modal-trigger#header__middle--login-desktop",
       "minicart.v2",
       "icon#header__shopping--bag"
