@@ -17,15 +17,19 @@
     "children": [
       "flex-layout.row#product-page__breadcrumb",
       "flex-layout.row#product-page__product-info--desktop",
-      "flex-layout.row#product-page__tabs"
+      "flex-layout.row#product-page__tabs",
+      "pdf-reader#product-page__pdf-reader--desktop"
     ],
     "props": {
       "blockClass": "product-page__layout--col"
     }
+  },
+  "pdf-reader#product-page__pdf-reader--desktop": {
+    "title": "pdf reader for desktop",
+    "props": {
+      "pdfUrl" : "assets/documents/sony_wf-c500_user-manual.pdf",
+      "width": 900,
+      "height":  1050
+    } 
   }
-  // "rich-text#product__title": {
-  //   "props": {
-  //     "text": "# Mi PDP"
-  //   }
-  // }
 }
