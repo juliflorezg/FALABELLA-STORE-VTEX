@@ -3,6 +3,7 @@
     "children": [
       "head-tag",
       "whatsapp-button#whatsapp__button--home",
+      "quick-order#home__quick-order",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
       "rich-text#home__titulo-categorias",
@@ -25,6 +26,12 @@
       "logo": "assets/icons/whatsapp-logo.png",
       "phone": "22323444",
       "message": "Hola, estás comunicándote con ITGloberspartnercl, por favor ingresa tu duda."
+    }
+  },
+  "quick-order#home__quick-order": {
+    "title": "quick order component",
+    "props": {
+      "vendor": "Falabella"
     }
   }
 }
