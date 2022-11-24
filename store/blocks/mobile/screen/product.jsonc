@@ -27,7 +27,38 @@
       "flex-layout.col#product-specifications__content--one",
       "flex-layout.col#product-specifications__content--two",
       "flex-layout.row#product__add-to-cart--container",
+      "responsive-layout.tablet#product-page__pdf-reader--tablet",
+      "responsive-layout.phone#product-page__pdf-reader--phone",
       "modal-trigger#add-to-cart-info" // from desktop
     ]
+  },
+  "responsive-layout.tablet#product-page__pdf-reader--tablet": {
+    "children": [
+      "pdf-reader#product-page__pdf-reader--tablet"
+      
+    ]
+  },
+  "pdf-reader#product-page__pdf-reader--tablet":{
+    "title": "pdf reader for tablet",
+    "props": {
+      "pdfUrl": "assets/documents/sony_wf-c500_user-manual.pdf",
+      "width": 550,
+      "height": 800
+    }
+  },
+  "responsive-layout.phone#product-page__pdf-reader--phone": {
+    "children": [
+      "pdf-reader#product-page__pdf-reader--phone"
+      
+    ]
+  },
+  "pdf-reader#product-page__pdf-reader--phone":{
+    "title": "pdf reader for phone",
+    "props": {
+      "pdfUrl": "assets/documents/sony_wf-c500_user-manual.pdf",
+      "width": 300,
+      "height": 650
+    }
   }
+  
 }
