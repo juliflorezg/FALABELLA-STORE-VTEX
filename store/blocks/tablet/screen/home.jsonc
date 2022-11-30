@@ -6,6 +6,7 @@
       "list-context.bullet-group",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
+      "quick-order#home__quick-order",
       "rich-text#home__titulo-categorias",
       "flex-layout.row#desktop__categorias-1",
       "flex-layout.row#desktop__categorias-2",

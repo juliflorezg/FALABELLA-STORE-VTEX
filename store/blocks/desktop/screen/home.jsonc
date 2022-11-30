@@ -3,9 +3,9 @@
     "children": [
       "head-tag",
       "whatsapp-button#whatsapp__button--home",
-      "quick-order#home__quick-order",
       "slider-layout#home__slider-principal--desktop",
       "flex-layout.row#desktop__disfraces",
+      "quick-order#home__quick-order",
       "rich-text#home__titulo-categorias",
       "flex-layout.row#desktop__categorias-1",
       "flex-layout.row#desktop__categorias-2",
@@ -31,7 +31,8 @@
   "quick-order#home__quick-order": {
     "title": "quick order component",
     "props": {
-      "vendor": "Falabella"
+      "vendor": "Falabella",
+      "blockClass": "home__quick-order"
     }
   }
 }
