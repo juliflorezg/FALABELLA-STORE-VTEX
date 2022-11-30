@@ -1,0 +1,51 @@
+.quickOrder__container--home__quick-order {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.quickOrder__title--home__quick-order {
+  margin-top: 0;
+  text-align: center;
+}
+.quickOrder__title--vendor--home__quick-order {
+  color: #91c42c;
+}
+
+.quickOrder__form--home__quick-order {
+  align-self: stretch;
+}
+
+.quickOrder__form--main-container--home__quick-order {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.quickOrder__form--main-container-label--home__quick-order,
+.quickOrder__form--main-container-input--home__quick-order {
+  align-self: center;
+}
+
+.quickOrder__form--submit--home__quick-order {
+  display: block;
+  margin: 0 auto;
+  background-color: #91c42c;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quickOrder__form--submit--home__quick-order:hover {
+  background-color: #78a71a;
+}
