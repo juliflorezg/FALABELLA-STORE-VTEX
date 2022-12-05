@@ -46,6 +46,19 @@
   max-width: 1280px;
 }
 
+.flexRow--desktop__disfraces--container
+  :global(.vtex-store-components-3-x-container),
+.flexRow--desktop--beneficios-container
+  :global(.vtex-store-components-3-x-container),
+.flexRow--home__desktop--textos-container
+  :global(.vtex-store-components-3-x-container) {
+  margin: 0 auto;
+}
+
+.flexRow--add-cart-btn__container{
+  padding: 10px 15px;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
 
 .flexRowContent--mobile__categorias--container,

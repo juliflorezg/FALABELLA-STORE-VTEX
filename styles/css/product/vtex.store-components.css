@@ -1,7 +1,7 @@
 .imageElement--info__phone-icon {
-  width: 20px;
+  min-width: 20px;
   aspect-ratio: 1;
-  margin-right: 15px;
+  /* margin-right: 15px; */
 }
 
 .productBrandName--product-page__brand {
@@ -94,8 +94,16 @@
   .infoCardContainer--content-two__info-card-one,
   .infoCardContainer--content-two__info-card-three,
   .infoCardContainer--content-two__info-card-four,
-  .infoCardContainer--content-two__info-card-five{
+  .infoCardContainer--content-two__info-card-five {
     display: flex;
     flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 500px) {
+  .imageElement--product__cmr-card {
+    max-width: 100%;
+  }
+  .imageElementLink--product__cmr-card {
+    padding: 0 5%;
   }
 }

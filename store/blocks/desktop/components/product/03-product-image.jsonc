@@ -3,7 +3,6 @@
     "title": "col cont. for product image, product page",
     "children": [
       "product-images#product-page__images--desktop",
-      // "product-images",
       "flex-layout.row#image&info__text-one",
       "flex-layout.row#image&info__text-two"
     ],
@@ -19,7 +18,8 @@
     "props": {
       "displayThumbnailsArrows": true,
       "max-height": 480,
-      "zoomMode": "in-place-hover"
+      "zoomMode": "in-place-hover",
+      "blockClass": "product-page__images--desktop"
     }
   },
   "flex-layout.row#image&info__text-one": {
@@ -47,7 +47,7 @@
   },
   "responsive-layout.desktop#image&info__text-one": {
     "children": ["rich-text#info__phone-text--desktop"],
-    "props":{
+    "props": {
       "blockClass": "responsive-layout__image-info--text-one"
     }
   },

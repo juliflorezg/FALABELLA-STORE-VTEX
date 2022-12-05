@@ -17,3 +17,9 @@
 .stackItem--stack__header--desktop:last-child {
   position: relative;
 }
+@media screen and (min-width: 1700px) {
+  .stackItem--stack__header--desktop:nth-child(even) {
+    color: red;
+    left: 10%;
+  }
+}
