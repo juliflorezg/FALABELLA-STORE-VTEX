@@ -68,6 +68,10 @@
   text-align: center;
 }
 
+.paginationDotsContainer--home__product-shelf--slider{
+  transform: translateY(20px);
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
 
 .sliderLayoutContainer--home__slider-tendencias,
