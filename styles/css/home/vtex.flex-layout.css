@@ -55,6 +55,10 @@
   margin: 0 auto;
 }
 
+.flexRow--add-cart-btn__container{
+  padding: 10px 15px;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
 
 .flexRowContent--mobile__categorias--container,

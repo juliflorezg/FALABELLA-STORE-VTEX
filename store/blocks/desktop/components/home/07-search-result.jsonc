@@ -59,7 +59,14 @@
       "product-summary-space",
       "product-summary-name",
       "product-summary-price",
-      "add-to-cart-button"
+      "flex-layout.row#add-cart-btn__container"
     ]
+  },
+  "flex-layout.row#add-cart-btn__container": {
+    "title": "row cont for cart button",
+    "children": ["add-to-cart-button"],
+    "props": {
+      "blockClass": "add-cart-btn__container"
+    }
   }
 }
