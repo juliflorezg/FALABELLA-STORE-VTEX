@@ -36,17 +36,21 @@
   justify-content: center;
 }
 
-.headerRowContentContainer{
+.headerRowContentContainer {
   margin: 0;
   min-width: calc(100% - 17px);
   padding: 0;
 }
 
-.headerRow--header__bottom-1--desktop{
+.headerRow--header__bottom-1--desktop {
   padding: 10px 0;
   padding-right: 3%;
 }
 
+.headerRowContainer--header__bottom-1--desktop {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
 
