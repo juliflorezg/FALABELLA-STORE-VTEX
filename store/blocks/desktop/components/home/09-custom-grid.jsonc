@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#custom-grid-container": {
+    "title": "row cont. for custom grid block",
+    "children": ["custom-grid"],
+    "props": {
+      "blockClass": "custom-grid-container"
+    }
+  },
+  "custom-grid": {
+    "children": [
+      "flex-layout.row#custom-grid__big-container",
+      "flex-layout.row#custom-small-1-container",
+      "flex-layout.row#custom-small-2-container",
+      "flex-layout.row#custom-small-3-container",
+      "flex-layout.row#custom-small-4-container"
+    ]
+  },
+  "flex-layout.row#custom-grid__big-container": {
+    "title": "row cont. for big image in custom grid",
+    "children": ["image#custom-grid__big"],
+    "props": {
+      "blockClass": "custom-grid__big-container"
+    }
+  },
+  "image#custom-grid__big": {
+    "props": {
+      "src": "assets/img/desktop/custom-grid__big.png",
+      "blockClass": "custom-grid__big"
+    }
+  },
+  "flex-layout.row#custom-small-1-container": {
+    "title": "row cont. for small image 1 in custom grid",
+    "children": ["image#custom-grid__small-1"],
+    "props": {
+      "blockClass": "custom-grid__small-container"
+    }
+  },
+  "image#custom-grid__small-1": {
+    "props": {
+      "src": "assets/img/desktop/custom-grid__small-1.png",
+      "blockClass": "custom-grid__small"
+    }
+  },
+  "flex-layout.row#custom-small-2-container": {
+    "title": "row cont. for small image 2 in custom grid",
+    "children": ["image#custom-grid__small-2"],
+    "props": {
+      "blockClass": "custom-grid__small-container"
+    }
+  },
+  "image#custom-grid__small-2": {
+    "props": {
+      "src": "assets/img/desktop/custom-grid__small-2.png",
+      "blockClass": "custom-grid__small"
+    }
+  },
+  "flex-layout.row#custom-small-3-container": {
+    "title": "row cont. for small image 3 in custom grid",
+    "children": ["image#custom-grid__small-3"],
+    "props": {
+      "blockClass": "custom-grid__small-container"
+    }
+  },
+  "image#custom-grid__small-3": {
+    "props": {
+      "src": "assets/img/desktop/custom-grid__small-3.png",
+      "blockClass": "custom-grid__small"
+    }
+  },
+  "flex-layout.row#custom-small-4-container": {
+    "title": "row cont. for small image 4 in custom grid",
+    "children": ["image#custom-grid__small-4"],
+    "props": {
+      "blockClass": "custom-grid__small-container"
+    }
+  },
+  "image#custom-grid__small-4": {
+    "props": {
+      "src": "assets/img/desktop/custom-grid__small-4.png",
+      "blockClass": "custom-grid__small"
+    }
+  }
+}
