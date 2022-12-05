@@ -55,7 +55,10 @@
     "children": [
       "image#product-share__icon",
       "overlay-layout#product-share__content"
-    ]
+    ],
+    "props": {
+      "blockClass": "product-share"
+    }
   },
   "image#product-share__icon": {
     "props": {
