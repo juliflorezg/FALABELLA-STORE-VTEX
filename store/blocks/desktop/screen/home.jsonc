@@ -15,6 +15,7 @@
       "rich-text#home__titulo-marcas-destacadas",
       "list-context.bullet-group",
       "flex-layout.row#desktop--beneficios",
+      "flex-layout.row#custom-grid-container",
       "rich-text#home__titulo-textos",
       "flex-layout.row#home__desktop--textos"
     ]
