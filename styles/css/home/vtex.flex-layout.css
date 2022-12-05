@@ -32,18 +32,23 @@
   margin-inline-end: auto;
 }
 
-.flexRowContent--home__desktop--textos-container{
+.flexRowContent--home__desktop--textos-container {
   width: 90%;
   max-width: 1280px;
   margin: 0 auto;
 }
-.flexRowContent--home__desktop--textos-container{
-  gap:20px
+.flexRowContent--home__desktop--textos-container {
+  gap: 20px;
+}
+
+.flexRow--custom-grid-container {
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ phone */
 
 .flexRowContent--mobile__categorias--container,
-.flexRowContent--mobile__disfraces--container{ 
+.flexRowContent--mobile__disfraces--container {
   margin-block-end: 80px;
 }
