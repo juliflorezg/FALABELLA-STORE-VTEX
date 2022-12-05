@@ -10,9 +10,16 @@
   filter: brightness(90%);
 }
 
+.imageElement--custom-grid__big {
+  width: 100%;
+}
+.imageElement--custom-grid__small {
+  /* max-height: 50%; */
+  width: 100%;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ mobile */
 
-.imageElement--home__categoria-mobile{
+.imageElement--home__categoria-mobile {
   margin-bottom: 20px;
 }
