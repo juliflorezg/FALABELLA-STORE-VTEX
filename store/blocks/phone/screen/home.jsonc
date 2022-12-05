@@ -5,6 +5,7 @@
       "list-context.bullet-group",
       "slider-layout#home__slider--mobile",
       "flex-layout.row#mobile__disfraces",
+      "quick-order#home__quick-order",
       "rich-text#home__titulo-categorias",
       "flex-layout.row#mobile__categorias",
       "rich-text#home__titulo-tendencias",
